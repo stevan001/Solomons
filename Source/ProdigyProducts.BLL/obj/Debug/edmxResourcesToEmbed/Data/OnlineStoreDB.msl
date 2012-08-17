@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SolomonsModelStoreContainer" CdmEntityContainer="SolomonsEntities">
+    <EntitySetMapping Name="AccountDetails">
+      <EntityTypeMapping TypeName="SolomonsModel.AccountDetail">
+        <MappingFragment StoreEntitySet="AccountDetails">
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="billing_address" ColumnName="billing_address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Likedproducts">
+      <EntityTypeMapping TypeName="SolomonsModel.Likedproduct">
+        <MappingFragment StoreEntitySet="Likedproducts">
+          <ScalarProperty Name="like_id" ColumnName="like_id" />
+          <ScalarProperty Name="liked_by" ColumnName="liked_by" />
+          <ScalarProperty Name="date_liked" ColumnName="date_liked" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_status">
+      <EntityTypeMapping TypeName="SolomonsModel.Order_status">
+        <MappingFragment StoreEntitySet="Order_status">
+          <ScalarProperty Name="order_status_id" ColumnName="order_status_id" />
+          <ScalarProperty Name="order_status" ColumnName="order_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDetails">
+      <EntityTypeMapping TypeName="SolomonsModel.OrderDetail">
+        <MappingFragment StoreEntitySet="OrderDetails">
+          <ScalarProperty Name="detail_id" ColumnName="detail_id" />
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="total_item_price" ColumnName="total_item_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="SolomonsModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="Shipping_address" ColumnName="Shipping_address" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="tax" ColumnName="tax" />
+          <ScalarProperty Name="billing_address" ColumnName="billing_address" />
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+          <ScalarProperty Name="order_date" ColumnName="order_date" />
+          <ScalarProperty Name="order_status" ColumnName="order_status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductCategories">
+      <EntityTypeMapping TypeName="SolomonsModel.ProductCategory">
+        <MappingFragment StoreEntitySet="ProductCategories">
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
+          <ScalarProperty Name="category_name" ColumnName="category_name" />
+          <ScalarProperty Name="category_image" ColumnName="category_image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductDetails">
+      <EntityTypeMapping TypeName="SolomonsModel.ProductDetail">
+        <MappingFragment StoreEntitySet="ProductDetails">
+          <ScalarProperty Name="product_details_id" ColumnName="product_details_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="product_type" ColumnName="product_type" />
+          <ScalarProperty Name="attribute_id" ColumnName="attribute_id" />
+          <ScalarProperty Name="attribute_value" ColumnName="attribute_value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductImages">
+      <EntityTypeMapping TypeName="SolomonsModel.ProductImage">
+        <MappingFragment StoreEntitySet="ProductImage">
+          <ScalarProperty Name="image_id" ColumnName="image_id" />
+          <ScalarProperty Name="image_location" ColumnName="image_location" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductRatings">
+      <EntityTypeMapping TypeName="SolomonsModel.ProductRating">
+        <MappingFragment StoreEntitySet="ProductRating">
+          <ScalarProperty Name="rate_id" ColumnName="rate_id" />
+          <ScalarProperty Name="rate_by" ColumnName="rate_by" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="SolomonsModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="feature" ColumnName="feature" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTypeAttributes">
+      <EntityTypeMapping TypeName="SolomonsModel.ProductTypeAttribute">
+        <MappingFragment StoreEntitySet="ProductTypeAttributes">
+          <ScalarProperty Name="attribute_id" ColumnName="attribute_id" />
+          <ScalarProperty Name="attribute_name" ColumnName="attribute_name" />
+          <ScalarProperty Name="attribute_data_types" ColumnName="attribute_data_types" />
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShoppingCarts">
+      <EntityTypeMapping TypeName="SolomonsModel.ShoppingCart">
+        <MappingFragment StoreEntitySet="ShoppingCart">
+          <ScalarProperty Name="cart_id" ColumnName="cart_id" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="total" ColumnName="total" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShoppingCartDetails">
+      <EntityTypeMapping TypeName="SolomonsModel.ShoppingCartDetail">
+        <MappingFragment StoreEntitySet="ShoppingCartDetails">
+          <ScalarProperty Name="shopping_cart_details_id" ColumnName="shopping_cart_details_id" />
+          <ScalarProperty Name="date_added" ColumnName="date_added" />
+          <ScalarProperty Name="cart_id" ColumnName="cart_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionRequests">
+      <EntityTypeMapping TypeName="SolomonsModel.TransactionRequest">
+        <MappingFragment StoreEntitySet="TransactionRequest">
+          <ScalarProperty Name="request_id" ColumnName="request_id" />
+          <ScalarProperty Name="request_details" ColumnName="request_details" />
+          <ScalarProperty Name="unique_request_id" ColumnName="unique_request_id" />
+          <ScalarProperty Name="request_date" ColumnName="request_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionResponses">
+      <EntityTypeMapping TypeName="SolomonsModel.TransactionResponse">
+        <MappingFragment StoreEntitySet="TransactionResponse">
+          <ScalarProperty Name="response_id" ColumnName="response_id" />
+          <ScalarProperty Name="request_unique_identifier" ColumnName="request_unique_identifier" />
+          <ScalarProperty Name="response_details" ColumnName="response_details" />
+          <ScalarProperty Name="data_received" ColumnName="data_received" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WishLists">
+      <EntityTypeMapping TypeName="SolomonsModel.WishList">
+        <MappingFragment StoreEntitySet="WishList">
+          <ScalarProperty Name="wish_list_id" ColumnName="wish_list_id" />
+          <ScalarProperty Name="list_name" ColumnName="list_name" />
+          <ScalarProperty Name="account_id" ColumnName="account_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WishListDetails">
+      <EntityTypeMapping TypeName="SolomonsModel.WishListDetail">
+        <MappingFragment StoreEntitySet="WishListDetails">
+          <ScalarProperty Name="wish_list_id" ColumnName="wish_list_id" />
+          <ScalarProperty Name="product_id" ColumnName="product_id" />
+          <ScalarProperty Name="wish_list_details_id" ColumnName="wish_list_details_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logins">
+      <EntityTypeMapping TypeName="SolomonsModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

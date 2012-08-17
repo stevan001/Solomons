@@ -1,0 +1,15 @@
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.pdb

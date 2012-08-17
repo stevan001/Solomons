@@ -1,0 +1,31 @@
+﻿body{margin:0px; padding:0px; background:transparent url('images/pageBg.png') repeat;}
+#topbar{	background:transparent url('images/topbarBg.png') repeat-x; height:41px;min-width:1360px;width:100%}
+#middle{ background:transparent url('images/middle-center.png') repeat-x; height:588px;width:100%;min-width:1590px;}
+#menu{ background:transparent url('images/menuBg.png') repeat-x;height:49px;min-width:1360px;width:100%}
+#menu li { width: 100px;}
+#logo { background:transparent url('images/logo-dark1.png') no-repeat; width:250px;height:119px;z-index:10;}
+#middleleft{ background:transparent url('images/middle-foreground-alt.png') no-repeat;;margin-left:270px;width:1288px;height:556px;
+}
+.contactText { color: #ffcc99;font-family: Verdana, Arial;font-size: medium;margin-left: 10px;}
+.tbx{ border: 0px;border-style: none;background: transparent url('images/textboxbg.png') no-repeat;width: 225px;height: 25px;padding-left: 10px;padding-right: 35px;}
+.tbxlg{ border: 0px;border-style: none;background: transparent url('images/mesageboxbg.png') no-repeat;width: 222px;height: 176px;padding-left: 10px;padding-right: 35px;}
+#slideshow {
+    position:relative;
+    height:556px;
+    width: 800px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}

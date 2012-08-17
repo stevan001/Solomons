@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F70DEA38-CDC0-4873-BAC8-78CC290100F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProdigyProducts.BLL</RootNamespace>
+    <AssemblyName>ProdigyProducts.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ServiceModel.DomainServices.Tools, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\Microsoft.ServiceModel.DomainServices.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\framework\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel.DomainServices.EntityFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.DomainServices.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.DomainServices.Hosting.OData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.Hosting.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.DomainServices.Server, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\RIA Services\v1.0\Libraries\Server\System.ServiceModel.DomainServices.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\AccountDetailAdapter.cs" />
+    <Compile Include="Adapters\ProductTypeAttributeAdapter.cs" />
+    <Compile Include="Adapters\ShoppingCartAdapter.cs" />
+    <Compile Include="Adapters\TransactionRequestAdapter.cs" />
+    <Compile Include="Adapters\TransactionResponseAdapter.cs" />
+    <Compile Include="Adapters\WishListAdapter.cs" />
+    <Compile Include="Adapters\LikedproductAdapter.cs" />
+    <Compile Include="Adapters\ProductImageAdapter.cs" />
+    <Compile Include="Adapters\ProductRatingAdapter.cs" />
+    <Compile Include="Adapters\IAdapter.cs" />
+    <Compile Include="Adapters\LoginAdapter.cs" />
+    <Compile Include="Adapters\OrderAdapter.cs" />
+    <Compile Include="Adapters\OrderDetailAdapter.cs" />
+    <Compile Include="Adapters\OrderStatusAdapter.cs" />
+    <Compile Include="Adapters\ProductAdapter.cs" />
+    <Compile Include="Adapters\ProductCategoryAdapter.cs" />
+    <Compile Include="Adapters\ProductDetailAdapter.cs" />
+    <Compile Include="Adapters\WishListDetailAdapter.cs" />
+    <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Data\OnlineStoreDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OnlineStoreDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Repository.cs" />
+    <Compile Include="Domain\AccountDetail.cs" />
+    <Compile Include="Domain\ProductTypeAttribute.cs" />
+    <Compile Include="Domain\ShoppingCart.cs" />
+    <Compile Include="Domain\TransactionRequest.cs" />
+    <Compile Include="Domain\TransactionResponse.cs" />
+    <Compile Include="Domain\WishList.cs" />
+    <Compile Include="Domain\ProductRating.cs" />
+    <Compile Include="Domain\ProductImage.cs" />
+    <Compile Include="Domain\Likedproduct.cs" />
+    <Compile Include="Domain\Login.cs" />
+    <Compile Include="Domain\Order.cs" />
+    <Compile Include="Domain\OrderDetail.cs" />
+    <Compile Include="Domain\OrderStatus.cs" />
+    <Compile Include="Domain\Product.cs" />
+    <Compile Include="Domain\ProductCategory.cs" />
+    <Compile Include="Domain\ProductDetail.cs" />
+    <Compile Include="Domain\WishListDetail.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AccountDetailService.cs" />
+    <Compile Include="Services\EmailService.cs" />
+    <Compile Include="Services\IDBOperations.cs" />
+    <Compile Include="Services\LikedproductService.cs" />
+    <Compile Include="Services\LoginService.cs" />
+    <Compile Include="Services\OrderDetailService.cs" />
+    <Compile Include="Services\OrderService.cs" />
+    <Compile Include="Services\OrderStatusService.cs" />
+    <Compile Include="Services\ProductCategoryService.cs" />
+    <Compile Include="Services\ProductDetailService.cs" />
+    <Compile Include="Services\ProductImageService.cs" />
+    <Compile Include="Services\ProductRatingService.cs" />
+    <Compile Include="Services\ProductService.cs" />
+    <Compile Include="Services\ProductTypeAttributeService.cs" />
+    <Compile Include="Services\ShoppingCartService.cs" />
+    <Compile Include="Services\TransactionRequestService.cs" />
+    <Compile Include="Services\TransactionResponseService.cs" />
+    <Compile Include="Services\WishListDetailService.cs" />
+    <Compile Include="Services\WishListService.cs" />
+    <Compile Include="Test\WishListTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Data\OnlineStoreDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>OnlineStoreDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
