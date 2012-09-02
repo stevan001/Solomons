@@ -22,3 +22,12 @@ C:\Users\Stevan\Desktop\Projects\Solomons.Web\Solomons.Web\bin\ProdigyProducts.B
 C:\Users\Stevan\Desktop\Projects\Solomons.Web\Solomons.Web\bin\nunit.framework.dll
 C:\Users\Stevan\Desktop\Projects\Solomons.Web\Solomons.Web\bin\ProdigyProducts.BLL.pdb
 C:\Users\Stevan\Desktop\Projects\Solomons.Web\Solomons.Web\bin\nunit.framework.xml
+c:\Projects\solomons\Source\Solomons.Web\bin\Solomons.Web.dll
+c:\Projects\solomons\Source\Solomons.Web\bin\Solomons.Web.pdb
+c:\Projects\solomons\Source\Solomons.Web\bin\ProdigyProducts.BLL.dll
+c:\Projects\solomons\Source\Solomons.Web\bin\nunit.framework.dll
+c:\Projects\solomons\Source\Solomons.Web\bin\ProdigyProducts.BLL.pdb
+c:\Projects\solomons\Source\Solomons.Web\bin\nunit.framework.xml
+c:\Projects\solomons\Source\Solomons.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\solomons\Source\Solomons.Web\obj\Debug\Solomons.Web.dll
+c:\Projects\solomons\Source\Solomons.Web\obj\Debug\Solomons.Web.pdb

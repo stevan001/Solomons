@@ -56,6 +56,7 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Admin\default.aspx" />
     <Content Include="boss.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
@@ -185,6 +186,13 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="boss.aspx.cs">
       <DependentUpon>boss.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -224,6 +232,13 @@
     <Compile Include="sarar.aspx.designer.cs">
       <DependentUpon>sarar.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Store\StoreTemplate.Master.cs">
+      <DependentUpon>StoreTemplate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Store\StoreTemplate.Master.designer.cs">
+      <DependentUpon>StoreTemplate.Master</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\menu.ascx.cs">
       <DependentUpon>menu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -244,6 +259,9 @@
       <Project>{F70DEA38-CDC0-4873-BAC8-78CC290100F2}</Project>
       <Name>ProdigyProducts.BLL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Store\StoreTemplate.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
