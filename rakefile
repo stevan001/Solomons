@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'albacore' 
 
-task :default=>[:hello_world, :compile ]
+task :default=>[:hello_world, :compile, :test]
 
 desc 'Say Hello'
 task :hello_world do 

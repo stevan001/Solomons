@@ -20,3 +20,5 @@ c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.
 c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\nunit.framework.dll
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\nunit.framework.xml
+C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.BLL.dll
+C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.BLL.pdb

@@ -25,6 +25,7 @@ namespace ProdigyProducts.BLL.Adapters
        public void UpdateDataObject(WishList domainObject, ref Data.WishList dataObject)
        {
            dataObject.list_name = domainObject.ListName;
+           
        }
    }
 }
