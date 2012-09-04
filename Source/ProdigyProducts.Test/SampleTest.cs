@@ -37,7 +37,7 @@ namespace ProdigyProducts.Test
             l.WishListID = 0;
             WishListAdapter adapter = new WishListAdapter();
             ProdigyProducts.BLL.Data.WishList dataWl = adapter.ConvertToDataObject(l);
-            l.AccountID = 2; 
+            l.AccountID = 1; 
 
             
             adapter.UpdateDataObject(l,ref dataWl);

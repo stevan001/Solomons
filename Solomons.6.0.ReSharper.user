@@ -1,15 +1,22 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:default.aspx" caret="0" fromTop="0" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="643" fromTop="0" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="241" fromTop="13" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:default.aspx" caret="0" fromTop="0" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Adapters/f:IAdapter.cs" caret="62" fromTop="2" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:WishListService.cs" caret="0" fromTop="0" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Adapters/f:WishListAdapter.cs" caret="430" fromTop="3" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="435" fromTop="3" />
     </RecentFiles>
     <RecentEdits>
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:default.aspx" caret="0" fromTop="0" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="0" fromTop="0" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="666" fromTop="0" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="217" fromTop="10" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="378" fromTop="15" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="1455" fromTop="32" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="808" fromTop="16" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Adapters/f:WishListAdapter.cs" caret="1004" fromTop="19" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="1322" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -31,11 +38,52 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="void" priority="31" />
-      <Item value="Assert`0" priority="31" />
+      <Item value="void" priority="95" />
+      <Item value="Assert`0" priority="90" />
+      <Item value="public" priority="31" />
+      <Item value="ShouldCreateAWishList`0" priority="31" />
+      <Item value="new" priority="127" />
+      <Item value="WishList" priority="57" />
+      <Item value="wl" priority="127" />
+      <Item value="WishList`0" priority="90" />
+      <Item value="adapter" priority="96" />
+      <Item value="WishListAdapter" priority="28" />
+      <Item value="var" priority="31" />
+      <Item value="DatapointAttribute`0" priority="31" />
+      <Item value="ProdigyProducts" priority="31" />
+      <Item value="BLL" priority="26" />
+      <Item value="Data" priority="26" />
+      <Item value="l" priority="95" />
+      <Item value="ref" priority="31" />
+      <Item value="dataWl" priority="95" />
+      <Item value="dataObject" priority="31" />
+      <Item value="domainObject" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="AreEqual`0" priority="26" />
+      <Item value="AreEqual`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.WishList">
+      <Item value="AccountID" priority="134" />
+      <Item value="ListName" priority="54" />
+      <Item value="WishListID" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Adapters.WishListAdapter">
+      <Item value="ConvertToDataObject`0" priority="26" />
+      <Item value="UpdateDataObject`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Data.WishList">
+      <Item value="account_id" priority="80" />
+      <Item value="wish_list_id" priority="27" />
+      <Item value="list_name" priority="27" />
     </ItemStatistics>
   </CompletionStatisticsManager>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.SampleTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
+        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.SampleTest.ShouldChangeAccountOnWishList" ParentId="ProdigyProducts.Test.SampleTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.SampleTest" MethodName="ShouldChangeAccountOnWishList" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
 </Configuration>
