@@ -57,25 +57,8 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Admin\default.aspx" />
-    <Content Include="Admin\default.html\default.html" />
-    <Content Include="Admin\default.html\images\add.png" />
-    <Content Include="Admin\default.html\images\copyright.png" />
-    <Content Include="Admin\default.html\images\featuredBg.png" />
-    <Content Include="Admin\default.html\images\featureditemBg.png" />
-    <Content Include="Admin\default.html\images\featureditems.png" />
-    <Content Include="Admin\default.html\images\footer.png" />
-    <Content Include="Admin\default.html\images\footerBg.png" />
-    <Content Include="Admin\default.html\images\icons.png" />
-    <Content Include="Admin\default.html\images\item.png" />
-    <Content Include="Admin\default.html\images\itembg.png" />
-    <Content Include="Admin\default.html\images\logo.jpg" />
-    <Content Include="Admin\default.html\images\menuBg.jpg" />
-    <Content Include="Admin\default.html\images\other.jpg" />
-    <Content Include="Admin\default.html\images\others.png" />
-    <Content Include="Admin\default.html\images\slide.jpg" />
-    <Content Include="Admin\default.html\images\topbarBg.png" />
-    <Content Include="Admin\default.html\images\toplayerBg.jpg" />
-    <Content Include="Admin\default.html\stylesheet.css" />
+    <Content Include="Admin\default.html" />
+    <Content Include="Admin\stylesheet.css" />
     <Content Include="boss.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
@@ -154,25 +137,8 @@
     <Content Include="jquery.innerfade.js" />
     <Content Include="layout.css" />
     <Content Include="menu.js" />
-    <Content Include="Store\default.html\default.html" />
-    <Content Include="Store\default.html\images\add.png" />
-    <Content Include="Store\default.html\images\copyright.png" />
-    <Content Include="Store\default.html\images\featuredBg.png" />
-    <Content Include="Store\default.html\images\featureditemBg.png" />
-    <Content Include="Store\default.html\images\featureditems.png" />
-    <Content Include="Store\default.html\images\footer.png" />
-    <Content Include="Store\default.html\images\footerBg.png" />
-    <Content Include="Store\default.html\images\icons.png" />
-    <Content Include="Store\default.html\images\item.png" />
-    <Content Include="Store\default.html\images\itembg.png" />
-    <Content Include="Store\default.html\images\logo.jpg" />
-    <Content Include="Store\default.html\images\menuBg.jpg" />
-    <Content Include="Store\default.html\images\other.jpg" />
-    <Content Include="Store\default.html\images\others.png" />
-    <Content Include="Store\default.html\images\slide.jpg" />
-    <Content Include="Store\default.html\images\topbarBg.png" />
-    <Content Include="Store\default.html\images\toplayerBg.jpg" />
-    <Content Include="Store\default.html\stylesheet.css" />
+    <Content Include="Store\default.html" />
+    <Content Include="Store\stylesheet.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
@@ -302,8 +268,8 @@
     <Content Include="Store\StoreTemplate.Master" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Admin\default.html\desktop.ini" />
-    <None Include="Store\default.html\desktop.ini" />
+    <None Include="Admin\desktop.ini" />
+    <None Include="Store\desktop.ini" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
