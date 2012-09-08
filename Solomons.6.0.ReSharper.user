@@ -1,7 +1,38 @@
 <Configuration>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="901" fromTop="31" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="602" fromTop="20" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx" caret="2139" fromTop="3" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="381" fromTop="9" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenter.cs" caret="207" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="436" fromTop="10" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="432" fromTop="10" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx" caret="0" fromTop="0" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="350" fromTop="11" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="393" fromTop="14" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="925" fromTop="20" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1018" fromTop="25" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1114" fromTop="30" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1209" fromTop="35" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1308" fromTop="40" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenter.cs" caret="355" fromTop="12" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenter.cs" caret="207" fromTop="9" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="475" fromTop="15" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="61" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="405" fromTop="14" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="430" fromTop="14" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="891" fromTop="30" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="316" fromTop="11" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="697" fromTop="24" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="2745" fromTop="24" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1489" fromTop="31" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1581" fromTop="20" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="689" fromTop="23" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="602" fromTop="20" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -22,13 +53,13 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="255" />
-      <Item value="void" priority="223" />
+      <Item value="public" priority="478" />
+      <Item value="void" priority="351" />
       <Item value="SetUp" priority="31" />
       <Item value="TearDown" priority="31" />
       <Item value="using" priority="30" />
       <Item value="ProdigyProducts" priority="62" />
-      <Item value="new" priority="95" />
+      <Item value="new" priority="255" />
       <Item value="WishList" priority="28" />
       <Item value="WishList`0" priority="31" />
       <Item value="wishList" priority="479" />
@@ -42,6 +73,40 @@
       <Item value="int" priority="95" />
       <Item value="productCount" priority="31" />
       <Item value="IWishListView`0" priority="31" />
+      <Item value="presnter" priority="32" />
+      <Item value="string" priority="159" />
+      <Item value="delegate" priority="126" />
+      <Item value="IRegisterUserView`0" priority="128" />
+      <Item value="object" priority="126" />
+      <Item value="abstract" priority="62" />
+      <Item value="protected" priority="126" />
+      <Item value="System" priority="31" />
+      <Item value="Web" priority="53" />
+      <Item value="Delegate`0" priority="31" />
+      <Item value="EventArgs`0" priority="94" />
+      <Item value="event" priority="63" />
+      <Item value="interface" priority="30" />
+      <Item value="ButtonClickHandler`0" priority="97" />
+      <Item value="return" priority="31" />
+      <Item value="TextBox1" priority="31" />
+      <Item value="RegisterUserPresenter`0" priority="31" />
+      <Item value="_view" priority="223" />
+      <Item value="view" priority="31" />
+      <Item value="AccountDetail" priority="28" />
+      <Item value="Login`0" priority="31" />
+      <Item value="details" priority="159" />
+      <Item value="RegisterUserPresenter" priority="57" />
+      <Item value="override" priority="95" />
+      <Item value="UI" priority="26" />
+      <Item value="Page`0" priority="26" />
+      <Item value="_presenter" priority="64" />
+      <Item value="ButtonClickHandler" priority="57" />
+      <Item value="this" priority="31" />
+      <Item value="if" priority="31" />
+      <Item value="RegisterEvent" priority="63" />
+      <Item value="sender" priority="31" />
+      <Item value="Button1" priority="31" />
+      <Item value="AddOnPreRenderCompleteAsync`0" priority="32" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.WishList">
       <Item value="AccountID" priority="53" />
@@ -58,6 +123,31 @@
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.WishListService">
       <Item value="Insert`0" priority="26" />
       <Item value="GetWishListById`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.AccountDetail">
+      <Item value="FirstName" priority="26" />
+      <Item value="LastName" priority="26" />
+      <Item value="Email" priority="26" />
+      <Item value="Address" priority="26" />
+      <Item value="BillingAddress" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Views.IRegisterUserView">
+      <Item value="FirstName" priority="26" />
+      <Item value="LastName" priority="26" />
+      <Item value="Email" priority="26" />
+      <Item value="Address" priority="26" />
+      <Item value="BillingAddress" priority="26" />
+      <Item value="RegisterEvent`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Presenters.RegisterUserPresenter">
+      <Item value="Register`0" priority="26" />
+      <Item value="RegisterClickEvent`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Click" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

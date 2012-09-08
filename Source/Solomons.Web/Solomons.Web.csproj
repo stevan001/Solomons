@@ -136,6 +136,7 @@
     <Content Include="layout.css" />
     <Content Include="menu.js" />
     <Content Include="Store\default.html" />
+    <Content Include="Store\Register.aspx" />
     <Content Include="Store\stylesheet.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
@@ -233,6 +234,13 @@
     </Compile>
     <Compile Include="sarar.aspx.designer.cs">
       <DependentUpon>sarar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Store\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Store\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Store\StoreTemplate.Master.cs">
       <DependentUpon>StoreTemplate.Master</DependentUpon>

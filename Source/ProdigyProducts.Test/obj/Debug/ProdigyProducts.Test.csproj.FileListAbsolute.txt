@@ -22,3 +22,6 @@ C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\nunit.framework.dll
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\nunit.framework.xml
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.BLL.dll
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.BLL.pdb
+C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\nunit.mocks.dll
+C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\Rhino.Mocks.dll
+C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\Rhino.Mocks.xml
