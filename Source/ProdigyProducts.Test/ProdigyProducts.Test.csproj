@@ -45,7 +45,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SampleTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProdigyProducts.BLL\ProdigyProducts.BLL.csproj">

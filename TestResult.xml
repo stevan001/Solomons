@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="3" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-08" time="02:35:57">
+<test-results name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="0" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-08" time="02:39:40">
   <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.4971" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="c:\Projects\solomons" machine-name="STEVAN-PC" user="Stevan" user-domain="Stevan-PC" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" executed="True" result="Failure" success="False" time="0.197" asserts="0">
-    <results>
-      <test-suite type="Namespace" name="ProdigyProducts" executed="True" result="Failure" success="False" time="0.191" asserts="0">
-        <results>
-          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.190" asserts="0">
-            <results>
-              <test-suite type="TestFixture" name="SampleTest" executed="True" result="Failure" success="False" time="0.188" asserts="0">
-                <results>
-                  <test-case name="ProdigyProducts.Test.SampleTest.ShouldChangeAccountOnWishList" executed="True" result="Failure" success="False" time="0.169" asserts="1">
-                    <failure>
-                      <message><![CDATA[  Expected: 2
-  But was:  1
-]]></message>
-                      <stack-trace><![CDATA[at ProdigyProducts.Test.SampleTest.ShouldChangeAccountOnWishList() in c:\Projects\solomons\Source\ProdigyProducts.Test\SampleTest.cs:line 44
-]]></stack-trace>
-                    </failure>
-                  </test-case>
-                  <test-case name="ProdigyProducts.Test.SampleTest.ShouldCreateAWishListForTheDatabase" executed="True" result="Success" success="True" time="0.001" asserts="3" />
-                  <test-case name="ProdigyProducts.Test.SampleTest.ShouldRunATest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
-                </results>
-              </test-suite>
-            </results>
-          </test-suite>
-        </results>
-      </test-suite>
-    </results>
-  </test-suite>
+  <test-suite type="Assembly" name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" executed="True" result="Inconclusive" success="False" time="0.006" asserts="0" />
 </test-results>
