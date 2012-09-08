@@ -57,11 +57,6 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Admin\default.aspx" />
-<<<<<<< HEAD
-=======
-    <Content Include="Admin\default.html" />
-    <Content Include="Admin\stylesheet.css" />
->>>>>>> 73300e60b9a305f91b5d116035cf0d18d22b803e
     <Content Include="boss.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
@@ -270,13 +265,6 @@
   <ItemGroup>
     <Content Include="Store\StoreTemplate.Master" />
   </ItemGroup>
-<<<<<<< HEAD
-=======
-  <ItemGroup>
-    <None Include="Admin\desktop.ini" />
-    <None Include="Store\desktop.ini" />
-  </ItemGroup>
->>>>>>> 73300e60b9a305f91b5d116035cf0d18d22b803e
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
