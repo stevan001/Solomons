@@ -1,16 +1,7 @@
 <Configuration>
   <RecentFiles>
-    <RecentFiles>
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:default.aspx" caret="0" fromTop="0" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="643" fromTop="0" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="241" fromTop="13" />
-    </RecentFiles>
-    <RecentEdits>
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:default.aspx" caret="0" fromTop="0" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="0" fromTop="0" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="666" fromTop="0" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:SampleTest.cs" caret="217" fromTop="10" />
-    </RecentEdits>
+    <RecentFiles />
+    <RecentEdits />
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -31,11 +22,42 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="void" priority="31" />
-      <Item value="Assert`0" priority="31" />
+      <Item value="public" priority="255" />
+      <Item value="void" priority="223" />
+      <Item value="SetUp" priority="31" />
+      <Item value="TearDown" priority="31" />
+      <Item value="using" priority="30" />
+      <Item value="ProdigyProducts" priority="62" />
+      <Item value="new" priority="95" />
+      <Item value="WishList" priority="28" />
+      <Item value="WishList`0" priority="31" />
+      <Item value="wishList" priority="479" />
+      <Item value="private" priority="31" />
+      <Item value="_wishListService" priority="123" />
+      <Item value="WishListService" priority="28" />
+      <Item value="Likedproduct`0" priority="31" />
+      <Item value="List" priority="28" />
+      <Item value="Product`0" priority="31" />
+      <Item value="Assert`0" priority="95" />
+      <Item value="int" priority="95" />
+      <Item value="productCount" priority="31" />
+      <Item value="IWishListView`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.WishList">
+      <Item value="AccountID" priority="53" />
+      <Item value="ListName" priority="26" />
+      <Item value="WishListID" priority="54" />
+      <Item value="Products" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="AreEqual`0" priority="26" />
+      <Item value="AreEqual`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.WishListService">
+      <Item value="Insert`0" priority="26" />
+      <Item value="GetWishListById`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
