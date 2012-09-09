@@ -58,6 +58,28 @@ namespace ProdigyProducts.Test
         {
             
         }
-        
+
+        [Test]
+        public void ShouldEmailRegistrationLink()
+        {
+            
+        }
+
+        [Test]
+        public void ShouldConfirmEmailCodeandRegisterUser()
+        {
+            
+        }
+        [Test]
+        public void ShouldModifyAccount()
+        {
+            
+        }
+
+        [Test]
+        public void ShouldChancePassword()
+        {
+            
+        }
     }
 }
