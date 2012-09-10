@@ -56,7 +56,12 @@ namespace Solomons.Web.Store
             get { return TextBox6.Text; }
         }
 
-        
+        public string RegisterResult
+        {
+            set;
+            
+        }
+
 
         public event EventHandler RegisterEvent;
 

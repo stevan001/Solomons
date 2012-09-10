@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Web.UI.WebControls;
 using NUnit.Framework;
 using ProdigyProducts.BLL.Presenters;
 using ProdigyProducts.BLL.Views;
 using Rhino.Mocks;
 using Rhino.Mocks.Interfaces;
 
-namespace ProdigyProducts.Test
+namespace ProdigyProducts.Test.PresenterTests
 {
     [TestFixture]
     public class RegUserPresenterTest
@@ -38,7 +37,7 @@ namespace ProdigyProducts.Test
                 IEventRaiser raiser = LastCall.IgnoreArguments().GetEventRaiser();
              
             mocks.ReplayAll();
-             mocks.Ordered();
+            mocks.Ordered();
             raiser.Raise(_view,EventArgs.Empty);
             Assert.AreEqual("Stevan",_view.FirstName);
             

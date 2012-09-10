@@ -1,44 +1,45 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="397" fromTop="15" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1439" fromTop="37" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1549" fromTop="44" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.designer.cs" caret="445" fromTop="12" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1395" fromTop="47" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="413" fromTop="10" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:AccountDetailService.cs" caret="302" fromTop="11" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1466" fromTop="32" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx" caret="2139" fromTop="3" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="390" fromTop="10" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="2300" fromTop="45" />
     </RecentFiles>
     <RecentEdits>
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="350" fromTop="11" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="400" fromTop="14" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="877" fromTop="20" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="970" fromTop="25" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1066" fromTop="30" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1161" fromTop="35" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1260" fromTop="40" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="475" fromTop="15" />
       <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="61" fromTop="4" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="926" fromTop="30" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="2780" fromTop="24" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1744" fromTop="30" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="3598" fromTop="24" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="602" fromTop="20" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="326" fromTop="11" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="750" fromTop="19" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="73" fromTop="1" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="1673" fromTop="27" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="1458" fromTop="29" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="628" fromTop="20" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="1458" fromTop="32" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="606" fromTop="13" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="869" fromTop="6" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="1553" fromTop="22" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="390" fromTop="10" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="397" fromTop="15" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1621" fromTop="51" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1395" fromTop="47" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="278" fromTop="11" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="1299" fromTop="34" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegUserPresenterTest.cs" caret="2300" fromTop="45" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="1" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="27" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="29" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="20" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="32" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="741" fromTop="13" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="6" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="22" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1705" fromTop="51" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1481" fromTop="47" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="11" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="34" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="83" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1485" fromTop="39" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="314" fromTop="10" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="567" fromTop="15" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1106" fromTop="31" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="728" fromTop="22" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1588" fromTop="44" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="326" fromTop="11" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1466" fromTop="32" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="413" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -61,16 +62,16 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="public" priority="670" />
-      <Item value="void" priority="543" />
+      <Item value="void" priority="572" />
       <Item value="SetUp" priority="31" />
       <Item value="TearDown" priority="31" />
       <Item value="using" priority="62" />
-      <Item value="ProdigyProducts" priority="62" />
-      <Item value="new" priority="415" />
+      <Item value="ProdigyProducts" priority="94" />
+      <Item value="new" priority="543" />
       <Item value="WishList" priority="28" />
       <Item value="WishList`0" priority="31" />
       <Item value="wishList" priority="479" />
-      <Item value="private" priority="31" />
+      <Item value="private" priority="95" />
       <Item value="_wishListService" priority="123" />
       <Item value="WishListService" priority="28" />
       <Item value="Likedproduct`0" priority="31" />
@@ -97,11 +98,11 @@
       <Item value="return" priority="63" />
       <Item value="TextBox1" priority="31" />
       <Item value="RegisterUserPresenter`0" priority="31" />
-      <Item value="_view" priority="1095" />
+      <Item value="_view" priority="1159" />
       <Item value="view" priority="31" />
       <Item value="AccountDetail" priority="28" />
-      <Item value="Login`0" priority="31" />
-      <Item value="details" priority="159" />
+      <Item value="Login`0" priority="127" />
+      <Item value="details" priority="351" />
       <Item value="RegisterUserPresenter" priority="86" />
       <Item value="override" priority="95" />
       <Item value="UI" priority="107" />
@@ -136,6 +137,15 @@
       <Item value="Events" priority="31" />
       <Item value="Test" priority="31" />
       <Item value="Void`0" priority="31" />
+      <Item value="BLL" priority="26" />
+      <Item value="Services" priority="26" />
+      <Item value="AccountDetailService`0" priority="26" />
+      <Item value="AccountDetailService" priority="28" />
+      <Item value="Login" priority="28" />
+      <Item value="newLogin" priority="95" />
+      <Item value="LoginService" priority="29" />
+      <Item value="_loginService" priority="63" />
+      <Item value="_accountDetailServ" priority="63" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.WishList">
       <Item value="AccountID" priority="53" />
@@ -160,9 +170,10 @@
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.AccountDetail">
       <Item value="FirstName" priority="26" />
       <Item value="LastName" priority="26" />
-      <Item value="Email" priority="26" />
+      <Item value="Email" priority="53" />
       <Item value="Address" priority="26" />
       <Item value="BillingAddress" priority="26" />
+      <Item value="PhoneNumber" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Views.IRegisterUserView">
       <Item value="FirstName" priority="135" />
@@ -174,7 +185,7 @@
       <Item value="RegisterButton" priority="469" />
       <Item value="RegisterEvent" priority="297" />
       <Item value="Expect`1" priority="82" />
-      <Item value="Phone" priority="27" />
+      <Item value="Phone" priority="54" />
       <Item value="Raise`1" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Presenters.RegisterUserPresenter">
@@ -221,20 +232,23 @@
       <Item value="Call`1" priority="242" />
       <Item value="Action`0" priority="27" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.Login">
+      <Item value="Email" priority="26" />
+      <Item value="Password" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.LoginService">
+      <Item value="Insert`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.AccountDetailService">
+      <Item value="Insert`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <UnitTestSessions>
     <Session>
       <Name>Session #1</Name>
-      <Elements>
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest.ShoulcCreateDataAccount" ParentId="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegUserPresenterTest" MethodName="ShoulcCreateDataAccount" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest.ShouldChancePassword" ParentId="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegUserPresenterTest" MethodName="ShouldChancePassword" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest.ShouldConfirmEmailCodeandRegisterUser" ParentId="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegUserPresenterTest" MethodName="ShouldConfirmEmailCodeandRegisterUser" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest.ShouldCreateANewUser" ParentId="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegUserPresenterTest" MethodName="ShouldCreateANewUser" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest.ShouldCreatePresentationAccount" ParentId="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegUserPresenterTest" MethodName="ShouldCreatePresentationAccount" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest.ShouldEmailRegistrationLink" ParentId="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegUserPresenterTest" MethodName="ShouldEmailRegistrationLink" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegUserPresenterTest.ShouldModifyAccount" ParentId="ProdigyProducts.Test.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegUserPresenterTest" MethodName="ShouldModifyAccount" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-      </Elements>
+      <Elements />
     </Session>
   </UnitTestSessions>
 </Configuration>
