@@ -25,7 +25,13 @@ namespace ProdigyProducts.BLL.Services
 
         public void Delete(Login domainObject)
         {
-            _repository.Delete(_adapter.ConvertToDataObject(domainObject));
+            var login = _repository.GetEntities().SingleOrDefault(s => s.email == domainObject.Email); 
+            if (login!=null)
+            {
+                _repository.Delete(_adapter.ConvertToDataObject(domainObject));    
+            }
+            
+
         }
 
         public IList<Domain.Login> GetLogins()

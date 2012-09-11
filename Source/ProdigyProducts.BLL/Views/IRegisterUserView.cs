@@ -11,7 +11,7 @@ namespace ProdigyProducts.BLL.Views
        string Phone { get;  }
        string Address { get;  }
        string BillingAddress { get;  }
-       string RegisterResult {set; }
+        string RegisterResult { get; set; }
 
         event EventHandler RegisterEvent; 
 
