@@ -27,5 +27,6 @@ C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\Rhino.Mocks.xml
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll.config
 =======
 c:\projects\Solomons\Source\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.csprojResolveAssemblyReference.cache
-C:\projects\Solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll.config
 >>>>>>> 4b1c8ad7ecabe3c7859a59f36b1834a31b16ca90
+C:\Projects\solomons\Source\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\Rhino.Mocks.dll

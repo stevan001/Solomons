@@ -26,11 +26,7 @@ namespace Solomons.Web.Store
             base.OnInit(e);
         }
 
-        void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-            GridView1.PageIndex = e.NewPageIndex;
-            GridView1.DataBind();
-        }
+       
 
         
 
@@ -64,14 +60,14 @@ namespace Solomons.Web.Store
             get { return TextBox6.Text; }
         }
 
-<<<<<<< HEAD
+
         public string RegisterResult { get;
             set;
 
         }
-=======
-        public string RegisterResult { get; set;}
->>>>>>> 4b1c8ad7ecabe3c7859a59f36b1834a31b16ca90
+
+       
+
 
        
 

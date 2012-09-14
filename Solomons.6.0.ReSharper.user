@@ -1,45 +1,29 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1439" fromTop="37" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1549" fromTop="44" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.designer.cs" caret="445" fromTop="12" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="413" fromTop="10" />
       <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:AccountDetailService.cs" caret="302" fromTop="11" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1466" fromTop="32" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx" caret="2139" fromTop="3" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/f:App.Config" caret="482" fromTop="3" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Data/f:OnlineStoreDB.Designer.cs" caret="5976" fromTop="47" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="827" fromTop="24" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="409" fromTop="15" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="313" fromTop="11" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="272" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1161" fromTop="35" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1260" fromTop="40" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="475" fromTop="15" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="61" fromTop="4" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1744" fromTop="30" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="3598" fromTop="24" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="602" fromTop="20" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="750" fromTop="19" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="1" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="27" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="29" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="20" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="32" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="741" fromTop="13" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="6" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="22" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1705" fromTop="51" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1481" fromTop="47" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="11" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="34" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="2301" fromTop="83" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1485" fromTop="39" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="314" fromTop="10" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="567" fromTop="15" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1106" fromTop="31" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="728" fromTop="22" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1588" fromTop="44" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="326" fromTop="11" />
-      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1466" fromTop="32" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="413" fromTop="10" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="350" fromTop="10" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1146" fromTop="31" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="827" fromTop="22" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1628" fromTop="44" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="647" fromTop="18" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1754" fromTop="32" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="455" fromTop="21" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1754" fromTop="32" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="602" fromTop="17" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="827" fromTop="24" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1384" fromTop="43" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1465" fromTop="49" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="809" fromTop="28" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="455" fromTop="18" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -61,13 +45,13 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="670" />
-      <Item value="void" priority="572" />
+      <Item value="public" priority="861" />
+      <Item value="void" priority="636" />
       <Item value="SetUp" priority="31" />
       <Item value="TearDown" priority="31" />
       <Item value="using" priority="62" />
       <Item value="ProdigyProducts" priority="94" />
-      <Item value="new" priority="543" />
+      <Item value="new" priority="607" />
       <Item value="WishList" priority="28" />
       <Item value="WishList`0" priority="31" />
       <Item value="wishList" priority="479" />
@@ -82,9 +66,9 @@
       <Item value="productCount" priority="31" />
       <Item value="IWishListView`0" priority="31" />
       <Item value="presnter" priority="32" />
-      <Item value="string" priority="159" />
+      <Item value="string" priority="287" />
       <Item value="delegate" priority="126" />
-      <Item value="IRegisterUserView`0" priority="290" />
+      <Item value="IRegisterUserView`0" priority="322" />
       <Item value="object" priority="126" />
       <Item value="abstract" priority="62" />
       <Item value="protected" priority="126" />
@@ -95,10 +79,10 @@
       <Item value="event" priority="63" />
       <Item value="interface" priority="30" />
       <Item value="ButtonClickHandler`0" priority="97" />
-      <Item value="return" priority="63" />
+      <Item value="return" priority="127" />
       <Item value="TextBox1" priority="31" />
-      <Item value="RegisterUserPresenter`0" priority="31" />
-      <Item value="_view" priority="1159" />
+      <Item value="RegisterUserPresenter`0" priority="63" />
+      <Item value="_view" priority="1191" />
       <Item value="view" priority="31" />
       <Item value="AccountDetail" priority="28" />
       <Item value="Login`0" priority="127" />
@@ -107,7 +91,7 @@
       <Item value="override" priority="95" />
       <Item value="UI" priority="107" />
       <Item value="Page`0" priority="26" />
-      <Item value="_presenter" priority="64" />
+      <Item value="_presenter" priority="128" />
       <Item value="ButtonClickHandler" priority="57" />
       <Item value="this" priority="255" />
       <Item value="if" priority="63" />
@@ -146,6 +130,22 @@
       <Item value="LoginService" priority="29" />
       <Item value="_loginService" priority="63" />
       <Item value="_accountDetailServ" priority="63" />
+      <Item value="class" priority="30" />
+      <Item value="Name`0" priority="156" />
+      <Item value="for" priority="31" />
+      <Item value="Name" priority="28" />
+      <Item value="FirstName" priority="63" />
+      <Item value="i" priority="31" />
+      <Item value="LastName" priority="31" />
+      <Item value="GenerateNames`0" priority="31" />
+      <Item value="Object`0" priority="31" />
+      <Item value="IList" priority="31" />
+      <Item value="names" priority="63" />
+      <Item value="GridView1" priority="223" />
+      <Item value="Names" priority="31" />
+      <Item value="true" priority="31" />
+      <Item value="exception" priority="31" />
+      <Item value="e" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.WishList">
       <Item value="AccountID" priority="53" />
@@ -187,10 +187,13 @@
       <Item value="Expect`1" priority="82" />
       <Item value="Phone" priority="54" />
       <Item value="Raise`1" priority="26" />
+      <Item value="Names" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Presenters.RegisterUserPresenter">
       <Item value="Register`0" priority="26" />
       <Item value="RegisterClickEvent`0" priority="27" />
+      <Item value="GenerateNames`0" priority="26" />
+      <Item value="Initailize`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
       <Item value="Click" priority="327" />
@@ -244,6 +247,29 @@
       <Item value="Insert`0" priority="26" />
       <Item value="Delete`0" priority="26" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="26" />
+      <Item value="AllowPaging" priority="26" />
+      <Item value="DataBind`0" priority="53" />
+      <Item value="PageIndexChanged" priority="26" />
+      <Item value="PageIndex" priority="54" />
+      <Item value="PageIndexChanging" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewPageEventArgs">
+      <Item value="NewPageIndex" priority="26" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <UnitTestSessions>
     <Session>
@@ -251,4 +277,7 @@
       <Elements />
     </Session>
   </UnitTestSessions>
+  <Bookmarks>
+    <Bookmark owner="NumberedBookmarkManager" id="Bookmark5" file-id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" coords="(Doc Ln 24 Col 101)" />
+  </Bookmarks>
 </Configuration>

@@ -58,13 +58,6 @@
       <Name>ProdigyProducts.BLL</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-<<<<<<< HEAD
-    <None Include="app.config" />
-=======
-    <None Include="App.config" />
->>>>>>> 4b1c8ad7ecabe3c7859a59f36b1834a31b16ca90
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

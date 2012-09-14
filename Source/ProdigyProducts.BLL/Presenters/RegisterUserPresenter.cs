@@ -22,12 +22,9 @@ namespace ProdigyProducts.BLL.Presenters
         {
             _view = view;
             _view.RegisterEvent += RegisterClickEvent;
-<<<<<<< HEAD
-            
 
-=======
             _tasks = task;
->>>>>>> 4b1c8ad7ecabe3c7859a59f36b1834a31b16ca90
+
         }
 
         public void Initailize()
