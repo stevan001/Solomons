@@ -26,7 +26,7 @@ namespace ProdigyProducts.Test.PresenterTests
           
            RegisterUserPresenter presenter = new RegisterUserPresenter(_view,_task);
             //Button btn = (Button)mocks.StrictMock(typeof (System.Web.UI.WebControls.Button));
-              //Expect.Call(_view.RegisterButton).Return(btn);
+            //Expect.Call(_view.RegisterButton).Return(btn);
             
                 Expect.Call(_view.FirstName).Return("Stevan");
                 Expect.Call(_view.LastName).Return("Thomas");

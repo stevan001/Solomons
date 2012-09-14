@@ -113,7 +113,29 @@
     <Compile Include="Domain\ProductCategory.cs" />
     <Compile Include="Domain\ProductDetail.cs" />
     <Compile Include="Domain\WishListDetail.cs" />
-    <Compile Include="Presenters\RegisterUserPresenter.cs" />
+    <Compile Include="Presenters\AccountDetailsPresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presenters\AdminCategoryPresenter.cs" />
+    <Compile Include="Presenters\AdminProductDetailPresenter.cs" />
+    <Compile Include="Presenters\AdminProductsPresenter.cs" />
+    <Compile Include="Presenters\AdminUserPresenter.cs" />
+    <Compile Include="Presenters\ChangePasswordPresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presenters\MainPresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presenters\MyMeasurementsPresenter.cs" />
+    <Compile Include="Presenters\ProductDetailPresenter.cs" />
+    <Compile Include="Presenters\ProductListingPresenter.cs" />
+    <Compile Include="Presenters\ProductsCategoryPresenter.cs" />
+    <Compile Include="Presenters\RegisterUserPresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presenters\WhishListPresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AccountDetailService.cs" />
     <Compile Include="Services\EmailService.cs" />
@@ -137,7 +159,18 @@
     <Compile Include="Tasks\IRegistrationTask.cs" />
     <Compile Include="Tasks\RegistrationTask.cs" />
     <Compile Include="Test\WishListTest.cs" />
+    <Compile Include="Views\IAccountDetailView.cs" />
+    <Compile Include="Views\IAdminProductCategoryView.cs" />
+    <Compile Include="Views\IAdminProductDetailsView.cs" />
+    <Compile Include="Views\IAdminProductListingView.cs" />
+    <Compile Include="Views\IAdminUserView.cs" />
+    <Compile Include="Views\IChangePasswordView.cs" />
+    <Compile Include="Views\IMainView.cs" />
+    <Compile Include="Views\IMyMeasurementsView.cs" />
+    <Compile Include="Views\IProductDetailsView.cs" />
+    <Compile Include="Views\IProductListingView.cs" />
     <Compile Include="Views\IRegisterUserView.cs" />
+    <Compile Include="Views\IWishListView.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Data\OnlineStoreDB.edmx">

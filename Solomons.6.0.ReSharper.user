@@ -4,26 +4,57 @@
       <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:AccountDetailService.cs" caret="302" fromTop="11" />
       <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/f:App.Config" caret="482" fromTop="3" />
       <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Data/f:OnlineStoreDB.Designer.cs" caret="5976" fromTop="47" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="827" fromTop="24" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="409" fromTop="15" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="515" fromTop="27" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="313" fromTop="11" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="272" fromTop="9" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1355" fromTop="35" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:default.html" caret="0" fromTop="0" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductListingPresenter.cs" caret="102" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductDetailPresenter.cs" caret="101" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:MyMeasurementsPresenter.cs" caret="102" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminUserPresenter.cs" caret="97" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminProductsPresenter.cs" caret="101" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductsCategoryPresenter.cs" caret="104" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminProductDetailPresenter.cs" caret="106" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IMainView.cs" caret="87" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAccountDetailView.cs" caret="96" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IChangePasswordView.cs" caret="93" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IWishListView.cs" caret="91" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IProductListingView.cs" caret="97" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IProductDetailsView.cs" caret="97" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IMyMeasurementsView.cs" caret="97" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminProductListingView.cs" caret="102" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminProductDetailsView.cs" caret="102" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminUserView.cs" caret="92" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminProductCategoryView.cs" caret="103" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminCategoryPresenter.cs" caret="101" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="350" fromTop="10" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1146" fromTop="31" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="827" fromTop="22" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1628" fromTop="44" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="647" fromTop="18" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1754" fromTop="32" />
       <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="455" fromTop="21" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1754" fromTop="32" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="602" fromTop="17" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="827" fromTop="24" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1384" fromTop="43" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1465" fromTop="49" />
       <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="809" fromTop="28" />
       <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="455" fromTop="18" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="962" fromTop="28" />
+      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1391" fromTop="35" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductListingPresenter.cs" caret="147" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductDetailPresenter.cs" caret="147" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:MyMeasurementsPresenter.cs" caret="143" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminUserPresenter.cs" caret="142" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminProductsPresenter.cs" caret="149" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductsCategoryPresenter.cs" caret="154" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminProductDetailPresenter.cs" caret="129" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IMainView.cs" caret="119" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAccountDetailView.cs" caret="133" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IChangePasswordView.cs" caret="120" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IWishListView.cs" caret="124" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IProductListingView.cs" caret="130" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IProductDetailsView.cs" caret="130" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IMyMeasurementsView.cs" caret="135" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminProductListingView.cs" caret="140" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminProductDetailsView.cs" caret="130" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminUserView.cs" caret="131" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminProductCategoryView.cs" caret="148" fromTop="4" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
