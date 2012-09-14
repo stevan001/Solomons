@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ProdigyProducts.BLL.Domain;
 using ProdigyProducts.BLL.Services;
 using ProdigyProducts.BLL.Views;
@@ -14,8 +15,14 @@ namespace ProdigyProducts.BLL.Presenters
         {
             _view = view;
             _view.RegisterEvent += RegisterClickEvent;
+            
+
         }
 
+        public void Initailize()
+        {
+            
+        }
 
         public void Register()
         {  
@@ -50,6 +57,9 @@ namespace ProdigyProducts.BLL.Presenters
         {
             this.Register();
         }
+
+
+       
 
     }
 }

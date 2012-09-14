@@ -32,7 +32,8 @@ namespace Solomons.Web
             }
             catch (Exception exception)
             {
-                lblStatuts.Text = "There was a problem sending your message."; 
+                lblStatuts.Text = "There was a problem sending your message. Error :"+ exception.Message; 
+
             }
         }
     }

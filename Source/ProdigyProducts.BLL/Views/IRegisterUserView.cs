@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ProdigyProducts.BLL.Views
 {
@@ -12,9 +13,11 @@ namespace ProdigyProducts.BLL.Views
        string Address { get;  }
        string BillingAddress { get;  }
        string RegisterResult {set; }
-
+      
         event EventHandler RegisterEvent; 
 
 
     }
+
+   
 }

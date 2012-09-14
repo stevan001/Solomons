@@ -17,7 +17,7 @@ namespace Solomons.Web.Store
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            _presenter.Initailize();
         }
         protected override void OnInit(EventArgs e)
         {
@@ -25,6 +25,14 @@ namespace Solomons.Web.Store
             
             base.OnInit(e);
         }
+
+        void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            GridView1.PageIndex = e.NewPageIndex;
+            GridView1.DataBind();
+        }
+
+        
 
         public string FirstName
         {
@@ -56,11 +64,12 @@ namespace Solomons.Web.Store
             get { return TextBox6.Text; }
         }
 
-        public string RegisterResult
-        {
+        public string RegisterResult { get;
             set;
-            
+
         }
+
+       
 
 
         public event EventHandler RegisterEvent;

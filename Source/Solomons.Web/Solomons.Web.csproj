@@ -57,6 +57,8 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Admin\default.aspx" />
+    <Content Include="Admin\default.html" />
+    <Content Include="Admin\stylesheet.css" />
     <Content Include="boss.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="default.aspx" />
@@ -136,6 +138,23 @@
     <Content Include="layout.css" />
     <Content Include="menu.js" />
     <Content Include="Store\default.html" />
+    <Content Include="Store\images\add.png" />
+    <Content Include="Store\images\copyright.png" />
+    <Content Include="Store\images\featuredBg.png" />
+    <Content Include="Store\images\featureditemBg.png" />
+    <Content Include="Store\images\featureditems.png" />
+    <Content Include="Store\images\footer.png" />
+    <Content Include="Store\images\footerBg.png" />
+    <Content Include="Store\images\icons.png" />
+    <Content Include="Store\images\item.png" />
+    <Content Include="Store\images\itembg.png" />
+    <Content Include="Store\images\logo.jpg" />
+    <Content Include="Store\images\menuBg.jpg" />
+    <Content Include="Store\images\other.jpg" />
+    <Content Include="Store\images\others.png" />
+    <Content Include="Store\images\slide.jpg" />
+    <Content Include="Store\images\topbarBg.png" />
+    <Content Include="Store\images\toplayerBg.jpg" />
     <Content Include="Store\Register.aspx" />
     <Content Include="Store\stylesheet.css" />
     <Content Include="Styles\Site.css" />
@@ -272,6 +291,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Store\StoreTemplate.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\desktop.ini" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
