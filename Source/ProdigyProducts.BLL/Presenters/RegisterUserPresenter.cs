@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using ProdigyProducts.BLL.Domain;
 using ProdigyProducts.BLL.Services;
+using ProdigyProducts.BLL.Tasks;
 using ProdigyProducts.BLL.Views;
 
 namespace ProdigyProducts.BLL.Presenters
@@ -11,12 +12,22 @@ namespace ProdigyProducts.BLL.Presenters
         private IRegisterUserView _view; 
         private AccountDetailService _accountDetailServ = new AccountDetailService();
         private LoginService _loginService = new LoginService();
-        public RegisterUserPresenter( IRegisterUserView view )
+        private IRegistrationTask _tasks; 
+        public RegisterUserPresenter(IRegisterUserView view) : this(view, new RegistrationTask())
+        {
+            
+        }
+        
+        public RegisterUserPresenter( IRegisterUserView view, IRegistrationTask task )
         {
             _view = view;
             _view.RegisterEvent += RegisterClickEvent;
+<<<<<<< HEAD
             
 
+=======
+            _tasks = task;
+>>>>>>> 4b1c8ad7ecabe3c7859a59f36b1834a31b16ca90
         }
 
         public void Initailize()
@@ -40,15 +51,14 @@ namespace ProdigyProducts.BLL.Presenters
                 
                 newLogin.Email = details.Email;
                 newLogin.Password = ""; 
-                _loginService.Insert(newLogin);
-                _accountDetailServ.Insert(details);
-
+                
+                _tasks.RegisterAccount(newLogin,details);
             }
             catch (Exception e)
             {
                 //push a message back to the page 
-                _loginService.Delete(newLogin);
-                _accountDetailServ.Delete(details);
+                _tasks.RemoveAccount(newLogin);
+               
                 _view.RegisterResult = "Sorry your account could not be registered. "; 
             }
         }

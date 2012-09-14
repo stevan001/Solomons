@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdigyProducts.Test", "Source\ProdigyProducts.Test\ProdigyProducts.Test.csproj", "{BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdigyProducts.BLL", "Source\ProdigyProducts.BLL\ProdigyProducts.BLL.csproj", "{F70DEA38-CDC0-4873-BAC8-78CC290100F2}"

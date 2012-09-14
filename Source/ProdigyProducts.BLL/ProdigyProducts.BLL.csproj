@@ -134,6 +134,8 @@
     <Compile Include="Services\TransactionResponseService.cs" />
     <Compile Include="Services\WishListDetailService.cs" />
     <Compile Include="Services\WishListService.cs" />
+    <Compile Include="Tasks\IRegistrationTask.cs" />
+    <Compile Include="Tasks\RegistrationTask.cs" />
     <Compile Include="Test\WishListTest.cs" />
     <Compile Include="Views\IRegisterUserView.cs" />
   </ItemGroup>

@@ -26,6 +26,11 @@ namespace ProdigyProducts.BLL.Services
 
        public  void Delete(AccountDetail domainObject)
        {
+
+           var obj = GetAccountDetailById(domainObject.AccountID);
+           if (obj == null)
+               return; 
+
           _repository.Delete(_adapter.ConvertToDataObject(domainObject));
        }
        public AccountDetail GetAccountDetailById(int id)
