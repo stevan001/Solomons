@@ -28,7 +28,7 @@ namespace Solomons.Web.Store
 
        
 
-        
+       
 
         public string FirstName
         {
@@ -66,10 +66,10 @@ namespace Solomons.Web.Store
 
         }
 
-       
-
-
-       
+        public string Password
+        {
+            get { return TextBox1.Text; }
+        }
 
 
         public event EventHandler RegisterEvent;

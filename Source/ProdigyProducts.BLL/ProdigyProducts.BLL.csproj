@@ -123,6 +123,7 @@
     <Compile Include="Presenters\ChangePasswordPresenter.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Presenters\CompleteRegPresenter.cs" />
     <Compile Include="Presenters\MainPresenter.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -165,6 +166,7 @@
     <Compile Include="Views\IAdminProductListingView.cs" />
     <Compile Include="Views\IAdminUserView.cs" />
     <Compile Include="Views\IChangePasswordView.cs" />
+    <Compile Include="Views\ICompleteRegView.cs" />
     <Compile Include="Views\IMainView.cs" />
     <Compile Include="Views\IMyMeasurementsView.cs" />
     <Compile Include="Views\IProductDetailsView.cs" />

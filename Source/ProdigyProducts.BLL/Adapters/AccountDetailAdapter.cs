@@ -2,12 +2,12 @@
 
 namespace ProdigyProducts.BLL.Adapters
 {
-    public class AccountDetailAdapter : IAdapter<Data.AccountDetail,Domain.AccountDetail>
+    public class AccountDetailAdapter : IAdapter<Data.AccountDetail,Domain.IAccountDetail>
 
     {
-        public Domain.AccountDetail ConvertToDomainObject(Data.AccountDetail dataObject)
+        public Domain.IAccountDetail ConvertToDomainObject(Data.AccountDetail dataObject)
         {
-            Domain.AccountDetail accountDetail= new AccountDetail();
+            Domain.IAccountDetail accountDetail= new AccountDetail();
             accountDetail.AccountID = dataObject.account_id;
             accountDetail.Address = dataObject.address;
             accountDetail.BillingAddress = dataObject.billing_address;
@@ -18,7 +18,7 @@ namespace ProdigyProducts.BLL.Adapters
             return accountDetail;
         }
 
-        public Data.AccountDetail ConvertToDataObject(Domain.AccountDetail domainObject)
+        public Data.AccountDetail ConvertToDataObject(Domain.IAccountDetail domainObject)
         {
            Data.AccountDetail accountDetail = new Data.AccountDetail();
             accountDetail.account_id = domainObject.AccountID;
@@ -31,7 +31,7 @@ namespace ProdigyProducts.BLL.Adapters
             return accountDetail;
         }
 
-        public void UpdateDataObject(Domain.AccountDetail domainObject, ref Data.AccountDetail dataObject)
+        public void UpdateDataObject(Domain.IAccountDetail domainObject, ref Data.AccountDetail dataObject)
         {
             dataObject.account_id = domainObject.AccountID;
             dataObject.address = domainObject.Address;

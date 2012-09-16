@@ -4,7 +4,12 @@ namespace ProdigyProducts.BLL.Tasks
 {
     public interface IRegistrationTask
     {
-         void RegisterAccount(Login login, AccountDetail detail);
-         void RemoveAccount (Login login);
+        ILogin LoginAccount { get; set; }
+        IAccountDetail AccountDetails { get; set; }
+        void RegisterAccount(Login login, AccountDetail detail);
+        void RegisterAccount();
+        void RemoveAccount(Login login);
+        string GenerateEmail();
+        bool CompleteRegistration(string code); 
     }
 }

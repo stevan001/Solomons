@@ -405,6 +405,8 @@
     <Property Type="String" Name="email" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
     <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="AccountDetails" Relationship="SolomonsModel.FK_AccountDetails_Login" FromRole="Login" ToRole="AccountDetail" />
+    <Property Type="String" Name="registration_code" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="registered" />
   </EntityType>
   <Association Name="FK_AccountDetails_Login">
     <End Type="SolomonsModel.Login" Role="Login" Multiplicity="0..1" />

@@ -104,6 +104,8 @@
           </Key>
           <Property Name="email" Type="varchar" Nullable="false" MaxLength="250" />
           <Property Name="password" Type="varchar" MaxLength="50" />
+          <Property Name="registration_code" Type="varchar" MaxLength="150" />
+          <Property Name="registered" Type="bit" />
         </EntityType>
         <EntityType Name="Order_status">
           <Key>
@@ -808,6 +810,8 @@
           <Property Type="String" Name="email" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
           <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="AccountDetails" Relationship="SolomonsModel.FK_AccountDetails_Login" FromRole="Login" ToRole="AccountDetail" />
+          <Property Type="String" Name="registration_code" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="registered" />
         </EntityType>
         <Association Name="FK_AccountDetails_Login">
           <End Type="SolomonsModel.Login" Role="Login" Multiplicity="0..1" />
@@ -936,6 +940,8 @@
           <EntitySetMapping Name="Logins">
             <EntityTypeMapping TypeName="SolomonsModel.Login">
               <MappingFragment StoreEntitySet="Login">
+                <ScalarProperty Name="registered" ColumnName="registered" />
+                <ScalarProperty Name="registration_code" ColumnName="registration_code" />
                 <ScalarProperty Name="password" ColumnName="password" />
                 <ScalarProperty Name="email" ColumnName="email" />
               </MappingFragment>

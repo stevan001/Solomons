@@ -1,93 +1,73 @@
 ﻿using System;
+using Moq;
 using NUnit.Framework;
 using ProdigyProducts.BLL.Domain;
 using ProdigyProducts.BLL.Presenters;
 using ProdigyProducts.BLL.Tasks;
 using ProdigyProducts.BLL.Views;
-using Rhino.Mocks;
-using Rhino.Mocks.Interfaces;
 
 namespace ProdigyProducts.Test.PresenterTests
 {
     [TestFixture]
     public class RegUserPresenterTest
     {
-        private IRegisterUserView _view;
-        private IRegistrationTask _task; 
-        //private IRegisterUserPresnter _presnter; 
+        #region Setup/Teardown
 
+        [SetUp]
+        public void Setup()
+        {
+            _view = new Mock<IRegisterUserView>();
+            _task = new Mock<IRegistrationTask>();
+            _presenter = new RegisterUserPresenter(_view.Object, _task.Object);
+            _presenter.Initailize();
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+        }
+
+        #endregion
+
+        private Mock<IRegisterUserView> _view;
+        private Mock<IRegistrationTask> _task;
+        private RegisterUserPresenter _presenter;
+   
+
+        /// <summary>
+        /// This test should make sure everything is gotten from the veiw also we wanted to test that the event is raised and nthe register method is called 
+        /// </summary>
         [Test]
         public void ShouldCreateANewUser()
         {
-           MockRepository mocks = new MockRepository();
-            _view = (IRegisterUserView) mocks.StrictMock<IRegisterUserView>();
-            _task = (IRegistrationTask) mocks.StrictMock<IRegistrationTask>();
-    
+            
+            _task.Setup(x => x.RegisterAccount(It.IsAny<Login>(), It.IsAny<AccountDetail>()));
+            _view.Raise(m => m.RegisterEvent += null, EventArgs.Empty);
+            _view.VerifyGet(v => v.FirstName);
+            _view.VerifyGet(v => v.LastName);
+            _view.VerifyGet(v => v.Phone);
+            _view.VerifyGet(v => v.Email);
+            _view.VerifyGet(v => v.Address);
+            _view.VerifyGet(v => v.BillingAddress);
+            _view.VerifyGet(v => v.Password);
+            _task.Verify(x => x.RegisterAccount(It.IsAny<Login>(), It.IsAny<AccountDetail>()));
+        }
+
+        [Test]
+        public void ShouldDisplayErrorMessage()
+        {
+            
+            _task.Setup(x => x.RegisterAccount(It.IsAny<Login>(), It.IsAny<AccountDetail>())).Throws(new ApplicationException("error in registration"));
+            _view.Raise(m => m.RegisterEvent += null, EventArgs.Empty);
+            _task.Verify(x=>x.RemoveAccount(It.IsAny<Login>()));
           
-           RegisterUserPresenter presenter = new RegisterUserPresenter(_view,_task);
-            //Button btn = (Button)mocks.StrictMock(typeof (System.Web.UI.WebControls.Button));
-            //Expect.Call(_view.RegisterButton).Return(btn);
-            
-                Expect.Call(_view.FirstName).Return("Stevan");
-                Expect.Call(_view.LastName).Return("Thomas");
-                Expect.Call(_view.Address).Return("Home");
-                Expect.Call(_view.BillingAddress).Return("Home");
-                Expect.Call(_view.Phone).Return("Phone");
-                Expect.Call(() => _task.RegisterAccount(new Login(), new AccountDetail())).IgnoreArguments();
-                Expect.Call(() => _task.RemoveAccount(new Login())).IgnoreArguments();
-           
-                Expect.Call(_view.Email).Return("stevan.thomas@hotmail.com");
-              //Expect.Call(_view.RegisterResult).SetPropertyAndIgnoreArgument(); 
-            
-               
-            
-                _view.RegisterEvent += null;
-                IEventRaiser raiser = LastCall.IgnoreArguments().GetEventRaiser();
-             
-            mocks.ReplayAll();
-            mocks.Ordered();
-            raiser.Raise(_view,EventArgs.Empty);
-            
-            Assert.AreEqual("Stevan",_view.FirstName);
-            
-            mocks.VerifyAll();
-        }
-
-
-        [Test]
-        public void ShoulcCreateDataAccount()
-        {
-            
-        }
-
-
-        [Test]
-        public void ShouldCreatePresentationAccount()
-        {
-            
         }
 
         [Test]
-        public void ShouldEmailRegistrationLink()
+        public void ShouldDisplayRegistrationMessage()
         {
-            
-        }
-
-        [Test]
-        public void ShouldConfirmEmailCodeandRegisterUser()
-        {
-            
-        }
-        [Test]
-        public void ShouldModifyAccount()
-        {
-            
-        }
-
-        [Test]
-        public void ShouldChancePassword()
-        {
-            
+            _view.Raise(v=>v.RegisterEvent+=null,EventArgs.Empty);
+            _view.VerifySet(v => v.RegisterResult = It.IsAny<string>());
         }
     }
 }

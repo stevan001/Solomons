@@ -10,8 +10,6 @@ namespace ProdigyProducts.BLL.Presenters
     public class RegisterUserPresenter
     {
         private IRegisterUserView _view; 
-        private AccountDetailService _accountDetailServ = new AccountDetailService();
-        private LoginService _loginService = new LoginService();
         private IRegistrationTask _tasks; 
         public RegisterUserPresenter(IRegisterUserView view) : this(view, new RegistrationTask())
         {
@@ -21,15 +19,13 @@ namespace ProdigyProducts.BLL.Presenters
         public RegisterUserPresenter( IRegisterUserView view, IRegistrationTask task )
         {
             _view = view;
-            _view.RegisterEvent += RegisterClickEvent;
-
-            _tasks = task;
+           _tasks = task;
 
         }
 
         public void Initailize()
         {
-            
+            _view.RegisterEvent += RegisterClickEvent;
         }
 
         public void Register()
@@ -39,24 +35,24 @@ namespace ProdigyProducts.BLL.Presenters
             try
             {
               
-                details.FirstName = "Stevan";
+                details.FirstName = _view.FirstName;
                 details.LastName = _view.LastName;
                 details.Email = _view.Email;
                 details.Address = _view.Address;
                 details.BillingAddress = _view.BillingAddress;
-                details.PhoneNumber = _view.Phone; 
-                
+                details.PhoneNumber = _view.Phone;  
                 newLogin.Email = details.Email;
-                newLogin.Password = ""; 
-                
+                newLogin.Password = _view.Password;
+                _tasks.LoginAccount = newLogin;
+                _tasks.AccountDetails = details; 
                 _tasks.RegisterAccount(newLogin,details);
+                _view.RegisterResult = "Thank you for creating an account. Please check your email for account activation insturctions"; 
             }
             catch (Exception e)
             {
                 //push a message back to the page 
                 _tasks.RemoveAccount(newLogin);
-               
-                _view.RegisterResult = "Sorry your account could not be registered. "; 
+                _view.RegisterResult = "Sorry your account could not be registered. Please contact us if the problem persists."; 
             }
         }
 

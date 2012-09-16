@@ -5,26 +5,36 @@ using System.Linq;
 using System.Text;
 using ProdigyProducts.BLL.Adapters;
 using ProdigyProducts.BLL.Data;
+using ProdigyProducts.BLL.Domain;
 using AccountDetail = ProdigyProducts.BLL.Domain.AccountDetail;
 
 namespace ProdigyProducts.BLL.Services
 {
-   public class AccountDetailService:IDBOperations<Domain.AccountDetail>
-   {
-       IAdapter<Data.AccountDetail,Domain.AccountDetail>_adapter=new AccountDetailAdapter();
+    public interface IAccountDetailService : IDBOperations<IAccountDetail>
+    {
+        void Insert(IAccountDetail domainObject);
+        void Update(IAccountDetail domainObject);
+        void Delete(IAccountDetail domainObject);
+        IAccountDetail GetAccountDetailById(int id);
+        IList<IAccountDetail> GetAllAccountDetails();
+    }
+
+    public class AccountDetailService: IAccountDetailService
+    {
+       IAdapter<Data.AccountDetail,Domain.IAccountDetail>_adapter=new AccountDetailAdapter();
        Data.IRepository<Data.AccountDetail>_repository=new Repository<Data.AccountDetail>();
 
-       public void Insert(AccountDetail domainObject)
+       public void Insert(IAccountDetail domainObject)
        {
            _repository.Insert(_adapter.ConvertToDataObject(domainObject));
        }
 
-       public void Update(AccountDetail domainObject)
+       public void Update(IAccountDetail domainObject)
        {
            _repository.Update(_adapter.ConvertToDataObject(domainObject));
        }
 
-       public  void Delete(AccountDetail domainObject)
+       public  void Delete(IAccountDetail domainObject)
        {
 
            var obj = GetAccountDetailById(domainObject.AccountID);
@@ -33,15 +43,15 @@ namespace ProdigyProducts.BLL.Services
 
           _repository.Delete(_adapter.ConvertToDataObject(domainObject));
        }
-       public AccountDetail GetAccountDetailById(int id)
+       public IAccountDetail GetAccountDetailById(int id)
        {
            var accountDetail = _repository.GetEntities().SingleOrDefault(w => w.account_id == id);
            return _adapter.ConvertToDomainObject(accountDetail);
        }
 
-       public IList<AccountDetail> GetAllAccountDetails()
+       public IList<IAccountDetail> GetAllAccountDetails()
        {
-           IList<AccountDetail>_domainItems=new List<AccountDetail>();
+           IList<IAccountDetail>_domainItems=new List<IAccountDetail>();
            var items = _repository.GetEntities();
            foreach (var accountDetail in items)
            {

@@ -1051,6 +1051,54 @@ namespace ProdigyProducts.BLL.Data
         private global::System.String _password;
         partial void OnpasswordChanging(global::System.String value);
         partial void OnpasswordChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public global::System.String registration_code
+        {
+            get
+            {
+                return _registration_code;
+            }
+            set
+            {
+                Onregistration_codeChanging(value);
+                ReportPropertyChanging("registration_code");
+                _registration_code = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("registration_code");
+                Onregistration_codeChanged();
+            }
+        }
+        private global::System.String _registration_code;
+        partial void Onregistration_codeChanging(global::System.String value);
+        partial void Onregistration_codeChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Boolean> registered
+        {
+            get
+            {
+                return _registered;
+            }
+            set
+            {
+                OnregisteredChanging(value);
+                ReportPropertyChanging("registered");
+                _registered = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("registered");
+                OnregisteredChanged();
+            }
+        }
+        private Nullable<global::System.Boolean> _registered;
+        partial void OnregisteredChanging(Nullable<global::System.Boolean> value);
+        partial void OnregisteredChanged();
 
         #endregion
     

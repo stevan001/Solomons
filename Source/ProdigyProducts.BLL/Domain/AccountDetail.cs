@@ -3,7 +3,18 @@ using System.Data.Objects.DataClasses;
 
 namespace ProdigyProducts.BLL.Domain
 {
-   public class AccountDetail
+    public interface IAccountDetail
+    {
+        int AccountID { get; set; }
+        string FirstName { get; set; }
+        string LastName { get; set; }
+        string Email { get; set; }
+        string PhoneNumber { get; set; }
+        string Address { get; set; }
+        string BillingAddress { get; set; }
+    }
+
+    public class AccountDetail : IAccountDetail
     {
        public int AccountID { get; set; }
        public string FirstName { get; set; }
