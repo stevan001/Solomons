@@ -17,6 +17,7 @@ namespace ProdigyProducts.BLL.Services
         void Delete(IAccountDetail domainObject);
         IAccountDetail GetAccountDetailById(int id);
         IList<IAccountDetail> GetAllAccountDetails();
+        IAccountDetail GetAccountDetailByEmail(string username);
     }
 
     public class AccountDetailService: IAccountDetailService
@@ -59,10 +60,15 @@ namespace ProdigyProducts.BLL.Services
            }
 
            return _domainItems;
-
-
+           
        }
-       }
+
+        public IAccountDetail GetAccountDetailByEmail(string username)
+        {
+            var accountDetail = _repository.GetEntities().SingleOrDefault(w => w.email == username);
+            return _adapter.ConvertToDomainObject(accountDetail);
+        }
+    }
 
    }
 

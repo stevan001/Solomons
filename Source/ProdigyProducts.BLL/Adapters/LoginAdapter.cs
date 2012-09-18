@@ -9,7 +9,8 @@ namespace ProdigyProducts.BLL.Adapters
             Domain.Login login = new Login();
             login.Email = dataObject.email;
             login.Registered = dataObject.registered;
-            login.RegistrationCode = dataObject.registration_code; 
+            login.RegistrationCode = dataObject.registration_code;
+            login.IsAdmin = dataObject.is_admin; 
             //login.Password = dataObject.password; 
             return login; 
         }

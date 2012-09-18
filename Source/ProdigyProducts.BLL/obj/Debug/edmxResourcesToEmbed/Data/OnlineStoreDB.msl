@@ -178,6 +178,7 @@
     <EntitySetMapping Name="Logins">
       <EntityTypeMapping TypeName="SolomonsModel.Login">
         <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="is_admin" ColumnName="is_admin" />
           <ScalarProperty Name="registered" ColumnName="registered" />
           <ScalarProperty Name="registration_code" ColumnName="registration_code" />
           <ScalarProperty Name="password" ColumnName="password" />

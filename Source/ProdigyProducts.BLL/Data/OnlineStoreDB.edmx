@@ -106,6 +106,7 @@
           <Property Name="password" Type="varchar" MaxLength="50" />
           <Property Name="registration_code" Type="varchar" MaxLength="150" />
           <Property Name="registered" Type="bit" />
+          <Property Name="is_admin" Type="bit" />
         </EntityType>
         <EntityType Name="Order_status">
           <Key>
@@ -812,6 +813,7 @@
           <NavigationProperty Name="AccountDetails" Relationship="SolomonsModel.FK_AccountDetails_Login" FromRole="Login" ToRole="AccountDetail" />
           <Property Type="String" Name="registration_code" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Type="Boolean" Name="registered" />
+          <Property Type="Boolean" Name="is_admin" />
         </EntityType>
         <Association Name="FK_AccountDetails_Login">
           <End Type="SolomonsModel.Login" Role="Login" Multiplicity="0..1" />
@@ -940,6 +942,7 @@
           <EntitySetMapping Name="Logins">
             <EntityTypeMapping TypeName="SolomonsModel.Login">
               <MappingFragment StoreEntitySet="Login">
+                <ScalarProperty Name="is_admin" ColumnName="is_admin" />
                 <ScalarProperty Name="registered" ColumnName="registered" />
                 <ScalarProperty Name="registration_code" ColumnName="registration_code" />
                 <ScalarProperty Name="password" ColumnName="password" />

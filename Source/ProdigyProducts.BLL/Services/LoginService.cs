@@ -15,6 +15,7 @@ namespace ProdigyProducts.BLL.Services
         void Delete(ILogin domainObject);
         IList<ILogin> GetLogins();
         bool Authenticate(string username, string password);
+        bool AuthenticateAdmin(string username, string password);
         void Register(string code);
         void AlreadyRegisterd(ILogin login);
         string GenerateRegistrationCode();
@@ -37,7 +38,11 @@ namespace ProdigyProducts.BLL.Services
         {
             var login = GetLogin(domainObject.Email); 
             if (login!=null)
-                _repository.Update(_adapter.ConvertToDataObject(domainObject));
+            {
+                _adapter.UpdateDataObject(domainObject, ref login);
+                _repository.Update(login);
+            }
+                
         }
 
         public void Delete(ILogin domainObject)
@@ -71,7 +76,25 @@ namespace ProdigyProducts.BLL.Services
             return true;
         }
 
-     
+        public bool AuthenticateAdmin(string username, string password)
+        {
+            var login = GetLogin(username);
+            
+            if (login == null)
+                return false;
+            if (login.is_admin != true)
+                return false;
+            return true;
+        }
+
+       public ILogin GetLoginByUsername(string username)
+       {
+           var lg = GetLogin(username);
+           if (lg != null)
+               return _adapter.ConvertToDomainObject(lg);
+
+           return null;
+       }
 
         private Data.Login GetLogin(string username)
         {

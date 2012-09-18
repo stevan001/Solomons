@@ -1099,6 +1099,30 @@ namespace ProdigyProducts.BLL.Data
         private Nullable<global::System.Boolean> _registered;
         partial void OnregisteredChanging(Nullable<global::System.Boolean> value);
         partial void OnregisteredChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Boolean> is_admin
+        {
+            get
+            {
+                return _is_admin;
+            }
+            set
+            {
+                Onis_adminChanging(value);
+                ReportPropertyChanging("is_admin");
+                _is_admin = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("is_admin");
+                Onis_adminChanged();
+            }
+        }
+        private Nullable<global::System.Boolean> _is_admin;
+        partial void Onis_adminChanging(Nullable<global::System.Boolean> value);
+        partial void Onis_adminChanged();
 
         #endregion
     
