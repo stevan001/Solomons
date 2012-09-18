@@ -99,6 +99,7 @@
     <EntitySetMapping Name="Products">
       <EntityTypeMapping TypeName="SolomonsModel.Product">
         <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="category_id" ColumnName="category_id" />
           <ScalarProperty Name="product_id" ColumnName="product_id" />
           <ScalarProperty Name="title" ColumnName="title" />
           <ScalarProperty Name="feature" ColumnName="feature" />

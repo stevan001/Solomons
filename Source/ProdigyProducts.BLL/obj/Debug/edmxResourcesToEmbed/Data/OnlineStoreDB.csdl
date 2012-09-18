@@ -71,6 +71,10 @@
       <End Role="Login" EntitySet="Logins" />
       <End Role="AccountDetail" EntitySet="AccountDetails" />
     </AssociationSet>
+    <AssociationSet Name="FK_Products_ProductCategories" Association="SolomonsModel.FK_Products_ProductCategories">
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="AccountDetail">
     <Key>
@@ -140,6 +144,7 @@
     <Property Name="category_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
     <Property Name="category_image" Type="String" MaxLength="350" Unicode="false" FixedLength="false" />
     <NavigationProperty Name="ProductTypeAttributes" Relationship="SolomonsModel.FK_ProductTypeAttributes_ProductCategories" FromRole="ProductCategories" ToRole="ProductTypeAttributes" />
+    <NavigationProperty Name="Products" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="ProductCategory" ToRole="Product" />
   </EntityType>
   <EntityType Name="ProductDetail">
     <Key>
@@ -187,6 +192,8 @@
     <NavigationProperty Name="ProductRatings" Relationship="SolomonsModel.FK_ProductRating_Products" FromRole="Products" ToRole="ProductRating" />
     <NavigationProperty Name="ShoppingCartDetails" Relationship="SolomonsModel.FK_ShoppingCartDetails_Products" FromRole="Products" ToRole="ShoppingCartDetails" />
     <NavigationProperty Name="WishListDetails" Relationship="SolomonsModel.FK_WishListDetails_Products" FromRole="Products" ToRole="WishListDetails" />
+    <Property Type="Int32" Name="category_id" />
+    <NavigationProperty Name="ProductCategory" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="Product" ToRole="ProductCategory" />
   </EntityType>
   <EntityType Name="ProductTypeAttribute">
     <Key>
@@ -418,6 +425,18 @@
       </Principal>
       <Dependent Role="AccountDetail">
         <PropertyRef Name="email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_ProductCategories">
+    <End Type="SolomonsModel.ProductCategory" Role="ProductCategory" Multiplicity="0..1" />
+    <End Type="SolomonsModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="category_id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="category_id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

@@ -43,7 +43,7 @@ namespace ProdigyProducts.Test.PresenterTests
             _tasks.Setup(t => t.LoadCategory(It.IsAny<int>())).Returns(new ProductCategory());
             _view.Raise(v=>v.Edit+=null,System.EventArgs.Empty);
             _tasks.Verify(t=>t.SaveCategory(It.IsAny<ProductCategory>()));
-            _view.VerifySet(v=>v.Category = It.IsAny<ProductCategory>());
+            _view.VerifySet(v=>v.EditResult = It.IsAny<string>());
         }
 
         [Test]
