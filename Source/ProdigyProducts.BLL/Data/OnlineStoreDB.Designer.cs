@@ -31,6 +31,7 @@ using System.Runtime.Serialization;
 [assembly: EdmRelationshipAttribute("SolomonsModel", "FK_WishListDetails_Products", "Products", System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(ProdigyProducts.BLL.Data.Product), "WishListDetails", System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(ProdigyProducts.BLL.Data.WishListDetail), true)]
 [assembly: EdmRelationshipAttribute("SolomonsModel", "FK_ShoppingCartDetails_ShoppingCart", "ShoppingCart", System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(ProdigyProducts.BLL.Data.ShoppingCart), "ShoppingCartDetails", System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(ProdigyProducts.BLL.Data.ShoppingCartDetail), true)]
 [assembly: EdmRelationshipAttribute("SolomonsModel", "FK_AccountDetails_Login", "Login", System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(ProdigyProducts.BLL.Data.Login), "AccountDetail", System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(ProdigyProducts.BLL.Data.AccountDetail), true)]
+[assembly: EdmRelationshipAttribute("SolomonsModel", "FK_Products_ProductCategories", "ProductCategory", System.Data.Metadata.Edm.RelationshipMultiplicity.ZeroOrOne, typeof(ProdigyProducts.BLL.Data.ProductCategory), "Product", System.Data.Metadata.Edm.RelationshipMultiplicity.Many, typeof(ProdigyProducts.BLL.Data.Product), true)]
 
 #endregion
 
@@ -1942,6 +1943,30 @@ namespace ProdigyProducts.BLL.Data
         private Nullable<global::System.Int32> _quantity;
         partial void OnquantityChanging(Nullable<global::System.Int32> value);
         partial void OnquantityChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> category_id
+        {
+            get
+            {
+                return _category_id;
+            }
+            set
+            {
+                Oncategory_idChanging(value);
+                ReportPropertyChanging("category_id");
+                _category_id = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("category_id");
+                Oncategory_idChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _category_id;
+        partial void Oncategory_idChanging(Nullable<global::System.Int32> value);
+        partial void Oncategory_idChanged();
 
         #endregion
     
@@ -2100,6 +2125,44 @@ namespace ProdigyProducts.BLL.Data
                 }
             }
         }
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [XmlIgnoreAttribute()]
+        [SoapIgnoreAttribute()]
+        [DataMemberAttribute()]
+        [EdmRelationshipNavigationPropertyAttribute("SolomonsModel", "FK_Products_ProductCategories", "ProductCategory")]
+        public ProductCategory ProductCategory
+        {
+            get
+            {
+                return ((IEntityWithRelationships)this).RelationshipManager.GetRelatedReference<ProductCategory>("SolomonsModel.FK_Products_ProductCategories", "ProductCategory").Value;
+            }
+            set
+            {
+                ((IEntityWithRelationships)this).RelationshipManager.GetRelatedReference<ProductCategory>("SolomonsModel.FK_Products_ProductCategories", "ProductCategory").Value = value;
+            }
+        }
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [BrowsableAttribute(false)]
+        [DataMemberAttribute()]
+        public EntityReference<ProductCategory> ProductCategoryReference
+        {
+            get
+            {
+                return ((IEntityWithRelationships)this).RelationshipManager.GetRelatedReference<ProductCategory>("SolomonsModel.FK_Products_ProductCategories", "ProductCategory");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((IEntityWithRelationships)this).RelationshipManager.InitializeRelatedReference<ProductCategory>("SolomonsModel.FK_Products_ProductCategories", "ProductCategory", value);
+                }
+            }
+        }
 
         #endregion
     }
@@ -2227,6 +2290,28 @@ namespace ProdigyProducts.BLL.Data
                 if ((value != null))
                 {
                     ((IEntityWithRelationships)this).RelationshipManager.InitializeRelatedCollection<ProductTypeAttribute>("SolomonsModel.FK_ProductTypeAttributes_ProductCategories", "ProductTypeAttributes", value);
+                }
+            }
+        }
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [XmlIgnoreAttribute()]
+        [SoapIgnoreAttribute()]
+        [DataMemberAttribute()]
+        [EdmRelationshipNavigationPropertyAttribute("SolomonsModel", "FK_Products_ProductCategories", "Product")]
+        public EntityCollection<Product> Products
+        {
+            get
+            {
+                return ((IEntityWithRelationships)this).RelationshipManager.GetRelatedCollection<Product>("SolomonsModel.FK_Products_ProductCategories", "Product");
+            }
+            set
+            {
+                if ((value != null))
+                {
+                    ((IEntityWithRelationships)this).RelationshipManager.InitializeRelatedCollection<Product>("SolomonsModel.FK_Products_ProductCategories", "Product", value);
                 }
             }
         }

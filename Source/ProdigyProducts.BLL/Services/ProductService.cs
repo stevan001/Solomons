@@ -41,5 +41,16 @@ namespace ProdigyProducts.BLL.Services
              }
              return _domainItems;
          }
+
+         public IList<Product> GetProductsById(int category)
+         {
+             IList<Product> domainItems = new List<Product>();
+             var items = _repository.GetEntities().Where(p=>p.category_id==category);
+             foreach (var product in items)
+             {
+                 domainItems.Add(_adapter.ConvertToDomainObject(product));
+             }
+             return domainItems;
+         }
      }
 }

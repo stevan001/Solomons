@@ -125,6 +125,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Presenters\CompleteRegPresenter.cs" />
+    <Compile Include="Presenters\IAdminCategoryPresenter.cs" />
     <Compile Include="Presenters\MainPresenter.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -159,8 +160,10 @@
     <Compile Include="Services\WishListDetailService.cs" />
     <Compile Include="Services\WishListService.cs" />
     <Compile Include="Tasks\AdminLoginTasks.cs" />
+    <Compile Include="Tasks\AdminProductCategoryTasks.cs" />
     <Compile Include="Tasks\IAdminLoginTasks.cs" />
     <Compile Include="Tasks\IRegistrationTask.cs" />
+    <Compile Include="Tasks\ProductListingTasks.cs" />
     <Compile Include="Tasks\RegistrationTask.cs" />
     <Compile Include="Test\WishListTest.cs" />
     <Compile Include="Views\IAccountDetailView.cs" />

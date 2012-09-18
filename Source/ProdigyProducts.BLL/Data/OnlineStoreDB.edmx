@@ -56,6 +56,10 @@
             <End Role="Products" EntitySet="Products" />
             <End Role="ProductRating" EntitySet="ProductRating" />
           </AssociationSet>
+          <AssociationSet Name="FK_Products_ProductCategories" Association="SolomonsModel.Store.FK_Products_ProductCategories">
+            <End Role="ProductCategories" EntitySet="ProductCategories" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
           <AssociationSet Name="FK_ProductTypeAttributes_ProductCategories" Association="SolomonsModel.Store.FK_ProductTypeAttributes_ProductCategories">
             <End Role="ProductCategories" EntitySet="ProductCategories" />
             <End Role="ProductTypeAttributes" EntitySet="ProductTypeAttributes" />
@@ -183,6 +187,7 @@
           <Property Name="price" Type="money" />
           <Property Name="description" Type="varchar" MaxLength="350" />
           <Property Name="quantity" Type="int" />
+          <Property Name="category_id" Type="int" />
         </EntityType>
         <EntityType Name="ProductTypeAttributes">
           <Key>
@@ -342,6 +347,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Products_ProductCategories">
+          <End Role="ProductCategories" Type="SolomonsModel.Store.ProductCategories" Multiplicity="0..1" />
+          <End Role="Products" Type="SolomonsModel.Store.Products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProductCategories">
+              <PropertyRef Name="category_id" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="category_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_ProductTypeAttributes_ProductCategories">
           <End Role="ProductCategories" Type="SolomonsModel.Store.ProductCategories" Multiplicity="0..1" />
           <End Role="ProductTypeAttributes" Type="SolomonsModel.Store.ProductTypeAttributes" Multiplicity="*" />
@@ -477,6 +494,10 @@
             <End Role="Login" EntitySet="Logins" />
             <End Role="AccountDetail" EntitySet="AccountDetails" />
           </AssociationSet>
+          <AssociationSet Name="FK_Products_ProductCategories" Association="SolomonsModel.FK_Products_ProductCategories">
+            <End Role="ProductCategory" EntitySet="ProductCategories" />
+            <End Role="Product" EntitySet="Products" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="AccountDetail">
           <Key>
@@ -546,6 +567,7 @@
           <Property Name="category_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="category_image" Type="String" MaxLength="350" Unicode="false" FixedLength="false" />
           <NavigationProperty Name="ProductTypeAttributes" Relationship="SolomonsModel.FK_ProductTypeAttributes_ProductCategories" FromRole="ProductCategories" ToRole="ProductTypeAttributes" />
+          <NavigationProperty Name="Products" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="ProductCategory" ToRole="Product" />
         </EntityType>
         <EntityType Name="ProductDetail">
           <Key>
@@ -593,6 +615,8 @@
           <NavigationProperty Name="ProductRatings" Relationship="SolomonsModel.FK_ProductRating_Products" FromRole="Products" ToRole="ProductRating" />
           <NavigationProperty Name="ShoppingCartDetails" Relationship="SolomonsModel.FK_ShoppingCartDetails_Products" FromRole="Products" ToRole="ShoppingCartDetails" />
           <NavigationProperty Name="WishListDetails" Relationship="SolomonsModel.FK_WishListDetails_Products" FromRole="Products" ToRole="WishListDetails" />
+          <Property Type="Int32" Name="category_id" />
+          <NavigationProperty Name="ProductCategory" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="Product" ToRole="ProductCategory" />
         </EntityType>
         <EntityType Name="ProductTypeAttribute">
           <Key>
@@ -827,6 +851,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Products_ProductCategories">
+          <End Type="SolomonsModel.ProductCategory" Role="ProductCategory" Multiplicity="0..1" />
+          <End Type="SolomonsModel.Product" Role="Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ProductCategory">
+              <PropertyRef Name="category_id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="category_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -893,7 +929,8 @@
             <ScalarProperty Name="product_id" ColumnName="product_id" />
           </MappingFragment></EntityTypeMapping></EntitySetMapping>
           <EntitySetMapping Name="Products"><EntityTypeMapping TypeName="SolomonsModel.Product"><MappingFragment StoreEntitySet="Products">
-            <ScalarProperty Name="product_id" ColumnName="product_id" />
+            <ScalarProperty Name="category_id" ColumnName="category_id" />
+                <ScalarProperty Name="product_id" ColumnName="product_id" />
             <ScalarProperty Name="title" ColumnName="title" />
             <ScalarProperty Name="feature" ColumnName="feature" />
             <ScalarProperty Name="price" ColumnName="price" />
@@ -998,12 +1035,10 @@
           <ConnectorPoint PointX="3.75" PointY="22.893992513020834" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_Likedproducts_Products" ManuallyRouted="false">
-          <ConnectorPoint PointX="2.890624" PointY="5.9901432291666667" />
-          <ConnectorPoint PointX="2.6848953333333334" PointY="5.9901432291666659" />
-          <ConnectorPoint PointX="2.5182286666666664" PointY="5.9901432291666667" />
-          <ConnectorPoint PointX="1.390624" PointY="5.9901432291666667" />
-          <ConnectorPoint PointX="2.5182286666666664" PointY="5.9901432291666659" />
-          <ConnectorPoint PointX="2.6848953333333334" PointY="5.9901432291666667" />
+          <ConnectorPoint PointX="1.2148417500000002" PointY="9.5" />
+          <ConnectorPoint PointX="1.2148417500000002" PointY="5.9901432291666667" />
+          <ConnectorPoint PointX="2.4479141666666666" PointY="5.9901432291666659" />
+          <ConnectorPoint PointX="2.6145808333333336" PointY="5.9901432291666667" />
           <ConnectorPoint PointX="3" PointY="5.9901432291666667" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_OrderDetails_Orders" ManuallyRouted="false">
@@ -1022,17 +1057,17 @@
           <ConnectorPoint PointX="6" PointY="10.581492513020834" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_ProductTypeAttributes_ProductCategories" ManuallyRouted="false">
-          <ConnectorPoint PointX="7.625" PointY="2.0189925130208337" />
-          <ConnectorPoint PointX="8.125" PointY="2.0189925130208337" />
+          <ConnectorPoint PointX="7.625" PointY="2.0526432291666654" />
+          <ConnectorPoint PointX="8.125" PointY="2.0526432291666654" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_ProductDetails_Products" ManuallyRouted="false">
-          <ConnectorPoint PointX="2.25" PointY="12.009348958333337" />
-          <ConnectorPoint PointX="2.4479141666666666" PointY="12.009348958333337" />
-          <ConnectorPoint PointX="2.6145808333333336" PointY="12.009348958333337" />
-          <ConnectorPoint PointX="3" PointY="12.009348958333337" />
+          <ConnectorPoint PointX="2.25" PointY="12.0862939453125" />
+          <ConnectorPoint PointX="2.4479141666666666" PointY="12.0862939453125" />
+          <ConnectorPoint PointX="2.6145808333333336" PointY="12.0862939453125" />
+          <ConnectorPoint PointX="3" PointY="12.0862939453125" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_ProductImage_Products" ManuallyRouted="false">
-          <ConnectorPoint PointX="1.5" PointY="13.018697916666675" />
+          <ConnectorPoint PointX="1.5" PointY="13.40330078125" />
           <ConnectorPoint PointX="1.5" PointY="14.768992513020834" />
           <ConnectorPoint PointX="1.8229191666666667" PointY="14.768992513020834" />
           <ConnectorPoint PointX="1.9895858333333332" PointY="14.768992513020834" />
@@ -1041,23 +1076,23 @@
           <ConnectorPoint PointX="3" PointY="14.768992513020834" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_ProductRating_Products" ManuallyRouted="false">
-          <ConnectorPoint PointX="1.9062525" PointY="13.018697916666675" />
+          <ConnectorPoint PointX="1.9062525" PointY="13.40330078125" />
           <ConnectorPoint PointX="1.9062525" PointY="17.393992513020834" />
           <ConnectorPoint PointX="2.4479141666666666" PointY="17.393992513020834" />
           <ConnectorPoint PointX="2.6145808333333336" PointY="17.393992513020834" />
           <ConnectorPoint PointX="3" PointY="17.393992513020834" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_ShoppingCartDetails_Products" ManuallyRouted="false">
-          <ConnectorPoint PointX="1.7421885000000001" PointY="9.5" />
-          <ConnectorPoint PointX="1.7421885000000001" PointY="7.6701871744791648" />
-          <ConnectorPoint PointX="2.4479141666666666" PointY="7.6701871744791639" />
-          <ConnectorPoint PointX="2.6145808333333336" PointY="7.6701871744791648" />
-          <ConnectorPoint PointX="5.416666666666667" PointY="7.6701871744791639" />
-          <ConnectorPoint PointX="5.583333333333333" PointY="7.6701871744791648" />
-          <ConnectorPoint PointX="6" PointY="7.6701871744791648" />
+          <ConnectorPoint PointX="1.763673375" PointY="9.5" />
+          <ConnectorPoint PointX="1.763673375" PointY="7.4977107454427063" />
+          <ConnectorPoint PointX="2.4479141666666666" PointY="7.4977107454427054" />
+          <ConnectorPoint PointX="2.6145808333333336" PointY="7.4977107454427063" />
+          <ConnectorPoint PointX="5.416666666666667" PointY="7.4977107454427054" />
+          <ConnectorPoint PointX="5.583333333333333" PointY="7.4977107454427063" />
+          <ConnectorPoint PointX="6" PointY="7.4977107454427063" />
         </AssociationConnector>
         <AssociationConnector Association="SolomonsModel.FK_WishListDetails_Products" ManuallyRouted="false">
-          <ConnectorPoint PointX="1.0937475" PointY="13.018697916666675" />
+          <ConnectorPoint PointX="1.0937475" PointY="13.40330078125" />
           <ConnectorPoint PointX="1.0937475" PointY="20.268992513020834" />
           <ConnectorPoint PointX="2.4479141666666666" PointY="20.268992513020834" />
           <ConnectorPoint PointX="2.6145808333333336" PointY="20.268992513020834" />
@@ -1073,9 +1108,18 @@
         <EntityTypeShape EntityType="SolomonsModel.Login" Width="1.5" PointX="12.375" PointY="3.375" Height="1.5956835937500031" />
         <AssociationConnector Association="SolomonsModel.FK_AccountDetails_Login" >
           <ConnectorPoint PointX="12.375" PointY="3.785543619791667" />
+          <ConnectorPoint PointX="7.677083333333333" PointY="3.7855436197916665" />
+          <ConnectorPoint PointX="7.510416666666667" PointY="3.785543619791667" />
           <ConnectorPoint PointX="4.583333333333333" PointY="3.7855436197916665" />
           <ConnectorPoint PointX="4.416666666666667" PointY="3.785543619791667" />
           <ConnectorPoint PointX="3" PointY="3.785543619791667" />
+        </AssociationConnector>
+        <AssociationConnector Association="SolomonsModel.FK_Products_ProductCategories" >
+          <ConnectorPoint PointX="7.59375" PointY="3.1052864583333331" />
+          <ConnectorPoint PointX="7.59375" PointY="13.3191943359375" />
+          <ConnectorPoint PointX="2.6145808333333336" PointY="13.3191943359375" />
+          <ConnectorPoint PointX="2.4479141666666666" PointY="13.3191943359375" />
+          <ConnectorPoint PointX="2.25" PointY="13.3191943359375" />
         </AssociationConnector>
       </Diagram>
     </Diagrams>
