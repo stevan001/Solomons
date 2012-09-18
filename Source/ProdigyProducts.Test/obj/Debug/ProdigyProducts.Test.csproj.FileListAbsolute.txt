@@ -1,8 +1,31 @@
+<<<<<<< HEAD
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+=======
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Documents\Visual Studio 2010\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Solomons.Web\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
+C:\Users\Stevan\Desktop\Projects\Solomons.Web\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.pdb
+c:\Projects\solomons\Source\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
+c:\Projects\solomons\Source\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.pdb
+c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll
+c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.pdb
+>>>>>>> 87170f155f17d76f9b623be58e95cd5df459948b
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\nunit.framework.dll
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.BLL.dll
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.BLL.pdb
+<<<<<<< HEAD
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\nunit.framework.xml
 C:\Projects\solomons\Source\ProdigyProducts.Test\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\solomons\Source\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.dll
@@ -11,3 +34,6 @@ C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\Moq.dll
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\Moq.pdb
 C:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\Moq.xml
+=======
+c:\projects\Solomons\Source\ProdigyProducts.Test\obj\Debug\ProdigyProducts.Test.csprojResolveAssemblyReference.cache
+>>>>>>> 87170f155f17d76f9b623be58e95cd5df459948b

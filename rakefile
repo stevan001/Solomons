@@ -17,6 +17,6 @@ end
 
 desc "Run Tests"
 nunit :test do |nunit|
-   nunit.command = "build/Utils/Nunit/nunit-console.exe"
+   nunit.command = "build/Utils/Nunit/nunit-console-x86.exe"
    nunit.assemblies "Source/ProdigyProducts.Test/bin/Debug/ProdigyProducts.Test.dll"
 end 
