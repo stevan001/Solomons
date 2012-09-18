@@ -38,6 +38,7 @@ namespace ProdigyProducts.Test
             _accountDetail.SetupProperty(a => a.Email, "stevan.thomas@prodigysoft.net"); 
             _accountDetail.SetupProperty(a => a.Address, "home"); 
             _accountDetail.SetupProperty(a => a.BillingAddress, "home"); 
+
         }
 
         [Test]

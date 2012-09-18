@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
+<<<<<<< HEAD
 <test-results name="c:\projects\Solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="17" errors="8" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-18" time="17:57:49">
   <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="c:\projects\Solomons" machine-name="VPTTMAC" user="VPTT" user-domain="VPTTMac" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
@@ -14,6 +15,22 @@
                   <test-suite type="TestFixture" name="AdminLoginPresenterTest" executed="True" result="Failure" success="False" time="2.871" asserts="0">
                     <results>
                       <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset" executed="True" result="Error" success="False" time="2.814" asserts="0">
+=======
+<test-results name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="21" errors="8" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-18" time="16:26:39">
+  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.4971" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="c:\Projects\solomons" machine-name="STEVAN-PC" user="Stevan" user-domain="Stevan-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" executed="True" result="Failure" success="False" time="2.017" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ProdigyProducts" executed="True" result="Failure" success="False" time="2.011" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="2.010" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="PresenterTests" executed="True" result="Failure" success="False" time="0.677" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="AdminLoginPresenterTest" executed="True" result="Failure" success="False" time="0.541" asserts="0">
+                    <results>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset" executed="True" result="Error" success="False" time="0.476" asserts="0">
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
                         <failure>
                           <message><![CDATA[Moq.MockException : 
 Expected invocation on the mock at least once, but was never performed: v => v.SendPasswordResetEmail(._view.Object.Username)
@@ -25,11 +42,19 @@ No invocations performed.]]></message>
 at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
 at Moq.Mock.Verify[T,TResult](Mock mock, Expression`1 expression, Times times, String failMessage)
 at Moq.Mock`1.Verify[TResult](Expression`1 expression)
+<<<<<<< HEAD
 at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 58
 ]]></stack-trace>
                         </failure>
                       </test-case>
                       <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser" executed="True" result="Error" success="False" time="0.015" asserts="0">
+=======
+at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset() in c:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 58
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser" executed="True" result="Error" success="False" time="0.009" asserts="0">
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
                         <failure>
                           <message><![CDATA[Moq.MockException : 
 Expected invocation on the mock at least once, but was never performed: t => t.Authenticate(._view.Object.Username, ._view.Object.Password)
@@ -39,7 +64,11 @@ No invocations performed.]]></message>
 at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
 at Moq.Mock.Verify[T,TResult](Mock mock, Expression`1 expression, Times times, String failMessage)
 at Moq.Mock`1.Verify[TResult](Expression`1 expression)
+<<<<<<< HEAD
 at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 32
+=======
+at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser() in c:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 32
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
 ]]></stack-trace>
                         </failure>
                       </test-case>
@@ -53,16 +82,27 @@ No invocations performed.]]></message>
 at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
 at Moq.Mock.Verify[T,TResult](Mock mock, Expression`1 expression, Times times, String failMessage)
 at Moq.Mock`1.Verify[TResult](Expression`1 expression)
+<<<<<<< HEAD
 at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldNotAllowNonAdminAccount() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 45
+=======
+at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldNotAllowNonAdminAccount() in c:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 45
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
 ]]></stack-trace>
                         </failure>
                       </test-case>
                     </results>
                   </test-suite>
+<<<<<<< HEAD
                   <test-suite type="TestFixture" name="CategoryPresenterTest" executed="True" result="Failure" success="False" time="0.439" asserts="0">
                     <results>
                       <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetListofCategories" executed="True" result="Success" success="True" time="0.307" asserts="0" />
                       <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry" executed="True" result="Error" success="False" time="0.123" asserts="0">
+=======
+                  <test-suite type="TestFixture" name="CategoryPresenterTest" executed="True" result="Failure" success="False" time="0.054" asserts="0">
+                    <results>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetListofCategories" executed="True" result="Success" success="True" time="0.028" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry" executed="True" result="Error" success="False" time="0.018" asserts="0">
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
                         <failure>
                           <message><![CDATA[Moq.MockException : 
 Expected invocation on the mock at least once, but was never performed: v => v.Category = It.IsAny<ProductCategory>()
@@ -76,6 +116,7 @@ IAdminProductCategoryView.EditResult = "Saved Successfully"]]></message>
 at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
 at Moq.Mock.VerifySet[T](Mock`1 mock, Action`1 setterExpression, Times times, String failMessage)
 at Moq.Mock`1.VerifySet(Action`1 setterExpression)
+<<<<<<< HEAD
 at ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\CategoryPresenterTest.cs:line 46
 ]]></stack-trace>
                         </failure>
@@ -95,14 +136,49 @@ at ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACat
                     <results>
                       <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldCreateANewUser" executed="True" result="Success" success="True" time="0.042" asserts="0" />
                       <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayErrorMessage" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+=======
+at ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry() in c:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\CategoryPresenterTest.cs:line 46
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldSaveTheCategory" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="CompleteRegPresenterTest" executed="True" result="Success" success="True" time="0.035" asserts="0">
+                    <results>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldCompleteRegistration" executed="True" result="Success" success="True" time="0.021" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayCompletionResult" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayProceedToLogin" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldNotProceedToShowLogin" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="ProductListingPresenterTest" executed="True" result="Success" success="True" time="0.006" asserts="0">
+                    <results>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldGetListOfCategories" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldGetListOfProductsInACategory" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldRemoveAProduct" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldSelectAProduct" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="RegUserPresenterTest" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldCreateANewUser" executed="True" result="Success" success="True" time="0.022" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayErrorMessage" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
                       <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayRegistrationMessage" executed="True" result="Success" success="True" time="0.002" asserts="0" />
                     </results>
                   </test-suite>
                 </results>
               </test-suite>
+<<<<<<< HEAD
               <test-suite type="TestFixture" name="RegistrationTasksTest" executed="True" result="Failure" success="False" time="4.916" asserts="0">
                 <results>
                   <test-case name="ProdigyProducts.Test.RegistrationTasksTest.Should_create_personlized_email" executed="True" result="Error" success="False" time="4.671" asserts="0">
+=======
+              <test-suite type="TestFixture" name="RegistrationTasksTest" executed="True" result="Failure" success="False" time="1.329" asserts="0">
+                <results>
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.Should_create_personlized_email" executed="True" result="Error" success="False" time="1.252" asserts="0">
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
                     <failure>
                       <message><![CDATA[SetUp : System.Data.MappingException : The number of members in the conceptual type 'SolomonsModel.Product' does not match with the number of members on the object side type 'ProdigyProducts.BLL.Data.Product'. Make sure the number of members are the same.]]></message>
                       <stack-trace><![CDATA[at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
@@ -139,6 +215,7 @@ at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
 at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+<<<<<<< HEAD
 at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
 at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
 at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
@@ -147,6 +224,16 @@ at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomo
                     </failure>
                   </test-case>
                   <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldCreateAccount" executed="True" result="Error" success="False" time="0.006" asserts="0">
+=======
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\Projects\solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\Projects\solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldCreateAccount" executed="True" result="Error" success="False" time="0.002" asserts="0">
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
                     <failure>
                       <message><![CDATA[SetUp : System.Data.MappingException : The number of members in the conceptual type 'SolomonsModel.Product' does not match with the number of members on the object side type 'ProdigyProducts.BLL.Data.Product'. Make sure the number of members are the same.]]></message>
                       <stack-trace><![CDATA[at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
@@ -183,6 +270,7 @@ at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
 at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+<<<<<<< HEAD
 at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
 at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
 at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
@@ -191,6 +279,16 @@ at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomo
                     </failure>
                   </test-case>
                   <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldNotAttemptToRegisterAnAccountTwice" executed="True" result="Error" success="False" time="0.072" asserts="0">
+=======
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\Projects\solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\Projects\solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldNotAttemptToRegisterAnAccountTwice" executed="True" result="Error" success="False" time="0.001" asserts="0">
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
                     <failure>
                       <message><![CDATA[SetUp : System.Data.MappingException : The number of members in the conceptual type 'SolomonsModel.Product' does not match with the number of members on the object side type 'ProdigyProducts.BLL.Data.Product'. Make sure the number of members are the same.]]></message>
                       <stack-trace><![CDATA[at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
@@ -227,10 +325,17 @@ at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
 at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+<<<<<<< HEAD
 at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
 at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
 at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
 at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+=======
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\Projects\solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\Projects\solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
 ]]></stack-trace>
                     </failure>
                   </test-case>
@@ -271,10 +376,17 @@ at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
 at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
 at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+<<<<<<< HEAD
 at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
 at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
 at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
 at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+=======
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\Projects\solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\Projects\solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\Projects\solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+>>>>>>> e79dc1b92870bcf5dfad6c045b977bb4c6e0dd11
 ]]></stack-trace>
                     </failure>
                   </test-case>
