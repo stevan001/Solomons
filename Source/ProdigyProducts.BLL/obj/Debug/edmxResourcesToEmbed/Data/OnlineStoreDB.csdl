@@ -71,6 +71,10 @@
       <End Role="Login" EntitySet="Logins" />
       <End Role="AccountDetail" EntitySet="AccountDetails" />
     </AssociationSet>
+    <AssociationSet Name="FK_Products_ProductCategories" Association="SolomonsModel.FK_Products_ProductCategories">
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="AccountDetail">
     <Key>
@@ -93,7 +97,7 @@
     </Key>
     <Property Name="like_id" Type="Int32" Nullable="false" />
     <Property Name="liked_by" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
-    <Property Name="date_liked" Type="DateTime" />
+    <Property Name="date_liked" Type="DateTime" Precision="0" />
     <Property Name="product_id" Type="Int32" />
     <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_Likedproducts_Products" FromRole="Likedproducts" ToRole="Products" />
   </EntityType>
@@ -127,7 +131,7 @@
     <Property Name="tax" Type="Decimal" Precision="18" Scale="0" />
     <Property Name="billing_address" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
     <Property Name="account_id" Type="Int32" />
-    <Property Name="order_date" Type="DateTime" />
+    <Property Name="order_date" Type="DateTime" Precision="0" />
     <Property Name="order_status" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
     <NavigationProperty Name="AccountDetail" Relationship="SolomonsModel.FK_Orders_AccountDetails" FromRole="Orders" ToRole="AccountDetails" />
     <NavigationProperty Name="OrderDetails" Relationship="SolomonsModel.FK_OrderDetails_Orders" FromRole="Orders" ToRole="OrderDetails" />
@@ -140,6 +144,7 @@
     <Property Name="category_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
     <Property Name="category_image" Type="String" MaxLength="350" Unicode="false" FixedLength="false" />
     <NavigationProperty Name="ProductTypeAttributes" Relationship="SolomonsModel.FK_ProductTypeAttributes_ProductCategories" FromRole="ProductCategories" ToRole="ProductTypeAttributes" />
+    <NavigationProperty Name="Products" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="ProductCategory" ToRole="Product" />
   </EntityType>
   <EntityType Name="ProductDetail">
     <Key>
@@ -187,6 +192,8 @@
     <NavigationProperty Name="ProductRatings" Relationship="SolomonsModel.FK_ProductRating_Products" FromRole="Products" ToRole="ProductRating" />
     <NavigationProperty Name="ShoppingCartDetails" Relationship="SolomonsModel.FK_ShoppingCartDetails_Products" FromRole="Products" ToRole="ShoppingCartDetails" />
     <NavigationProperty Name="WishListDetails" Relationship="SolomonsModel.FK_WishListDetails_Products" FromRole="Products" ToRole="WishListDetails" />
+    <Property Type="Int32" Name="category_id" />
+    <NavigationProperty Name="ProductCategory" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="Product" ToRole="ProductCategory" />
   </EntityType>
   <EntityType Name="ProductTypeAttribute">
     <Key>
@@ -212,7 +219,7 @@
       <PropertyRef Name="shopping_cart_details_id" />
     </Key>
     <Property Name="shopping_cart_details_id" Type="Int32" Nullable="false" />
-    <Property Name="date_added" Type="DateTime" />
+    <Property Name="date_added" Type="DateTime" Precision="0" />
     <Property Name="cart_id" Type="Int32" />
     <Property Name="product_id" Type="Int32" />
     <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_ShoppingCartDetails_Products" FromRole="ShoppingCartDetails" ToRole="Products" />
@@ -225,7 +232,7 @@
     <Property Name="request_id" Type="Int32" Nullable="false" />
     <Property Name="request_details" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
     <Property Name="unique_request_id" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
-    <Property Name="request_date" Type="DateTime" />
+    <Property Name="request_date" Type="DateTime" Precision="0" />
   </EntityType>
   <EntityType Name="TransactionResponse">
     <Key>
@@ -418,6 +425,18 @@
       </Principal>
       <Dependent Role="AccountDetail">
         <PropertyRef Name="email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_ProductCategories">
+    <End Type="SolomonsModel.ProductCategory" Role="ProductCategory" Multiplicity="0..1" />
+    <End Type="SolomonsModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="category_id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="category_id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

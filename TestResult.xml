@@ -1,79 +1,283 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="11" errors="4" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-15" time="23:08:25">
-  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.4971" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="c:\Projects\solomons" machine-name="STEVAN-PC" user="Stevan" user-domain="Stevan-PC" />
+<test-results name="c:\projects\Solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="17" errors="8" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-18" time="17:57:49">
+  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="c:\projects\Solomons" machine-name="VPTTMAC" user="VPTT" user-domain="VPTTMac" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" executed="True" result="Failure" success="False" time="2.093" asserts="0">
+  <test-suite type="Assembly" name="c:\projects\Solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" executed="True" result="Failure" success="False" time="8.415" asserts="0">
     <results>
-      <test-suite type="Namespace" name="ProdigyProducts" executed="True" result="Failure" success="False" time="2.086" asserts="0">
+      <test-suite type="Namespace" name="ProdigyProducts" executed="True" result="Failure" success="False" time="8.391" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="2.086" asserts="0">
+          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="8.391" asserts="0">
             <results>
-              <test-suite type="Namespace" name="PresenterTests" executed="True" result="Failure" success="False" time="0.426" asserts="0">
+              <test-suite type="Namespace" name="PresenterTests" executed="True" result="Failure" success="False" time="3.468" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="CompleteRegPresenterTest" executed="True" result="Failure" success="False" time="0.341" asserts="0">
+                  <test-suite type="TestFixture" name="AdminLoginPresenterTest" executed="True" result="Failure" success="False" time="2.871" asserts="0">
                     <results>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldCompleteRegistration" executed="True" result="Error" success="False" time="0.305" asserts="0">
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset" executed="True" result="Error" success="False" time="2.814" asserts="0">
                         <failure>
-                          <message><![CDATA[System.ArgumentException : Property ICompleteRegView.RegistrationCode is read-only.
-Parameter name: expression]]></message>
-                          <stack-trace><![CDATA[at Moq.Mock.ThrowIfPropertyNotWritable(PropertyInfo prop)
-at Moq.Mock.SetupSet[T,TProperty](Mock mock, Expression`1 expression)
-at Moq.Mock`1.SetupProperty[TProperty](Expression`1 property, TProperty initialValue)
-at ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldCompleteRegistration() in C:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\CompleteRegPresenterTest.cs:line 28
+                          <message><![CDATA[Moq.MockException : 
+Expected invocation on the mock at least once, but was never performed: v => v.SendPasswordResetEmail(._view.Object.Username)
+
+Configured setups:
+v => v.SendPasswordResetEmail(._view.Object.Username), Times.Never
+No invocations performed.]]></message>
+                          <stack-trace><![CDATA[at Moq.Mock.ThrowVerifyException(MethodCall expected, IEnumerable`1 setups, IEnumerable`1 actualCalls, Expression expression, Times times, Int32 callCount)
+at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
+at Moq.Mock.Verify[T,TResult](Mock mock, Expression`1 expression, Times times, String failMessage)
+at Moq.Mock`1.Verify[TResult](Expression`1 expression)
+at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 58
 ]]></stack-trace>
                         </failure>
                       </test-case>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayCompletionResult" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser" executed="True" result="Error" success="False" time="0.015" asserts="0">
                         <failure>
-                          <message><![CDATA[System.ArgumentException : Property ICompleteRegView.RegistrationCode is read-only.
-Parameter name: expression]]></message>
-                          <stack-trace><![CDATA[at Moq.Mock.ThrowIfPropertyNotWritable(PropertyInfo prop)
-at Moq.Mock.SetupSet[T,TProperty](Mock mock, Expression`1 expression)
-at Moq.Mock`1.SetupProperty[TProperty](Expression`1 property, TProperty initialValue)
-at ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayCompletionResult() in C:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\CompleteRegPresenterTest.cs:line 46
+                          <message><![CDATA[Moq.MockException : 
+Expected invocation on the mock at least once, but was never performed: t => t.Authenticate(._view.Object.Username, ._view.Object.Password)
+No setups configured.
+No invocations performed.]]></message>
+                          <stack-trace><![CDATA[at Moq.Mock.ThrowVerifyException(MethodCall expected, IEnumerable`1 setups, IEnumerable`1 actualCalls, Expression expression, Times times, Int32 callCount)
+at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
+at Moq.Mock.Verify[T,TResult](Mock mock, Expression`1 expression, Times times, String failMessage)
+at Moq.Mock`1.Verify[TResult](Expression`1 expression)
+at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 32
 ]]></stack-trace>
                         </failure>
                       </test-case>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayProceedToLogin" executed="True" result="Error" success="False" time="0.015" asserts="0">
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldNotAllowNonAdminAccount" executed="True" result="Error" success="False" time="0.007" asserts="0">
                         <failure>
-                          <message><![CDATA[System.ArgumentException : Property ICompleteRegView.RegistrationCode is read-only.
-Parameter name: expression]]></message>
-                          <stack-trace><![CDATA[at Moq.Mock.ThrowIfPropertyNotWritable(PropertyInfo prop)
-at Moq.Mock.SetupSet[T,TProperty](Mock mock, Expression`1 expression)
-at Moq.Mock`1.SetupProperty[TProperty](Expression`1 property, TProperty initialValue)
-at ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayProceedToLogin() in C:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\CompleteRegPresenterTest.cs:line 36
-]]></stack-trace>
-                        </failure>
-                      </test-case>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldNotProceedToShowLogin" executed="True" result="Error" success="False" time="0.002" asserts="0">
-                        <failure>
-                          <message><![CDATA[System.ArgumentException : Property ICompleteRegView.RegistrationCode is read-only.
-Parameter name: expression]]></message>
-                          <stack-trace><![CDATA[at Moq.Mock.ThrowIfPropertyNotWritable(PropertyInfo prop)
-at Moq.Mock.SetupSet[T,TProperty](Mock mock, Expression`1 expression)
-at Moq.Mock`1.SetupProperty[TProperty](Expression`1 property, TProperty initialValue)
-at ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldNotProceedToShowLogin() in C:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\CompleteRegPresenterTest.cs:line 54
+                          <message><![CDATA[Moq.MockException : 
+Expected invocation on the mock at least once, but was never performed: t => t.Authenticate(._view.Object.Username, ._view.Object.Password)
+No setups configured.
+No invocations performed.]]></message>
+                          <stack-trace><![CDATA[at Moq.Mock.ThrowVerifyException(MethodCall expected, IEnumerable`1 setups, IEnumerable`1 actualCalls, Expression expression, Times times, Int32 callCount)
+at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
+at Moq.Mock.Verify[T,TResult](Mock mock, Expression`1 expression, Times times, String failMessage)
+at Moq.Mock`1.Verify[TResult](Expression`1 expression)
+at ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldNotAllowNonAdminAccount() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\AdminLoginPresenterTest.cs:line 45
 ]]></stack-trace>
                         </failure>
                       </test-case>
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="RegUserPresenterTest" executed="True" result="Success" success="True" time="0.081" asserts="0">
+                  <test-suite type="TestFixture" name="CategoryPresenterTest" executed="True" result="Failure" success="False" time="0.439" asserts="0">
                     <results>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldCreateANewUser" executed="True" result="Success" success="True" time="0.063" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayErrorMessage" executed="True" result="Success" success="True" time="0.003" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayRegistrationMessage" executed="True" result="Success" success="True" time="0.008" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetListofCategories" executed="True" result="Success" success="True" time="0.307" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry" executed="True" result="Error" success="False" time="0.123" asserts="0">
+                        <failure>
+                          <message><![CDATA[Moq.MockException : 
+Expected invocation on the mock at least once, but was never performed: v => v.Category = It.IsAny<ProductCategory>()
+No setups configured.
+
+Performed invocations:
+IAdminProductCategoryView.Categories = null
+IAdminProductCategoryView.Category
+IAdminProductCategoryView.EditResult = "Saved Successfully"]]></message>
+                          <stack-trace><![CDATA[at Moq.Mock.ThrowVerifyException(MethodCall expected, IEnumerable`1 setups, IEnumerable`1 actualCalls, Expression expression, Times times, Int32 callCount)
+at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
+at Moq.Mock.VerifySet[T](Mock`1 mock, Action`1 setterExpression, Times times, String failMessage)
+at Moq.Mock`1.VerifySet(Action`1 setterExpression)
+at ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry() in c:\projects\Solomons\Source\ProdigyProducts.Test\PresenterTests\CategoryPresenterTest.cs:line 46
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldSaveTheCategory" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="CompleteRegPresenterTest" executed="True" result="Success" success="True" time="0.085" asserts="0">
+                    <results>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldCompleteRegistration" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayCompletionResult" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayProceedToLogin" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldNotProceedToShowLogin" executed="True" result="Success" success="True" time="0.040" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="TestFixture" name="RegUserPresenterTest" executed="True" result="Success" success="True" time="0.062" asserts="0">
+                    <results>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldCreateANewUser" executed="True" result="Success" success="True" time="0.042" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayErrorMessage" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayRegistrationMessage" executed="True" result="Success" success="True" time="0.002" asserts="0" />
                     </results>
                   </test-suite>
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="RegistrationTasksTest" executed="True" result="Success" success="True" time="1.655" asserts="0">
+              <test-suite type="TestFixture" name="RegistrationTasksTest" executed="True" result="Failure" success="False" time="4.916" asserts="0">
                 <results>
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.Should_create_personlized_email" executed="True" result="Success" success="True" time="1.026" asserts="2" />
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldCreateAccount" executed="True" result="Success" success="True" time="0.609" asserts="0" />
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldNotAttemptToRegisterAnAccountTwice" executed="True" result="Success" success="True" time="0.009" asserts="0" />
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldRegisterAccount" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.Should_create_personlized_email" executed="True" result="Error" success="False" time="4.671" asserts="0">
+                    <failure>
+                      <message><![CDATA[SetUp : System.Data.MappingException : The number of members in the conceptual type 'SolomonsModel.Product' does not match with the number of members on the object side type 'ProdigyProducts.BLL.Data.Product'. Make sure the number of members are the same.]]></message>
+                      <stack-trace><![CDATA[at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldCreateAccount" executed="True" result="Error" success="False" time="0.006" asserts="0">
+                    <failure>
+                      <message><![CDATA[SetUp : System.Data.MappingException : The number of members in the conceptual type 'SolomonsModel.Product' does not match with the number of members on the object side type 'ProdigyProducts.BLL.Data.Product'. Make sure the number of members are the same.]]></message>
+                      <stack-trace><![CDATA[at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldNotAttemptToRegisterAnAccountTwice" executed="True" result="Error" success="False" time="0.072" asserts="0">
+                    <failure>
+                      <message><![CDATA[SetUp : System.Data.MappingException : The number of members in the conceptual type 'SolomonsModel.Product' does not match with the number of members on the object side type 'ProdigyProducts.BLL.Data.Product'. Make sure the number of members are the same.]]></message>
+                      <stack-trace><![CDATA[at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldRegisterAccount" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                    <failure>
+                      <message><![CDATA[SetUp : System.Data.MappingException : The number of members in the conceptual type 'SolomonsModel.Product' does not match with the number of members on the object side type 'ProdigyProducts.BLL.Data.Product'. Make sure the number of members are the same.]]></message>
+                      <stack-trace><![CDATA[at System.Data.Mapping.DefaultObjectMappingItemCollection.ValidateAllMembersAreMapped(StructuralType cdmStructuralType, StructuralType objectStructuralType)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadAssociationTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadTypeMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadEntityTypeOrComplexTypeMapping(ObjectTypeMapping objectMapping, EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType edmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection, Dictionary`2 typeMappings)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.LoadObjectMapping(EdmType cdmType, EdmType objectType, DefaultObjectMappingItemCollection ocItemCollection)
+at System.Data.Mapping.DefaultObjectMappingItemCollection.TryGetMap(String identity, DataSpace typeSpace, Boolean ignoreCase, Map& map)
+at System.Data.Metadata.Edm.ClrPerspective.TryGetTypeByName(String fullName, Boolean ignoreCase, TypeUsage& typeUsage)
+at System.Data.Objects.ObjectContext.GetTypeUsage(Type entityCLRType)
+at System.Data.Objects.ObjectContext.GetEntitySetFromContainer(EntityContainer container, Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.GetEntitySetForType(Type entityCLRType, String exceptionParameterName)
+at System.Data.Objects.ObjectContext.CreateObjectSet[TEntity]()
+at ProdigyProducts.BLL.Data.Repository`1..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Data\Repository.cs:line 30
+at ProdigyProducts.BLL.Services.LoginService..ctor() in c:\projects\Solomons\Source\ProdigyProducts.BLL\Services\LoginService.cs:line 28
+at ProdigyProducts.BLL.Tasks.RegistrationTask..ctor(ILoginService loginService, IAccountDetailService accountDetailServiceService) in c:\projects\Solomons\Source\ProdigyProducts.BLL\Tasks\RegistrationTask.cs:line 11
+at ProdigyProducts.Test.RegistrationTasksTest.SetupTests() in c:\projects\Solomons\Source\ProdigyProducts.Test\RegistrationTasksTest.cs:line 24
+]]></stack-trace>
+                    </failure>
+                  </test-case>
                 </results>
               </test-suite>
             </results>

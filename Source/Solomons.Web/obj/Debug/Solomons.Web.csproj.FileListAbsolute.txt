@@ -28,6 +28,6 @@ c:\Projects\solomons\Source\Solomons.Web\bin\ProdigyProducts.BLL.dll
 c:\Projects\solomons\Source\Solomons.Web\bin\ProdigyProducts.BLL.pdb
 c:\Projects\solomons\Source\Solomons.Web\obj\Debug\Solomons.Web.dll
 c:\Projects\solomons\Source\Solomons.Web\obj\Debug\Solomons.Web.pdb
-C:\Projects\solomons\Source\Solomons.Web\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\solomons\Source\Solomons.Web\bin\nunit.framework.dll
 C:\Projects\solomons\Source\Solomons.Web\bin\nunit.framework.xml
+C:\projects\Solomons\Source\Solomons.Web\obj\Debug\Solomons.Web.csprojResolveAssemblyReference.cache

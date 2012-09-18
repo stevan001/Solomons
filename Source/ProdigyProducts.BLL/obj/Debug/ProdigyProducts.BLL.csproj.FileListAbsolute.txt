@@ -22,4 +22,4 @@ c:\Projects\solomons\Source\ProdigyProducts.BLL\bin\Debug\nunit.framework.dll
 c:\Projects\solomons\Source\ProdigyProducts.BLL\bin\Debug\nunit.framework.xml
 c:\Projects\solomons\Source\ProdigyProducts.BLL\obj\Debug\ProdigyProducts.BLL.dll
 c:\Projects\solomons\Source\ProdigyProducts.BLL\obj\Debug\ProdigyProducts.BLL.pdb
-C:\Projects\solomons\Source\ProdigyProducts.BLL\obj\Debug\ResolveAssemblyReference.cache
+c:\projects\Solomons\Source\ProdigyProducts.BLL\obj\Debug\ProdigyProducts.BLL.csprojResolveAssemblyReference.cache

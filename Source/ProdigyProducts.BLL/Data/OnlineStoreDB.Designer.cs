@@ -8,12 +8,13 @@
 //------------------------------------------------------------------------------
 
 using System;
+using System.ComponentModel;
+using System.Data.EntityClient;
 using System.Data.Objects;
 using System.Data.Objects.DataClasses;
-using System.Data.EntityClient;
-using System.ComponentModel;
-using System.Xml.Serialization;
+using System.Linq;
 using System.Runtime.Serialization;
+using System.Xml.Serialization;
 
 [assembly: EdmSchemaAttribute()]
 #region EDM Relationship Metadata
@@ -372,6 +373,7 @@ namespace ProdigyProducts.BLL.Data
         private ObjectSet<Login> _Logins;
 
         #endregion
+
         #region AddTo Methods
     
         /// <summary>
@@ -519,11 +521,11 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
-    
 
     #endregion
-    
+
     #region Entities
     
     /// <summary>
@@ -548,6 +550,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -722,6 +725,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onbilling_addressChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -808,6 +812,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -832,6 +837,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -934,6 +940,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onproduct_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -976,6 +983,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -1000,6 +1008,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -1126,6 +1135,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onis_adminChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -1152,6 +1162,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -1176,6 +1187,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -1374,6 +1386,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onorder_statusChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -1438,6 +1451,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -1462,6 +1476,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -1516,6 +1531,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onorder_statusChanged();
 
         #endregion
+
     
     }
     
@@ -1541,6 +1557,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -1691,6 +1708,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Ontotal_item_priceChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -1771,6 +1789,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -1795,6 +1814,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -1969,6 +1989,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Oncategory_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -2165,6 +2186,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -2191,6 +2213,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -2269,6 +2292,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Oncategory_imageChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -2317,6 +2341,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -2341,6 +2366,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -2467,6 +2493,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onattribute_valueChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -2509,6 +2536,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -2533,6 +2561,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -2611,6 +2640,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onproduct_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -2653,6 +2683,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -2677,6 +2708,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -2755,6 +2787,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onproduct_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -2797,6 +2830,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -2821,6 +2855,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -2923,6 +2958,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Oncategory_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -2965,6 +3001,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -2989,6 +3026,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -3067,6 +3105,7 @@ namespace ProdigyProducts.BLL.Data
         partial void OntotalChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -3093,6 +3132,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -3117,6 +3157,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -3219,6 +3260,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onproduct_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -3299,6 +3341,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -3323,6 +3366,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -3425,6 +3469,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onrequest_dateChanged();
 
         #endregion
+
     
     }
     
@@ -3450,6 +3495,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -3552,6 +3598,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Ondata_receivedChanged();
 
         #endregion
+
     
     }
     
@@ -3577,6 +3624,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -3655,6 +3703,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onaccount_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -3697,6 +3746,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
     
     /// <summary>
@@ -3721,6 +3771,7 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
         #region Primitive Properties
     
         /// <summary>
@@ -3799,6 +3850,7 @@ namespace ProdigyProducts.BLL.Data
         partial void Onwish_list_details_idChanged();
 
         #endregion
+
     
         #region Navigation Properties
     
@@ -3841,8 +3893,10 @@ namespace ProdigyProducts.BLL.Data
         }
 
         #endregion
+
     }
 
     #endregion
+
     
 }

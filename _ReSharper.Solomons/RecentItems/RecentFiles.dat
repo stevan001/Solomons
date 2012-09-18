@@ -3,14 +3,30 @@
     <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:default.aspx" caret="341" fromTop="8" />
     <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/f:default.html" caret="0" fromTop="0" />
     <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="0" fromTop="0" />
-    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="407" fromTop="13" />
-    <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1374" fromTop="12" />
-    <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1814" fromTop="3" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/f:App.Config" caret="505" fromTop="4" />
+    <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:App.config" caret="517" fromTop="5" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="419" fromTop="13" />
+    <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1431" fromTop="10" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Adapters/f:AccountDetailAdapter.cs" caret="1168" fromTop="25" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Adapters/f:LikedproductAdapter.cs" caret="0" fromTop="0" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Adapters/f:ProductAdapter.cs" caret="0" fromTop="0" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:IRegistrationTask.cs" caret="239" fromTop="8" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:LoginService.cs" caret="931" fromTop="18" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:AccountDetailService.cs" caret="1036" fromTop="21" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1703" fromTop="28" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:RegistrationTask.cs" caret="351" fromTop="10" />
+    <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1728" fromTop="15" />
   </RecentFiles>
   <RecentEdits>
     <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="0" fromTop="0" />
-    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="407" fromTop="13" />
-    <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1374" fromTop="12" />
-    <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1612" fromTop="28" />
+    <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:App.config" caret="510" fromTop="4" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:AccountDetailService.cs" caret="1035" fromTop="20" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:LoginService.cs" caret="1027" fromTop="20" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IRegisterUserView.cs" caret="485" fromTop="13" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:RegistrationTask.cs" caret="314" fromTop="9" />
+    <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" caret="1431" fromTop="10" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:IRegistrationTask.cs" caret="239" fromTop="8" />
+    <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="1690" fromTop="23" />
+    <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:RegUserPresenterTest.cs" caret="1649" fromTop="14" />
   </RecentEdits>
 </RecentFiles>
