@@ -16,6 +16,28 @@ namespace ProdigyProducts.BLL.Presenters
             _view = view;
             _tasks = tasks; 
         }
+
+      public void Initialize()
+      {
+          _view.LoginClick += _view_LoginClick;
+          _view.ForgotPassword += _view_ForgotPassword;
+      }
+
+      void _view_ForgotPassword(object sender, System.EventArgs e)
+      {
+          _view.ForgotPasswordResult = _tasks.SendPasswordResetEmail(_view.Username);
+
+      }
+
+      public void _view_LoginClick(object sender, System.EventArgs e)
+      {
+
+          _view.AuthenticationResult = _tasks.Authenticate(_view.Username, _view.Password); 
+         
+
+      }
+        
+
     }
 
 }

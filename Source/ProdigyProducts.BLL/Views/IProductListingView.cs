@@ -7,7 +7,9 @@ namespace ProdigyProducts.BLL.Views
     {
         IList<Domain.ProductCategory> ProductCategories { set; }
         IList<Domain.Product> Products { set; }
+        int SelectedCategoryId { get;  }
 
+        event EventHandler CategorySelectionChanged; 
         event GridViewCommand Select;
         event GridViewCommand Edit;
         event GridViewCommand Delete;

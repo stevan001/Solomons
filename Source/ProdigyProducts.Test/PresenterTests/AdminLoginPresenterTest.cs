@@ -15,12 +15,14 @@ namespace ProdigyProducts.Test.PresenterTests
         private Mock<IAdminLoginView> _view ;
         private Mock<IAdminLoginTasks> _tasks;
         private AdminLoginPresenter _presenter;
+        
         [SetUp]
         public void Setup()
         {
              _view = new Mock<IAdminLoginView>();
             _tasks = new Mock<IAdminLoginTasks>();
             _presenter = new AdminLoginPresenter(_view.Object,_tasks.Object);
+            _presenter.Initialize();
         }
 
         [Test]

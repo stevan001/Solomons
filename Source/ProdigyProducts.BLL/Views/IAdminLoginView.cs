@@ -6,7 +6,8 @@ namespace ProdigyProducts.BLL.Views
     {
         string Username { get; }
         string Password { get; }
-
+        bool AuthenticationResult { get; set; }
+        string ForgotPasswordResult { get; set; }
         event EventHandler LoginClick;
         event EventHandler ForgotPassword; 
     }
