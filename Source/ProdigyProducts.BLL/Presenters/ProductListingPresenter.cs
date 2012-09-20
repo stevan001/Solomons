@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System;
+using System.Web;
 using ProdigyProducts.BLL.Tasks;
 using ProdigyProducts.BLL.Views;
 
@@ -37,12 +38,15 @@ namespace ProdigyProducts.BLL.Presenters
 
         void _view_Edit(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
         {
-            throw new System.NotImplementedException();
+            //the edit command Should be initiated on the product details page 
+
+           
         }
 
         void _view_Delete(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)
         {
-            throw new System.NotImplementedException();
+            _task.RemoveProduct(Convert.ToInt32(e.CommandArgument));
+
         }
 
         void _view_Select(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)

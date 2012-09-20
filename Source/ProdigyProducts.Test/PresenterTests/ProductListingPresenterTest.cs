@@ -21,6 +21,7 @@ namespace ProdigyProducts.Test.PresenterTests
             _view = new Mock<IProductListingView>();
             _task = new Mock<IProductListingTasks>();
             _presenter = new ProductListingPresenter(_view.Object,_task.Object);
+            _presenter.Initalize();
         }
 
         [Test]
@@ -38,7 +39,7 @@ namespace ProdigyProducts.Test.PresenterTests
         {
             _view.SetupGet(v => v.SelectedCategoryId).Returns(0);
             _view.Raise(v =>v.CategorySelectionChanged+=null,EventArgs.Empty);
-            _view.VerifySet(v=>v.SelectedCategoryId);
+            _view.VerifyGet(v=>v.SelectedCategoryId);
             _task.Verify(t=>t.GetCategoryProducts(It.IsAny<int>()));
 
         }
@@ -48,16 +49,14 @@ namespace ProdigyProducts.Test.PresenterTests
         [Test]
         public void ShouldSelectAProduct()
         {
-            
-            
             _view.Raise(v=>v.Select += null,EventArgs.Empty);
-
         }
 
         [Test]
         public void ShouldRemoveAProduct()
         {
-
+            _view.Raise(v=>v.Delete +=null,EventArgs.Empty);
+            _task.Verify(t=>t.RemoveProduct(It.IsAny<int>()));
         }
     }
 }

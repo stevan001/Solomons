@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Web;
 using ProdigyProducts.BLL.Domain;
 using ProdigyProducts.BLL.Services;
 
@@ -7,7 +8,9 @@ namespace ProdigyProducts.BLL.Tasks
     public interface IProductListingTasks
     {
         IList<Domain.ProductCategory> GetCategories();
-        IList<Domain.Product> GetCategoryProducts(int category); 
+        IList<Domain.Product> GetCategoryProducts(int category);
+        void RemoveProduct(int productId); 
+
 
     }
 
@@ -23,6 +26,11 @@ namespace ProdigyProducts.BLL.Tasks
         public IList<Product> GetCategoryProducts(int category)
         {
             return _productService.GetProductsById(category); 
+        }
+
+        public void RemoveProduct(int productId)
+        {
+            _productService.Delete(_productService.GetProductById(productId));
         }
     }
 }
