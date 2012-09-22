@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SolomonsModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SolomonsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AccountDetails" EntityType="SolomonsModel.AccountDetail" />
+    <EntitySet Name="Likedproducts" EntityType="SolomonsModel.Likedproduct" />
+    <EntitySet Name="Order_status" EntityType="SolomonsModel.Order_status" />
+    <EntitySet Name="OrderDetails" EntityType="SolomonsModel.OrderDetail" />
+    <EntitySet Name="Orders" EntityType="SolomonsModel.Order" />
+    <EntitySet Name="ProductCategories" EntityType="SolomonsModel.ProductCategory" />
+    <EntitySet Name="ProductDetails" EntityType="SolomonsModel.ProductDetail" />
+    <EntitySet Name="ProductImages" EntityType="SolomonsModel.ProductImage" />
+    <EntitySet Name="ProductRatings" EntityType="SolomonsModel.ProductRating" />
+    <EntitySet Name="Products" EntityType="SolomonsModel.Product" />
+    <EntitySet Name="ProductTypeAttributes" EntityType="SolomonsModel.ProductTypeAttribute" />
+    <EntitySet Name="ShoppingCarts" EntityType="SolomonsModel.ShoppingCart" />
+    <EntitySet Name="ShoppingCartDetails" EntityType="SolomonsModel.ShoppingCartDetail" />
+    <EntitySet Name="TransactionRequests" EntityType="SolomonsModel.TransactionRequest" />
+    <EntitySet Name="TransactionResponses" EntityType="SolomonsModel.TransactionResponse" />
+    <EntitySet Name="WishLists" EntityType="SolomonsModel.WishList" />
+    <EntitySet Name="WishListDetails" EntityType="SolomonsModel.WishListDetail" />
+    <AssociationSet Name="FK_Orders_AccountDetails" Association="SolomonsModel.FK_Orders_AccountDetails">
+      <End Role="AccountDetails" EntitySet="AccountDetails" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WishList_AccountDetails" Association="SolomonsModel.FK_WishList_AccountDetails">
+      <End Role="AccountDetails" EntitySet="AccountDetails" />
+      <End Role="WishList" EntitySet="WishLists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Likedproducts_Products" Association="SolomonsModel.FK_Likedproducts_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Likedproducts" EntitySet="Likedproducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetails_Orders" Association="SolomonsModel.FK_OrderDetails_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderDetails_Products" Association="SolomonsModel.FK_OrderDetails_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="OrderDetails" EntitySet="OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductTypeAttributes_ProductCategories" Association="SolomonsModel.FK_ProductTypeAttributes_ProductCategories">
+      <End Role="ProductCategories" EntitySet="ProductCategories" />
+      <End Role="ProductTypeAttributes" EntitySet="ProductTypeAttributes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductDetails_Products" Association="SolomonsModel.FK_ProductDetails_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductDetails" EntitySet="ProductDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductImage_Products" Association="SolomonsModel.FK_ProductImage_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductImage" EntitySet="ProductImages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductRating_Products" Association="SolomonsModel.FK_ProductRating_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ProductRating" EntitySet="ProductRatings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShoppingCartDetails_Products" Association="SolomonsModel.FK_ShoppingCartDetails_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="ShoppingCartDetails" EntitySet="ShoppingCartDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WishListDetails_Products" Association="SolomonsModel.FK_WishListDetails_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="WishListDetails" EntitySet="WishListDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShoppingCartDetails_ShoppingCart" Association="SolomonsModel.FK_ShoppingCartDetails_ShoppingCart">
+      <End Role="ShoppingCart" EntitySet="ShoppingCarts" />
+      <End Role="ShoppingCartDetails" EntitySet="ShoppingCartDetails" />
+    </AssociationSet>
+    <EntitySet Name="Logins" EntityType="SolomonsModel.Login" />
+    <AssociationSet Name="FK_AccountDetails_Login" Association="SolomonsModel.FK_AccountDetails_Login">
+      <End Role="Login" EntitySet="Logins" />
+      <End Role="AccountDetail" EntitySet="AccountDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_ProductCategories" Association="SolomonsModel.FK_Products_ProductCategories">
+      <End Role="ProductCategory" EntitySet="ProductCategories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AccountDetail">
+    <Key>
+      <PropertyRef Name="account_id" />
+    </Key>
+    <Property Name="account_id" Type="Int32" Nullable="false" />
+    <Property Name="last_name" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="first_name" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="email" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="phone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="address" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="billing_address" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Orders" Relationship="SolomonsModel.FK_Orders_AccountDetails" FromRole="AccountDetails" ToRole="Orders" />
+    <NavigationProperty Name="WishLists" Relationship="SolomonsModel.FK_WishList_AccountDetails" FromRole="AccountDetails" ToRole="WishList" />
+    <NavigationProperty Name="Login" Relationship="SolomonsModel.FK_AccountDetails_Login" FromRole="AccountDetail" ToRole="Login" />
+  </EntityType>
+  <EntityType Name="Likedproduct">
+    <Key>
+      <PropertyRef Name="like_id" />
+    </Key>
+    <Property Name="like_id" Type="Int32" Nullable="false" />
+    <Property Name="liked_by" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="date_liked" Type="DateTime" Precision="0" />
+    <Property Name="product_id" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_Likedproducts_Products" FromRole="Likedproducts" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Order_status">
+    <Key>
+      <PropertyRef Name="order_status_id" />
+    </Key>
+    <Property Name="order_status_id" Type="Int32" Nullable="false" />
+    <Property Name="order_status" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="OrderDetail">
+    <Key>
+      <PropertyRef Name="detail_id" />
+    </Key>
+    <Property Name="detail_id" Type="Int32" Nullable="false" />
+    <Property Name="order_id" Type="Int32" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="quantity" Type="Int32" />
+    <Property Name="total_item_price" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Order" Relationship="SolomonsModel.FK_OrderDetails_Orders" FromRole="OrderDetails" ToRole="Orders" />
+    <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_OrderDetails_Products" FromRole="OrderDetails" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="order_id" Type="Int32" Nullable="false" />
+    <Property Name="Shipping_address" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="total" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="tax" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="billing_address" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="account_id" Type="Int32" />
+    <Property Name="order_date" Type="DateTime" Precision="0" />
+    <Property Name="order_status" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="AccountDetail" Relationship="SolomonsModel.FK_Orders_AccountDetails" FromRole="Orders" ToRole="AccountDetails" />
+    <NavigationProperty Name="OrderDetails" Relationship="SolomonsModel.FK_OrderDetails_Orders" FromRole="Orders" ToRole="OrderDetails" />
+  </EntityType>
+  <EntityType Name="ProductCategory">
+    <Key>
+      <PropertyRef Name="category_id" />
+    </Key>
+    <Property Name="category_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="category_name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="category_image" Type="String" MaxLength="350" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="ProductTypeAttributes" Relationship="SolomonsModel.FK_ProductTypeAttributes_ProductCategories" FromRole="ProductCategories" ToRole="ProductTypeAttributes" />
+    <NavigationProperty Name="Products" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="ProductCategory" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="ProductDetail">
+    <Key>
+      <PropertyRef Name="product_details_id" />
+    </Key>
+    <Property Name="product_details_id" Type="Int32" Nullable="false" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="product_type" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="attribute_id" Type="Int32" />
+    <Property Name="attribute_value" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_ProductDetails_Products" FromRole="ProductDetails" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductImage">
+    <Key>
+      <PropertyRef Name="image_id" />
+    </Key>
+    <Property Name="image_id" Type="Int32" Nullable="false" />
+    <Property Name="image_location" Type="String" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="product_id" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_ProductImage_Products" FromRole="ProductImage" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="ProductRating">
+    <Key>
+      <PropertyRef Name="rate_id" />
+    </Key>
+    <Property Name="rate_id" Type="Int32" Nullable="false" />
+    <Property Name="rate_by" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="product_id" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_ProductRating_Products" FromRole="ProductRating" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="product_id" />
+    </Key>
+    <Property Name="product_id" Type="Int32" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="feature" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="description" Type="String" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="quantity" Type="Int32" />
+    <NavigationProperty Name="Likedproducts" Relationship="SolomonsModel.FK_Likedproducts_Products" FromRole="Products" ToRole="Likedproducts" />
+    <NavigationProperty Name="OrderDetails" Relationship="SolomonsModel.FK_OrderDetails_Products" FromRole="Products" ToRole="OrderDetails" />
+    <NavigationProperty Name="ProductDetails" Relationship="SolomonsModel.FK_ProductDetails_Products" FromRole="Products" ToRole="ProductDetails" />
+    <NavigationProperty Name="ProductImages" Relationship="SolomonsModel.FK_ProductImage_Products" FromRole="Products" ToRole="ProductImage" />
+    <NavigationProperty Name="ProductRatings" Relationship="SolomonsModel.FK_ProductRating_Products" FromRole="Products" ToRole="ProductRating" />
+    <NavigationProperty Name="ShoppingCartDetails" Relationship="SolomonsModel.FK_ShoppingCartDetails_Products" FromRole="Products" ToRole="ShoppingCartDetails" />
+    <NavigationProperty Name="WishListDetails" Relationship="SolomonsModel.FK_WishListDetails_Products" FromRole="Products" ToRole="WishListDetails" />
+    <Property Type="Int32" Name="category_id" />
+    <NavigationProperty Name="ProductCategory" Relationship="SolomonsModel.FK_Products_ProductCategories" FromRole="Product" ToRole="ProductCategory" />
+  </EntityType>
+  <EntityType Name="ProductTypeAttribute">
+    <Key>
+      <PropertyRef Name="attribute_id" />
+    </Key>
+    <Property Name="attribute_id" Type="Int32" Nullable="false" />
+    <Property Name="attribute_name" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="attribute_data_types" Type="String" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="category_id" Type="Int32" />
+    <NavigationProperty Name="ProductCategory" Relationship="SolomonsModel.FK_ProductTypeAttributes_ProductCategories" FromRole="ProductTypeAttributes" ToRole="ProductCategories" />
+  </EntityType>
+  <EntityType Name="ShoppingCart">
+    <Key>
+      <PropertyRef Name="cart_id" />
+    </Key>
+    <Property Name="cart_id" Type="Int32" Nullable="false" />
+    <Property Name="created_by" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="total" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="ShoppingCartDetails" Relationship="SolomonsModel.FK_ShoppingCartDetails_ShoppingCart" FromRole="ShoppingCart" ToRole="ShoppingCartDetails" />
+  </EntityType>
+  <EntityType Name="ShoppingCartDetail">
+    <Key>
+      <PropertyRef Name="shopping_cart_details_id" />
+    </Key>
+    <Property Name="shopping_cart_details_id" Type="Int32" Nullable="false" />
+    <Property Name="date_added" Type="DateTime" Precision="0" />
+    <Property Name="cart_id" Type="Int32" />
+    <Property Name="product_id" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_ShoppingCartDetails_Products" FromRole="ShoppingCartDetails" ToRole="Products" />
+    <NavigationProperty Name="ShoppingCart" Relationship="SolomonsModel.FK_ShoppingCartDetails_ShoppingCart" FromRole="ShoppingCartDetails" ToRole="ShoppingCart" />
+  </EntityType>
+  <EntityType Name="TransactionRequest">
+    <Key>
+      <PropertyRef Name="request_id" />
+    </Key>
+    <Property Name="request_id" Type="Int32" Nullable="false" />
+    <Property Name="request_details" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="unique_request_id" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="request_date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="TransactionResponse">
+    <Key>
+      <PropertyRef Name="response_id" />
+    </Key>
+    <Property Name="response_id" Type="Int32" Nullable="false" />
+    <Property Name="request_unique_identifier" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="response_details" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="data_received" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="WishList">
+    <Key>
+      <PropertyRef Name="wish_list_id" />
+    </Key>
+    <Property Name="wish_list_id" Type="Int32" Nullable="false" />
+    <Property Name="list_name" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="account_id" Type="Int32" />
+    <NavigationProperty Name="AccountDetail" Relationship="SolomonsModel.FK_WishList_AccountDetails" FromRole="WishList" ToRole="AccountDetails" />
+  </EntityType>
+  <EntityType Name="WishListDetail">
+    <Key>
+      <PropertyRef Name="wish_list_details_id" />
+    </Key>
+    <Property Name="wish_list_id" Type="Int32" />
+    <Property Name="product_id" Type="Int32" />
+    <Property Name="wish_list_details_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Product" Relationship="SolomonsModel.FK_WishListDetails_Products" FromRole="WishListDetails" ToRole="Products" />
+  </EntityType>
+  <Association Name="FK_Orders_AccountDetails">
+    <End Role="AccountDetails" Type="SolomonsModel.AccountDetail" Multiplicity="0..1" />
+    <End Role="Orders" Type="SolomonsModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountDetails">
+        <PropertyRef Name="account_id" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="account_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WishList_AccountDetails">
+    <End Role="AccountDetails" Type="SolomonsModel.AccountDetail" Multiplicity="0..1" />
+    <End Role="WishList" Type="SolomonsModel.WishList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountDetails">
+        <PropertyRef Name="account_id" />
+      </Principal>
+      <Dependent Role="WishList">
+        <PropertyRef Name="account_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Likedproducts_Products">
+    <End Role="Products" Type="SolomonsModel.Product" Multiplicity="0..1" />
+    <End Role="Likedproducts" Type="SolomonsModel.Likedproduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="Likedproducts">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetails_Orders">
+    <End Role="Orders" Type="SolomonsModel.Order" Multiplicity="0..1" />
+    <End Role="OrderDetails" Type="SolomonsModel.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="order_id" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="order_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderDetails_Products">
+    <End Role="Products" Type="SolomonsModel.Product" Multiplicity="0..1" />
+    <End Role="OrderDetails" Type="SolomonsModel.OrderDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="OrderDetails">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductTypeAttributes_ProductCategories">
+    <End Role="ProductCategories" Type="SolomonsModel.ProductCategory" Multiplicity="0..1" />
+    <End Role="ProductTypeAttributes" Type="SolomonsModel.ProductTypeAttribute" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategories">
+        <PropertyRef Name="category_id" />
+      </Principal>
+      <Dependent Role="ProductTypeAttributes">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductDetails_Products">
+    <End Role="Products" Type="SolomonsModel.Product" Multiplicity="0..1" />
+    <End Role="ProductDetails" Type="SolomonsModel.ProductDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="ProductDetails">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductImage_Products">
+    <End Role="Products" Type="SolomonsModel.Product" Multiplicity="0..1" />
+    <End Role="ProductImage" Type="SolomonsModel.ProductImage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="ProductImage">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductRating_Products">
+    <End Role="Products" Type="SolomonsModel.Product" Multiplicity="0..1" />
+    <End Role="ProductRating" Type="SolomonsModel.ProductRating" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="ProductRating">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShoppingCartDetails_Products">
+    <End Role="Products" Type="SolomonsModel.Product" Multiplicity="0..1" />
+    <End Role="ShoppingCartDetails" Type="SolomonsModel.ShoppingCartDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="ShoppingCartDetails">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WishListDetails_Products">
+    <End Role="Products" Type="SolomonsModel.Product" Multiplicity="0..1" />
+    <End Role="WishListDetails" Type="SolomonsModel.WishListDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="product_id" />
+      </Principal>
+      <Dependent Role="WishListDetails">
+        <PropertyRef Name="product_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShoppingCartDetails_ShoppingCart">
+    <End Role="ShoppingCart" Type="SolomonsModel.ShoppingCart" Multiplicity="0..1" />
+    <End Role="ShoppingCartDetails" Type="SolomonsModel.ShoppingCartDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShoppingCart">
+        <PropertyRef Name="cart_id" />
+      </Principal>
+      <Dependent Role="ShoppingCartDetails">
+        <PropertyRef Name="cart_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="email" />
+    </Key>
+    <Property Type="String" Name="email" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="AccountDetails" Relationship="SolomonsModel.FK_AccountDetails_Login" FromRole="Login" ToRole="AccountDetail" />
+    <Property Type="String" Name="registration_code" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="registered" />
+    <Property Type="Boolean" Name="is_admin" />
+  </EntityType>
+  <Association Name="FK_AccountDetails_Login">
+    <End Type="SolomonsModel.Login" Role="Login" Multiplicity="0..1" />
+    <End Type="SolomonsModel.AccountDetail" Role="AccountDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Login">
+        <PropertyRef Name="email" />
+      </Principal>
+      <Dependent Role="AccountDetail">
+        <PropertyRef Name="email" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_ProductCategories">
+    <End Type="SolomonsModel.ProductCategory" Role="ProductCategory" Multiplicity="0..1" />
+    <End Type="SolomonsModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductCategory">
+        <PropertyRef Name="category_id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,9 @@
+C:\Projects\solomons\Source\Solomons.Web\bin\Solomons.Web.dll
+C:\Projects\solomons\Source\Solomons.Web\bin\Solomons.Web.pdb
+C:\Projects\solomons\Source\Solomons.Web\bin\ProdigyProducts.BLL.dll
+C:\Projects\solomons\Source\Solomons.Web\bin\nunit.framework.dll
+C:\Projects\solomons\Source\Solomons.Web\bin\ProdigyProducts.BLL.pdb
+C:\Projects\solomons\Source\Solomons.Web\bin\nunit.framework.xml
+C:\Projects\solomons\Source\Solomons.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\solomons\Source\Solomons.Web\obj\Debug\Solomons.Web.dll
+C:\Projects\solomons\Source\Solomons.Web\obj\Debug\Solomons.Web.pdb

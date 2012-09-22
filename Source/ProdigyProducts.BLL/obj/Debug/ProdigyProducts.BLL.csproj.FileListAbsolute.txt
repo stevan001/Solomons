@@ -1,0 +1,8 @@
+C:\Projects\solomons\Source\ProdigyProducts.BLL\bin\Debug\ProdigyProducts.BLL.dll.config
+C:\Projects\solomons\Source\ProdigyProducts.BLL\bin\Debug\ProdigyProducts.BLL.dll
+C:\Projects\solomons\Source\ProdigyProducts.BLL\bin\Debug\ProdigyProducts.BLL.pdb
+C:\Projects\solomons\Source\ProdigyProducts.BLL\bin\Debug\nunit.framework.dll
+C:\Projects\solomons\Source\ProdigyProducts.BLL\bin\Debug\nunit.framework.xml
+C:\Projects\solomons\Source\ProdigyProducts.BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\solomons\Source\ProdigyProducts.BLL\obj\Debug\ProdigyProducts.BLL.dll
+C:\Projects\solomons\Source\ProdigyProducts.BLL\obj\Debug\ProdigyProducts.BLL.pdb
