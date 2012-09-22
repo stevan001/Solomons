@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="c:\projects\Solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="21" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-18" time="19:03:17">
-  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.5456" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="c:\projects\Solomons" machine-name="VPTTMAC" user="VPTT" user-domain="VPTTMac" />
+<test-results name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" total="21" errors="2" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-09-20" time="21:06:12">
+  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.4971" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="c:\Projects\solomons" machine-name="STEVAN-PC" user="Stevan" user-domain="Stevan-PC" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="c:\projects\Solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" executed="True" result="Success" success="True" time="5.273" asserts="0">
+  <test-suite type="Assembly" name="c:\Projects\solomons\Source\ProdigyProducts.Test\bin\Debug\ProdigyProducts.Test.dll" executed="True" result="Failure" success="False" time="2.109" asserts="0">
     <results>
-      <test-suite type="Namespace" name="ProdigyProducts" executed="True" result="Success" success="True" time="5.242" asserts="0">
+      <test-suite type="Namespace" name="ProdigyProducts" executed="True" result="Failure" success="False" time="2.103" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Test" executed="True" result="Success" success="True" time="5.242" asserts="0">
+          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="2.103" asserts="0">
             <results>
-              <test-suite type="Namespace" name="PresenterTests" executed="True" result="Success" success="True" time="1.201" asserts="0">
+              <test-suite type="Namespace" name="PresenterTests" executed="True" result="Failure" success="False" time="0.603" asserts="0">
                 <results>
-                  <test-suite type="TestFixture" name="AdminLoginPresenterTest" executed="True" result="Success" success="True" time="0.952" asserts="0">
+                  <test-suite type="TestFixture" name="AdminLoginPresenterTest" executed="True" result="Success" success="True" time="0.427" asserts="0">
                     <results>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset" executed="True" result="Success" success="True" time="0.889" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser" executed="True" result="Success" success="True" time="0.016" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldNotAllowNonAdminAccount" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldInitatepasswordReset" executed="True" result="Success" success="True" time="0.399" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldNotAllowNonAdminAccount" executed="True" result="Success" success="True" time="0.007" asserts="0" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="CategoryPresenterTest" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                  <test-suite type="TestFixture" name="CategoryPresenterTest" executed="True" result="Success" success="True" time="0.046" asserts="0">
                     <results>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetListofCategories" executed="True" result="Success" success="True" time="0.047" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry" executed="True" result="Success" success="True" time="0.047" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldSaveTheCategory" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetListofCategories" executed="True" result="Success" success="True" time="0.027" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry" executed="True" result="Success" success="True" time="0.015" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldSaveTheCategory" executed="True" result="Success" success="True" time="0.001" asserts="0" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="CompleteRegPresenterTest" executed="True" result="Success" success="True" time="0.047" asserts="0">
+                  <test-suite type="TestFixture" name="CompleteRegPresenterTest" executed="True" result="Success" success="True" time="0.034" asserts="0">
                     <results>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldCompleteRegistration" executed="True" result="Success" success="True" time="0.031" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayCompletionResult" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayProceedToLogin" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldNotProceedToShowLogin" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldCompleteRegistration" executed="True" result="Success" success="True" time="0.021" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayCompletionResult" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayProceedToLogin" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldNotProceedToShowLogin" executed="True" result="Success" success="True" time="0.005" asserts="0" />
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="ProductListingPresenterTest" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                  <test-suite type="TestFixture" name="ProductListingPresenterTest" executed="True" result="Failure" success="False" time="0.054" asserts="0">
                     <results>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldGetListOfCategories" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldGetListOfProductsInACategory" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldRemoveAProduct" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldSelectAProduct" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldGetListOfCategories" executed="True" result="Success" success="True" time="0.021" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldLoadSelectACategory" executed="True" result="Success" success="True" time="0.009" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldRemoveAProduct" executed="True" result="Error" success="False" time="0.016" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.ArgumentException : Object of type 'System.EventArgs' cannot be converted to type 'System.Web.UI.WebControls.GridViewCommandEventArgs'.]]></message>
+                          <stack-trace><![CDATA[at Moq.Mock`1.Raise(Action`1 eventExpression, EventArgs args)
+at ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldRemoveAProduct() in C:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\ProductListingPresenterTest.cs:line 58
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                      <test-case name="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldSelectAProduct" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.ArgumentException : Object of type 'System.EventArgs' cannot be converted to type 'System.Web.UI.WebControls.GridViewCommandEventArgs'.]]></message>
+                          <stack-trace><![CDATA[at Moq.Mock`1.Raise(Action`1 eventExpression, EventArgs args)
+at ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldSelectAProduct() in C:\Projects\solomons\Source\ProdigyProducts.Test\PresenterTests\ProductListingPresenterTest.cs:line 52
+]]></stack-trace>
+                        </failure>
+                      </test-case>
                     </results>
                   </test-suite>
-                  <test-suite type="TestFixture" name="RegUserPresenterTest" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                  <test-suite type="TestFixture" name="RegUserPresenterTest" executed="True" result="Success" success="True" time="0.032" asserts="0">
                     <results>
-                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldCreateANewUser" executed="True" result="Success" success="True" time="0.062" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayErrorMessage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
-                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayRegistrationMessage" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldCreateANewUser" executed="True" result="Success" success="True" time="0.024" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayErrorMessage" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                      <test-case name="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayRegistrationMessage" executed="True" result="Success" success="True" time="0.001" asserts="0" />
                     </results>
                   </test-suite>
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="RegistrationTasksTest" executed="True" result="Success" success="True" time="4.040" asserts="0">
+              <test-suite type="TestFixture" name="RegistrationTasksTest" executed="True" result="Success" success="True" time="1.495" asserts="0">
                 <results>
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.Should_create_personlized_email" executed="True" result="Success" success="True" time="2.995" asserts="2" />
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldCreateAccount" executed="True" result="Success" success="True" time="0.952" asserts="0" />
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldNotAttemptToRegisterAnAccountTwice" executed="True" result="Success" success="True" time="0.047" asserts="0" />
-                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldRegisterAccount" executed="True" result="Success" success="True" time="0.031" asserts="0" />
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.Should_create_personlized_email" executed="True" result="Success" success="True" time="1.072" asserts="2" />
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldCreateAccount" executed="True" result="Success" success="True" time="0.395" asserts="0" />
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldNotAttemptToRegisterAnAccountTwice" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                  <test-case name="ProdigyProducts.Test.RegistrationTasksTest.ShouldRegisterAccount" executed="True" result="Success" success="True" time="0.007" asserts="0" />
                 </results>
               </test-suite>
             </results>

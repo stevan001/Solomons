@@ -5,6 +5,8 @@ namespace ProdigyProducts.BLL.Presenters
 {
     public class ProductDetailPresenter
     {
+       
+
         private IProductDetailsTasks _tasks;
         private IProductDetailsView _view;
 

@@ -51,6 +51,7 @@
     <Compile Include="PresenterTests\AdminLoginPresenterTest.cs" />
     <Compile Include="PresenterTests\CategoryPresenterTest.cs" />
     <Compile Include="PresenterTests\CompleteRegPresenterTest.cs" />
+    <Compile Include="PresenterTests\ProductDetailsPresenterTest.cs" />
     <Compile Include="PresenterTests\ProductListingPresenterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PresenterTests\RegUserPresenterTest.cs" />

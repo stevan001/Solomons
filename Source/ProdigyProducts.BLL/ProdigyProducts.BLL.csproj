@@ -163,6 +163,7 @@
     <Compile Include="Tasks\AdminProductCategoryTasks.cs" />
     <Compile Include="Tasks\IAdminLoginTasks.cs" />
     <Compile Include="Tasks\IRegistrationTask.cs" />
+    <Compile Include="Tasks\ProductDetailsTasks.cs" />
     <Compile Include="Tasks\ProductListingTasks.cs" />
     <Compile Include="Tasks\RegistrationTask.cs" />
     <Compile Include="Test\WishListTest.cs" />
