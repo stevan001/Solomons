@@ -5,16 +5,119 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <script src="../Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+   
+    <script src="js/MenuHighlight.js" type="text/javascript"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
+   
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    
+<div id="topbar" style="height: 33px">
+	<div id="other">
+		<img src="images/flag.png" alt="flag" style="float:left;margin-top:8px;margin-right:5px;"/>
+	
+		<span style="color:red;font-family:Veradna,Arial, Helvetica, sans-serif;font-size:small;">Welcome </span> <span style="color:white;font-family:Verdana,Arial, Helvetica, sans-serif;font-size:small"> Guest</span>
+		<img src="images/line.png" alt="line"/>
+		<img src="images/fav.png" alt="fav"/>
+		<img src="images/cart-top.png" alt="cart"/>
+		<img src="images/login.png" alt="login"/>
+	</div>
+</div>
+<div id="header">
+<div style="width:1024px;margin:auto;">
+	<div style="float:left;margin-top:208px;"> <img src="images/arrow-left.png" alt="Left Arrow"/> </div>
+
+	<div id="Slider" style="float:left;min-width:900px;"> <img src="images/guyCenter.png" alt="CenterplaceHolder" /> </div>
+
+	<div style="float:left;margin-top:208px;"><img src="images/arrow-right.png" alt="right Arrow"/>  </div>
+	
+	</div>
+</div>
+<div id="menu">
+<div id="tabs">
+<ul> 
+    <li><a href="Home" target="_blank" class="menuClass" ><span >Home</span></a></li>
+	<li><a href="Suits" target="_blank" class="menuClass">Suits</a></li>
+	<li><a href="Ties" target="_blank" class="menuClass">Ties</a></li>
+	<li><a href="Tuxedos" target="_blank" class="menuClass">Tuxedos</a></li>
+	<li><a href="Jackets" target="_blank" class="menuClass">Jackets</a></li>
+	<li><a href="Pants" target="_blank" class="menuClass">Pants</a></li>
+	<li><a href="Shoes" target="_blank" class="menuClass">Shoes</a></li>
+	<li><a href="Accessories" target="_blank" class="menuClass">Accessories</a></li>
+	<li><a href="Specials" target="_blank" class="menuClass">Specials</a></li>
+
+
+</ul>
+</div>
+</div>
+
+
+
+<div id="items">
+<div id ="featuredTitle" style="height: 50px; width:1030px; margin:auto;">
+<img src="images/featureditems.png" alt="featureditems" style="float:left;margin-top:10px;margin-left:-5px;"/>
+</div>
+
+<div id="featuredItemsBag" style="background:transparent url('images/featBg.png') repeat-x; border-bottom:thin #dcd7d1 solid;height:210px;">
+
+<div  style="margin:auto; width:1032px;">
+	<img  style="float:left;margin-left:0px;" src="images/itembg.png" alt="itembg"/>
+	<img src="images/itembg.png" alt="itembg"/>
+	<img src="images/itembg.png" alt="itembg"/>
+	<img src="images/itembg.png" alt="itembg"/>
+	<img src="images/add.png" alt="add"/>
+
+	</div></div>
+</div>
+
+<div id="content" style="width: 1120px">
+
+
+
+<div style="width: 1120px"> 
+<div id="table">
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+      
+        </asp:ContentPlaceHolder>
+</div>
+
+
+	
+
+
+
+<div id="table2" style="width: 735px">  
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-    </div>
+
+</div>
+</div>
+
+</div>
+<div id="footer">
+<div id="footertabs">
+
+	<a href="Store" target="_blank" class="">Store</a>
+	<a href="About" target="_blank" class="">About</a>
+	<a href="Contact" target="_blank" class="">Contact</a>
+	<a href="Press" target="_blank" class="">Press</a>
+	<a href="Terms" target="_blank" class="">Terms</a>
+	<a href="Privacy" target="_blank" class="">Privacy</a>
+	<a href="Careers" target="_blank" class="">Careers</a>
+	
+</div>
+</div>
+
+<div id="copyright">
+<img src="images/copyright.png" alt="copyright"/>
+</div>
+
+
     </form>
 </body>
 </html>

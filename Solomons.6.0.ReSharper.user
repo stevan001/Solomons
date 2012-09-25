@@ -1,68 +1,49 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:AdminLoginTasks.cs" caret="0" fromTop="0" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:CompleteRegPresenterTest.cs" caret="1428" fromTop="31" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:AdminProductCategoryTasks.cs" caret="528" fromTop="19" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IProductListingView.cs" caret="417" fromTop="10" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminProductCategoryView.cs" caret="435" fromTop="12" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:ProductService.cs" caret="1932" fromTop="52" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:RegisterUserPresenter.cs" caret="0" fromTop="0" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:AdminLoginPresenterTest.cs" caret="1188" fromTop="42" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:CategoryPresenterTest.cs" caret="1385" fromTop="42" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:LoginService.cs" caret="925" fromTop="27" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Data/f:Repository.cs" caret="701" fromTop="24" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:RegistrationTask.cs" caret="216" fromTop="10" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegistrationTasksTest.cs" caret="1632" fromTop="22" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductsCategoryPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:MyMeasurementsPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:IAdminCategoryPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:CompleteRegPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ChangePasswordPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminUserPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminProductsPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminProductDetailPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminLoginPresenter.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:IRegistrationTask.cs" caret="365" fromTop="8" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:AdminCategoryPresenter.cs" caret="883" fromTop="29" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductListingPresenter.cs" caret="1197" fromTop="31" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductListingPresenterTest.cs" caret="1655" fromTop="52" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductListingTasks.cs" caret="1038" fromTop="31" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductDetailsTasks.cs" caret="1063" fromTop="35" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductDetailPresenter.cs" caret="638" fromTop="21" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductDetailsPresenterTest.cs" caret="535" fromTop="18" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/f:menu.js" caret="0" fromTop="0" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:default.html" caret="339" fromTop="10" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master.cs" caret="326" fromTop="15" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IAdminLoginView.cs" caret="89" fromTop="4" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Views/f:IMainView.cs" caret="0" fromTop="0" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:AdminTemplate.Master" caret="663" fromTop="20" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Domain/f:Product.cs" caret="491" fromTop="13" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/d:js/f:MenuHighlight.js" caret="246" fromTop="7" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:stylesheet.css" caret="650" fromTop="11" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Main.aspx" caret="0" fromTop="0" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="2848" fromTop="24" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductListingTasks.cs" caret="759" fromTop="19" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:ProductService.cs" caret="1955" fromTop="46" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:ProductService.cs" caret="1825" fromTop="52" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:ProductService.cs" caret="1624" fromTop="46" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:ProductService.cs" caret="1932" fromTop="52" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/f:RegistrationTasksTest.cs" caret="1632" fromTop="40" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Services/f:LoginService.cs" caret="22962" fromTop="27" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:CategoryPresenterTest.cs" caret="1641" fromTop="36" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:AdminLoginPresenterTest.cs" caret="0" fromTop="0" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductListingTasks.cs" caret="375" fromTop="11" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductListingTasks.cs" caret="447" fromTop="16" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductListingTasks.cs" caret="1038" fromTop="31" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductListingPresenterTest.cs" caret="1851" fromTop="51" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductListingPresenter.cs" caret="1581" fromTop="46" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductListingPresenter.cs" caret="1395" fromTop="42" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductListingPresenterTest.cs" caret="768" fromTop="14" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductListingPresenterTest.cs" caret="1399" fromTop="32" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductListingPresenterTest.cs" caret="1706" fromTop="52" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductDetailsPresenterTest.cs" caret="1105" fromTop="46" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductDetailsTasks.cs" caret="184" fromTop="2" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductDetailsTasks.cs" caret="711" fromTop="20" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductDetailsTasks.cs" caret="950" fromTop="29" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductDetailsTasks.cs" caret="584" fromTop="16" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Tasks/f:ProductDetailsTasks.cs" caret="1110" fromTop="35" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductDetailsPresenterTest.cs" caret="398" fromTop="13" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductDetailPresenter.cs" caret="647" fromTop="10" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductDetailsPresenterTest.cs" caret="756" fromTop="17" />
-      <File id="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB/d:PresenterTests/f:ProductDetailsPresenterTest.cs" caret="872" fromTop="20" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductDetailPresenter.cs" caret="182" fromTop="9" />
-      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Presenters/f:ProductDetailPresenter.cs" caret="638" fromTop="21" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="4073" fromTop="33" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="4073" fromTop="33" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="4073" fromTop="0" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="4073" fromTop="33" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="4073" fromTop="27" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="4073" fromTop="33" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="1280" fromTop="15" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="755" fromTop="15" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="3514" fromTop="33" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="3514" fromTop="33" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="3514" fromTop="0" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="3514" fromTop="3" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="3666" fromTop="1" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="3306" fromTop="13" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:stylesheet.css" caret="2761" fromTop="2" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:stylesheet.css" caret="2761" fromTop="54" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:stylesheet.css" caret="2543" fromTop="21" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master.cs" caret="236" fromTop="9" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master.cs" caret="326" fromTop="15" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="2393" fromTop="23" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/d:js/f:MenuHighlight.js" caret="432" fromTop="7" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="494" fromTop="9" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:StoreTemplate.Master" caret="1799" fromTop="30" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/d:js/f:MenuHighlight.js" caret="229" fromTop="7" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:stylesheet.css" caret="1091" fromTop="14" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:stylesheet.css" caret="253" fromTop="4" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:stylesheet.css" caret="664" fromTop="11" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Main.aspx" caret="0" fromTop="0" />
+      <File id="F70DEA38-CDC0-4873-BAC8-78CC290100F2/d:Domain/f:Product.cs" caret="491" fromTop="13" />
+      <File id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Admin/f:AdminTemplate.Master" caret="0" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -79,242 +60,38 @@
     <string />
     <integer />
     <boolean>
-      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="2009" />
-      <Item value="void" priority="1883" />
-      <Item value="SetUp" priority="127" />
-      <Item value="TearDown" priority="63" />
-      <Item value="using" priority="155" />
-      <Item value="ProdigyProducts" priority="219" />
-      <Item value="new" priority="2370" />
+      <Item value="public" priority="287" />
+      <Item value="void" priority="223" />
+      <Item value="SetUp" priority="31" />
+      <Item value="TearDown" priority="31" />
+      <Item value="using" priority="30" />
+      <Item value="ProdigyProducts" priority="94" />
+      <Item value="new" priority="95" />
       <Item value="WishList" priority="28" />
       <Item value="WishList`0" priority="31" />
       <Item value="wishList" priority="479" />
-      <Item value="private" priority="543" />
+      <Item value="private" priority="31" />
       <Item value="_wishListService" priority="123" />
       <Item value="WishListService" priority="28" />
       <Item value="Likedproduct`0" priority="31" />
-      <Item value="List" priority="60" />
-      <Item value="Product`0" priority="112" />
-      <Item value="Assert`0" priority="287" />
-      <Item value="int" priority="254" />
+      <Item value="List" priority="28" />
+      <Item value="Product`0" priority="31" />
+      <Item value="Assert`0" priority="95" />
+      <Item value="int" priority="95" />
       <Item value="productCount" priority="31" />
       <Item value="IWishListView`0" priority="31" />
-      <Item value="presnter" priority="32" />
-      <Item value="string" priority="925" />
-      <Item value="delegate" priority="157" />
-      <Item value="IRegisterUserView`0" priority="482" />
-      <Item value="object" priority="218" />
-      <Item value="abstract" priority="62" />
-      <Item value="protected" priority="126" />
-      <Item value="System" priority="255" />
-      <Item value="Web" priority="161" />
-      <Item value="Delegate`0" priority="31" />
-      <Item value="EventArgs`0" priority="335" />
-      <Item value="event" priority="287" />
-      <Item value="interface" priority="123" />
-      <Item value="ButtonClickHandler`0" priority="97" />
-      <Item value="return" priority="735" />
-      <Item value="TextBox1" priority="63" />
-      <Item value="RegisterUserPresenter`0" priority="63" />
-      <Item value="_view" priority="3016" />
-      <Item value="view" priority="159" />
-      <Item value="AccountDetail" priority="119" />
-      <Item value="Login`0" priority="250" />
-      <Item value="details" priority="415" />
-      <Item value="RegisterUserPresenter" priority="86" />
-      <Item value="override" priority="95" />
-      <Item value="UI" priority="134" />
-      <Item value="Page`0" priority="26" />
-      <Item value="_presenter" priority="577" />
-      <Item value="ButtonClickHandler" priority="57" />
-      <Item value="this" priority="383" />
-      <Item value="if" priority="383" />
-      <Item value="RegisterEvent" priority="127" />
-      <Item value="sender" priority="31" />
-      <Item value="Button1" priority="63" />
-      <Item value="AddOnPreRenderCompleteAsync`0" priority="32" />
-      <Item value="Control`0" priority="53" />
-      <Item value="WebControls" priority="54" />
-      <Item value="Button`0" priority="118" />
-      <Item value="RegisterClickEvent`0" priority="129" />
-      <Item value="DynamicMock" priority="28" />
-      <Item value="typeof" priority="63" />
-      <Item value="regUserView" priority="191" />
-      <Item value="ExpectedExceptionAttribute`0" priority="31" />
-      <Item value="mocks" priority="255" />
-      <Item value="LastCall`0" priority="31" />
-      <Item value="presenter" priority="96" />
-      <Item value="raiser" priority="31" />
-      <Item value="Expect`0" priority="479" />
-      <Item value="x" priority="703" />
-      <Item value="var" priority="159" />
-      <Item value="EventHandler`0" priority="131" />
-      <Item value="TextMessageWriter`0" priority="31" />
-      <Item value="Button" priority="28" />
-      <Item value="regbtn" priority="64" />
-      <Item value="Events" priority="31" />
-      <Item value="Test" priority="63" />
-      <Item value="Void`0" priority="31" />
-      <Item value="BLL" priority="139" />
-      <Item value="Services" priority="181" />
-      <Item value="AccountDetailService`0" priority="122" />
-      <Item value="AccountDetailService" priority="57" />
-      <Item value="Login" priority="147" />
-      <Item value="newLogin" priority="154" />
-      <Item value="LoginService" priority="87" />
-      <Item value="_loginService" priority="860" />
-      <Item value="_accountDetailServ" priority="63" />
-      <Item value="class" priority="30" />
-      <Item value="Name`0" priority="156" />
-      <Item value="for" priority="31" />
-      <Item value="Name" priority="28" />
-      <Item value="FirstName" priority="63" />
-      <Item value="i" priority="31" />
-      <Item value="LastName" priority="31" />
-      <Item value="GenerateNames`0" priority="31" />
-      <Item value="Object`0" priority="31" />
-      <Item value="IList" priority="127" />
-      <Item value="names" priority="63" />
-      <Item value="GridView1" priority="223" />
-      <Item value="Names" priority="31" />
-      <Item value="true" priority="255" />
-      <Item value="exception" priority="63" />
-      <Item value="e" priority="95" />
-      <Item value="NMock" priority="31" />
-      <Item value="MockFactory`0" priority="31" />
-      <Item value="_factory" priority="223" />
-      <Item value="MockFactory" priority="28" />
-      <Item value="IRegistrationTask`0" priority="63" />
-      <Item value="_task" priority="608" />
-      <Item value="mockery" priority="32" />
-      <Item value="Mockery" priority="28" />
-      <Item value="Stub" priority="63" />
-      <Item value="Rhino.Mocks" priority="30" />
-      <Item value="MockRepository`0" priority="31" />
-      <Item value="MockRepository" priority="29" />
-      <Item value="Mock&lt;IRegistrationTask&gt;" priority="28" />
-      <Item value="null" priority="415" />
-      <Item value="It`0" priority="447" />
-      <Item value="AccountDetail`0" priority="58" />
-      <Item value="m" priority="31" />
-      <Item value="v" priority="703" />
-      <Item value="_tasks" priority="607" />
-      <Item value="domainObject" priority="191" />
-      <Item value="RegistrationTask`0" priority="95" />
-      <Item value="LoginService`0" priority="95" />
-      <Item value="loginService" priority="64" />
-      <Item value="accountDetailService" priority="64" />
-      <Item value="_accountDetail" priority="283" />
-      <Item value="EmailService`0" priority="95" />
-      <Item value="_emailService" priority="32" />
-      <Item value="EmailService" priority="57" />
-      <Item value="emailService" priority="32" />
-      <Item value="_accountDetailService" priority="224" />
-      <Item value="Mock" priority="119" />
-      <Item value="IAccountDetailService`0" priority="31" />
-      <Item value="_registrationTask" priority="448" />
-      <Item value="RegistrationTask" priority="57" />
-      <Item value="LoginAccount" priority="95" />
-      <Item value="AccountDetails" priority="159" />
-      <Item value="StringBuilder" priority="28" />
-      <Item value="sb" priority="255" />
-      <Item value="bool" priority="95" />
-      <Item value="login" priority="511" />
-      <Item value="dataObject" priority="127" />
-      <Item value="_repository" priority="63" />
-      <Item value="l" priority="223" />
-      <Item value="username" priority="31" />
-      <Item value="password" priority="31" />
-      <Item value="false" priority="191" />
-      <Item value="else" priority="95" />
-      <Item value="GenerateEmail`0" priority="31" />
-      <Item value="emailBody" priority="31" />
-      <Item value="GetLogin`0" priority="127" />
-      <Item value="userlogin" priority="31" />
-      <Item value="ctx" priority="31" />
-      <Item value="IAccountDetail`0" priority="31" />
-      <Item value="_login" priority="443" />
-      <Item value="Mock&lt;ILogin&gt;" priority="28" />
-      <Item value="Mock&lt;IAccountDetail&gt;" priority="28" />
-      <Item value="a" priority="63" />
-      <Item value="detail" priority="31" />
-      <Item value="RegisterAccount`0" priority="31" />
-      <Item value="Times`0" priority="63" />
-      <Item value="result" priority="31" />
-      <Item value="throw" priority="63" />
-      <Item value="email" priority="63" />
-      <Item value="ApplicationException`0" priority="157" />
-      <Item value="_adapter" priority="31" />
-      <Item value="ILogin`0" priority="63" />
-      <Item value="ref" priority="31" />
-      <Item value="Data" priority="31" />
-      <Item value="dataLogin" priority="63" />
-      <Item value="Is`0" priority="31" />
-      <Item value="service" priority="31" />
-      <Item value="CompleteRegPresenter`0" priority="95" />
-      <Item value="_registrationTasks" priority="32" />
-      <Item value="tasks" priority="63" />
-      <Item value="ICompleteRegView`0" priority="63" />
-      <Item value="Presenters" priority="31" />
-      <Item value="CompleteRegPresenterTest`0" priority="31" />
-      <Item value="CompleteRegPresenter" priority="28" />
-      <Item value="Mock&lt;ICompleteRegView&gt;" priority="28" />
-      <Item value="t" priority="223" />
-      <Item value="Domain" priority="407" />
-      <Item value="ProductCategory`0" priority="306" />
-      <Item value="test" priority="319" />
-      <Item value="AdminCategoryPresenter" priority="28" />
-      <Item value="Tasks" priority="26" />
-      <Item value="IAdminProductCategoryTasks`0" priority="95" />
-      <Item value="IAdminProductCategoryView`0" priority="63" />
-      <Item value="category" priority="385" />
-      <Item value="ProductCategory" priority="214" />
-      <Item value="Views" priority="31" />
-      <Item value="GridViewCommandEventArgs`0" priority="93" />
-      <Item value="MTAThreadAttribute`0" priority="30" />
-      <Item value="GridViewCommand`0" priority="162" />
-      <Item value="ProductCategoryService`0" priority="80" />
-      <Item value="ProductCategoryService" priority="86" />
-      <Item value="_service" priority="191" />
-      <Item value="categoryId" priority="31" />
-      <Item value="List&lt;ProductCategory&gt;" priority="29" />
-      <Item value="ValueSourceAttribute`0" priority="63" />
-      <Item value="Mock&lt;IAdminProductCategoryTasks&gt;" priority="28" />
-      <Item value="Mock&lt;IAdminProductCategoryView&gt;" priority="28" />
-      <Item value="LoadCategories`0" priority="31" />
-      <Item value="GridViewRow" priority="28" />
-      <Item value="GridViewRow`0" priority="31" />
-      <Item value="CommandEventArgs" priority="28" />
-      <Item value="ProductCategories" priority="32" />
-      <Item value="IProductListingTasks`0" priority="31" />
-      <Item value="_categoryService" priority="124" />
-      <Item value="ProductService`0" priority="53" />
-      <Item value="_productService" priority="257" />
-      <Item value="ProductService" priority="57" />
-      <Item value="p" priority="63" />
-      <Item value="foreach" priority="31" />
-      <Item value="domainItems" priority="31" />
-      <Item value="context" priority="64" />
-      <Item value="HttpContext`0" priority="31" />
-      <Item value="productId" priority="63" />
-      <Item value="ProductDetailsPresenterTest`0" priority="31" />
-      <Item value="Mock&lt;IProductDetailsView&gt;" priority="28" />
-      <Item value="Mock&lt;IProductDetailsTaks&gt;" priority="28" />
-      <Item value="ProductDetailsPresenter" priority="28" />
-      <Item value="IProductDetailsTasks`0" priority="31" />
-      <Item value="ProductDetailsTasks`0" priority="31" />
-      <Item value="product" priority="95" />
-      <Item value="productDetailsView" priority="31" />
-      <Item value="productDetailsTasks" priority="31" />
-      <Item value="ProductDetailPresenter`0" priority="31" />
-      <Item value="IProductDetailsView`0" priority="31" />
-      <Item value="ProductDetailsTasks" priority="28" />
+      <Item value="ViewStateEncryptionMode`0" priority="31" />
+      <Item value="BLL" priority="26" />
+      <Item value="Views" priority="26" />
+      <Item value="IAdminLoginView`0" priority="26" />
+      <Item value="ProductTypeAttribute`0" priority="30" />
+      <Item value="IList" priority="31" />
+      <Item value="ProductImage`0" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.WishList">
       <Item value="AccountID" priority="53" />
@@ -323,11 +100,7 @@
       <Item value="Products" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="AreEqual`0" priority="134" />
-      <Item value="That`0" priority="26" />
-      <Item value="IsNotNullOrEmpty`0" priority="26" />
-      <Item value="Contains`0" priority="26" />
-      <Item value="Greater`0" priority="22" />
+      <Item value="AreEqual`0" priority="80" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Count" priority="53" />
@@ -336,342 +109,38 @@
       <Item value="Insert`0" priority="26" />
       <Item value="GetWishListById`0" priority="26" />
     </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
-      <Item value="Text" priority="53" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.AccountDetail">
-      <Item value="FirstName" priority="80" />
-      <Item value="LastName" priority="53" />
-      <Item value="Email" priority="53" />
-      <Item value="Address" priority="26" />
-      <Item value="BillingAddress" priority="26" />
-      <Item value="PhoneNumber" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Views.IRegisterUserView">
-      <Item value="FirstName" priority="217" />
-      <Item value="LastName" priority="109" />
-      <Item value="Email" priority="83" />
-      <Item value="Address" priority="82" />
-      <Item value="BillingAddress" priority="109" />
-      <Item value="RegisterEvent`0" priority="22" />
-      <Item value="RegisterButton" priority="469" />
-      <Item value="RegisterEvent" priority="405" />
-      <Item value="Expect`1" priority="109" />
-      <Item value="Phone" priority="110" />
-      <Item value="Raise`1" priority="26" />
-      <Item value="Names" priority="26" />
-      <Item value="Stub`1" priority="26" />
-      <Item value="Password" priority="26" />
-      <Item value="RegisterResult" priority="134" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Presenters.RegisterUserPresenter">
-      <Item value="Register`0" priority="80" />
-      <Item value="RegisterClickEvent`0" priority="27" />
-      <Item value="GenerateNames`0" priority="26" />
-      <Item value="Initailize`0" priority="107" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
-      <Item value="Click" priority="327" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Solomons.Web.Store.Register">
-      <Item value="RegisterButton" priority="27" />
-      <Item value="Button1" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:NUnit.Mocks.DynamicMock">
-      <Item value="ExpectAndReturn`0" priority="26" />
-      <Item value="MockInstance" priority="53" />
-      <Item value="Expect`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
-      <Item value="StrictMock`0" priority="49" />
-      <Item value="StrictMock`1" priority="27" />
-      <Item value="Record`0" priority="53" />
-      <Item value="ReplayAll`0" priority="107" />
-      <Item value="VerifyAll`0" priority="53" />
-      <Item value="VerifyAllExpectations`0" priority="27" />
-      <Item value="AssertWasNotCalled`1" priority="26" />
-      <Item value="Ordered`0" priority="53" />
-      <Item value="Stub`1" priority="55" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@Rhino.Mocks.LastCall">
-      <Item value="IgnoreArguments`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
-      <Item value="Raise`1" priority="26" />
-      <Item value="GetEventRaiser`0" priority="27" />
-      <Item value="Return`0" priority="215" />
-      <Item value="IgnoreArguments`0" priority="80" />
-      <Item value="AssertWasCalled`1" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IEventRaiser">
-      <Item value="Raise`0" priority="27" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@System.EventArgs">
-      <Item value="Empty" priority="299" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
-      <Item value="Call`1" priority="350" />
-      <Item value="Action`0" priority="27" />
-      <Item value="On`0" priority="27" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.Login">
-      <Item value="Email" priority="107" />
-      <Item value="Password" priority="26" />
-      <Item value="Registered" priority="107" />
-      <Item value="RegistrationCode" priority="76" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.LoginService">
-      <Item value="Insert`0" priority="80" />
-      <Item value="Delete`0" priority="26" />
-      <Item value="AlreadyRegisterd`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.AccountDetailService">
-      <Item value="Insert`0" priority="53" />
-      <Item value="Delete`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Int32">
-      <Item value="ToString`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@System.String">
-      <Item value="Format`0" priority="54" />
-      <Item value="Empty" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
-      <Item value="Add`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
-      <Item value="DataSource" priority="26" />
-      <Item value="AllowPaging" priority="26" />
-      <Item value="DataBind`0" priority="53" />
-      <Item value="PageIndexChanged" priority="26" />
-      <Item value="PageIndex" priority="54" />
-      <Item value="PageIndexChanging" priority="27" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Exception">
-      <Item value="Message" priority="53" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewPageEventArgs">
-      <Item value="NewPageIndex" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:NMock.MockFactory">
-      <Item value="CreateMock`1" priority="53" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@NMock.Expect">
-      <Item value="On`1" priority="53" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:NMock.Expects`1">
-      <Item value="One" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:NMock.Syntax.IMethodSyntax`1">
-      <Item value="Method`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:NMock.Syntax.IArgumentSyntax">
-      <Item value="With`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Tasks.IRegistrationTask">
-      <Item value="RegisterAccount`0" priority="272" />
-      <Item value="Stub`1" priority="54" />
-      <Item value="AssertWasCalled`1" priority="54" />
-      <Item value="LoginAccount" priority="107" />
-      <Item value="AccountDetails" priority="80" />
-      <Item value="RemoveAccount`0" priority="26" />
-      <Item value="CompleteRegistration`0" priority="107" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Moq.Mock`1">
-      <Item value="Object" priority="676" />
-      <Item value="Setup`0" priority="486" />
-      <Item value="Verify`0" priority="462" />
-      <Item value="Raise`0" priority="189" />
-      <Item value="SetupGet`1" priority="165" />
-      <Item value="ExpectGet`1" priority="26" />
-      <Item value="VerifyGet`1" priority="134" />
-      <Item value="VerifySet`0" priority="189" />
-      <Item value="SetupProperty`1" priority="108" />
-      <Item value="SetupAllProperties`0" priority="54" />
-      <Item value="SetupSet`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@Moq.It">
-      <Item value="IsAny`1" priority="381" />
-      <Item value="Is`1" priority="134" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetupGetter`2">
-      <Item value="Returns`0" priority="161" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`1">
-      <Item value="Throws`0" priority="53" />
-      <Item value="Throws`1" priority="53" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Text.StringBuilder">
-      <Item value="ToString`0" priority="26" />
-      <Item value="Append`0" priority="107" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Tasks.RegistrationTask">
-      <Item value="GenerateRegistrationCode`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@System.Guid">
-      <Item value="NewGuid`0" priority="56" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Guid">
-      <Item value="ToString`0" priority="54" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Data.Login">
-      <Item value="registered" priority="189" />
-      <Item value="registration_code" priority="108" />
-      <Item value="email" priority="26" />
-      <Item value="password" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Data.IRepository`1">
-      <Item value="GetEntities`0" priority="26" />
-      <Item value="Update`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
-      <Item value="SingleOrDefault`1" priority="26" />
-      <Item value="Where`1" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@ProdigyProducts.BLL.Services.EmailService">
-      <Item value="SendMail`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.ILoginService">
-      <Item value="Register`0" priority="216" />
-      <Item value="Insert`0" priority="26" />
-      <Item value="GenerateRegistrationCode`0" priority="81" />
-      <Item value="GetLoginViaCode`0" priority="80" />
-      <Item value="AlreadyRegisterd`0" priority="54" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.ILogin">
-      <Item value="Email" priority="107" />
-      <Item value="Password" priority="27" />
-      <Item value="Registered" priority="237" />
-      <Item value="RegistrationCode" priority="54" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.IAccountDetail">
-      <Item value="FirstName" priority="26" />
-      <Item value="LastName" priority="27" />
-      <Item value="PhoneNumber" priority="27" />
-      <Item value="Email" priority="27" />
-      <Item value="Address" priority="27" />
-      <Item value="BillingAddress" priority="27" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.IAccountDetailService">
-      <Item value="Insert`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
-      <Item value="Returns`0" priority="161" />
-      <Item value="Throws`0" priority="27" />
-      <Item value="Throws`1" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@Moq.Times">
-      <Item value="AtLeast`0" priority="26" />
-      <Item value="AtLeastOnce`0" priority="27" />
-      <Item value="AtMostOnce`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.String">
-      <Item value="IndexOf`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Adapters.IAdapter`2">
-      <Item value="ConvertToDomainObject`0" priority="26" />
-      <Item value="UpdateDataObject`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Views.ICompleteRegView">
-      <Item value="CompleteRegistrationClick" priority="53" />
-      <Item value="RegistrationCode" priority="80" />
-      <Item value="RegistationResult" priority="81" />
-      <Item value="ProcedeToLogin" priority="135" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Presenters.CompleteRegPresenter">
-      <Item value="Initialize`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Views.IAdminProductCategoryView">
-      <Item value="Edit" priority="53" />
-      <Item value="Select" priority="53" />
-      <Item value="CategoryId" priority="26" />
-      <Item value="CategoryName" priority="26" />
-      <Item value="Category" priority="161" />
-      <Item value="Categories" priority="53" />
-      <Item value="EditResult" priority="110" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Tasks.IAdminProductCategoryTasks">
-      <Item value="SaveCategory`0" priority="54" />
-      <Item value="LoadCategory`0" priority="161" />
-      <Item value="LoadCategories`0" priority="27" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.ProductCategory">
-      <Item value="CategoryID" priority="53" />
-      <Item value="CategoryName" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewCommandEventArgs">
-      <Item value="CommandArgument" priority="53" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:@System.Convert">
-      <Item value="ToInt32`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.ProductCategoryService">
-      <Item value="GetAllProductCategory`0" priority="107" />
-      <Item value="Insert`0" priority="26" />
-      <Item value="Update`0" priority="26" />
-      <Item value="GetProductCategoryById`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Presenters.AdminCategoryPresenter">
-      <Item value="Initalize`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Services.ProductService">
-      <Item value="GetProductById`0" priority="80" />
-      <Item value="Delete`0" priority="26" />
-      <Item value="Insert`0" priority="26" />
-      <Item value="Update`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Data.Product">
-      <Item value="category_id" priority="27" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Web.HttpContext">
-      <Item value="Response" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:System.Web.HttpResponse">
-      <Item value="Redirect`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Views.IProductListingView">
-      <Item value="Delete" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Tasks.IProductListingTasks">
-      <Item value="RemoveProduct`0" priority="53" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Presenters.ProductListingPresenter">
-      <Item value="Initalize`0" priority="26" />
-    </ItemStatistics>
-    <ItemStatistics item="Qualified:ProdigyProducts.BLL.Domain.Product">
-      <Item value="ProductId" priority="26" />
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="title" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="overflow" priority="5" />
+      <Item value="&amp;nbsp;" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="overflow" priority="0" />
+      <Item value="min-height" priority="5" />
+      <Item value="menuClass" priority="4" />
+      <Item value="text-align" priority="23" />
+      <Item value="width" priority="5" />
+      <Item value="background-position" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="$" priority="39" />
+      <Item value="function" priority="32" />
+      <Item value="var" priority="10" />
+      <Item value="parent" priority="10" />
+      <Item value="parentLi" priority="21" />
+      <Item value="alert" priority="21" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="ready" priority="8" />
+      <Item value="hover" priority="8" />
+      <Item value="parentsUntil" priority="8" />
+      <Item value="typeName" priority="7" />
+      <Item value="tagName" priority="7" />
     </ItemStatistics>
   </CompletionStatisticsManager>
-  <UnitTestSessions>
-    <Session>
-      <Name>Session #1</Name>
-      <Elements>
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegistrationTasksTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest" type="NUnitTestFixtureElement" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegistrationTasksTest.Should_create_personlized_email" ParentId="ProdigyProducts.Test.RegistrationTasksTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegistrationTasksTest" MethodName="Should_create_personlized_email" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldCompleteRegistration" ParentId="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" MethodName="ShouldCompleteRegistration" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegistrationTasksTest.ShouldCreateAccount" ParentId="ProdigyProducts.Test.RegistrationTasksTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegistrationTasksTest" MethodName="ShouldCreateAccount" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldCreateANewUser" ParentId="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest" MethodName="ShouldCreateANewUser" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayCompletionResult" ParentId="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" MethodName="ShouldDisplayCompletionResult" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayErrorMessage" ParentId="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest" MethodName="ShouldDisplayErrorMessage" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldDisplayProceedToLogin" ParentId="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" MethodName="ShouldDisplayProceedToLogin" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest.ShouldDisplayRegistrationMessage" ParentId="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.RegUserPresenterTest" MethodName="ShouldDisplayRegistrationMessage" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetListofCategories" ParentId="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest" MethodName="ShouldGetListofCategories" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldGetSelectACateogry" ParentId="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest" MethodName="ShouldGetSelectACateogry" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest.ShouldLoadSelectACategory" ParentId="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.ProductListingPresenterTest" MethodName="ShouldLoadSelectACategory" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest.ShouldLoginAdminUser" ParentId="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.AdminLoginPresenterTest" MethodName="ShouldLoginAdminUser" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegistrationTasksTest.ShouldNotAttemptToRegisterAnAccountTwice" ParentId="ProdigyProducts.Test.RegistrationTasksTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegistrationTasksTest" MethodName="ShouldNotAttemptToRegisterAnAccountTwice" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest.ShouldNotProceedToShowLogin" ParentId="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.CompleteRegPresenterTest" MethodName="ShouldNotProceedToShowLogin" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.RegistrationTasksTest.ShouldRegisterAccount" ParentId="ProdigyProducts.Test.RegistrationTasksTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.RegistrationTasksTest" MethodName="ShouldRegisterAccount" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-        <UnitTestElement Provider="nUnit" Id="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest.ShouldSaveTheCategory" ParentId="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest" type="NUnitTestElement" TypeName="ProdigyProducts.Test.PresenterTests.CategoryPresenterTest" MethodName="ShouldSaveTheCategory" Project="BD897CE3-D0B5-44BA-A1FB-7C0BE0A7DBEB" />
-      </Elements>
-    </Session>
-  </UnitTestSessions>
-  <Bookmarks>
-    <Bookmark owner="NumberedBookmarkManager" id="Bookmark5" file-id="22622BFF-4DB4-48F9-B3C7-CFA1A7552716/d:Store/f:Register.aspx.cs" coords="(Doc Ln 24 Col 101)" />
-  </Bookmarks>
 </Configuration>

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -15,11 +14,6 @@
     <AssemblyName>Solomons.Web</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>4.0</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -143,25 +137,62 @@
     <Content Include="jquery.innerfade.js" />
     <Content Include="layout.css" />
     <Content Include="menu.js" />
-    <Content Include="Store\default.html" />
     <Content Include="Store\images\add.png" />
+    <Content Include="Store\images\arrow-left.png" />
+    <Content Include="Store\images\arrow-right.png" />
+    <Content Include="Store\images\cart-top.png" />
+    <Content Include="Store\images\cart.png" />
+    <Content Include="Store\images\cat1.png" />
+    <Content Include="Store\images\cat3.png" />
     <Content Include="Store\images\copyright.png" />
+    <Content Include="Store\images\dropdown.png" />
+    <Content Include="Store\images\fav.png" />
+    <Content Include="Store\images\featBg.png" />
     <Content Include="Store\images\featuredBg.png" />
     <Content Include="Store\images\featureditemBg.png" />
     <Content Include="Store\images\featureditems.png" />
+    <Content Include="Store\images\flag.png" />
     <Content Include="Store\images\footer.png" />
     <Content Include="Store\images\footerBg.png" />
+    <Content Include="Store\images\guyCenter.png" />
     <Content Include="Store\images\icons.png" />
     <Content Include="Store\images\item.png" />
+    <Content Include="Store\images\item1.png" />
+    <Content Include="Store\images\item2.png" />
     <Content Include="Store\images\itembg.png" />
+    <Content Include="Store\images\line.png" />
+    <Content Include="Store\images\llink.png" />
+    <Content Include="Store\images\login.png" />
     <Content Include="Store\images\logo.jpg" />
+    <Content Include="Store\images\love.png" />
+    <Content Include="Store\images\menu-hover-bg.png" />
     <Content Include="Store\images\menuBg.jpg" />
     <Content Include="Store\images\other.jpg" />
     <Content Include="Store\images\others.png" />
+    <Content Include="Store\images\popular-cat.png" />
+    <Content Include="Store\images\popularitems.png" />
+    <Content Include="Store\images\prod1.png" />
+    <Content Include="Store\images\prod2.png" />
+    <Content Include="Store\images\prodSample.png" />
+    <Content Include="Store\images\productimage.png" />
+    <Content Include="Store\images\productItemBg.png" />
+    <Content Include="Store\images\productOptsBg.png" />
+    <Content Include="Store\images\promo1.png" />
+    <Content Include="Store\images\promo2.png" />
+    <Content Include="Store\images\promotion1.png" />
+    <Content Include="Store\images\rating.png" />
+    <Content Include="Store\images\searchbar.png" />
+    <Content Include="Store\images\searchbg.png" />
+    <Content Include="Store\images\searchbutton.png" />
     <Content Include="Store\images\slide.jpg" />
     <Content Include="Store\images\topbarBg.png" />
     <Content Include="Store\images\toplayerBg.jpg" />
-    <Content Include="Store\Register.aspx" />
+    <Content Include="Store\images\view.png" />
+    <Content Include="Store\images\welcome.png" />
+    <Content Include="Store\images\whatshot.png" />
+    <Content Include="Store\js\MenuHighlight.js" />
+    <Content Include="Store\default.html" />
+    <Content Include="Store\Main.aspx" />
     <Content Include="Store\stylesheet.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
@@ -214,6 +245,13 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminTemplate.Master.cs">
+      <DependentUpon>AdminTemplate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminTemplate.Master.designer.cs">
+      <DependentUpon>AdminTemplate.Master</DependentUpon>
+    </Compile>
     <Compile Include="Admin\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -260,12 +298,12 @@
     <Compile Include="sarar.aspx.designer.cs">
       <DependentUpon>sarar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Store\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="Store\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Store\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="Store\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
     <Compile Include="Store\StoreTemplate.Master.cs">
       <DependentUpon>StoreTemplate.Master</DependentUpon>
@@ -298,19 +336,13 @@
   <ItemGroup>
     <Content Include="Store\StoreTemplate.Master" />
   </ItemGroup>
-
   <ItemGroup>
+    <Content Include="Admin\AdminTemplate.Master" />
     <None Include="Admin\desktop.ini" />
+    <None Include="Store\desktop.ini" />
   </ItemGroup>
-
-  <PropertyGroup>
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-  </PropertyGroup>
-
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
