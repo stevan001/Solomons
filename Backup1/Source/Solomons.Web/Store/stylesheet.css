@@ -1,0 +1,148 @@
+﻿body{
+	height:100%;margin:0px;padding: 0px; min-width:1120px;
+}
+	
+#header{	height:459px; background-repeat:no-repeat; background-color:black; text-align:center;margin:0px; padding:0px;}
+
+#menu{
+background-image:url('images/menuBg.jpg'); height:51px;text-align: center;background-position: 0px -3px;
+	
+}
+
+#tabs{	margin:auto;height:52px; width:1024px;padding-top:0px;}
+#tabs ul {	list-style:none; padding:0px; margin:0px; height:46px;text-align: left;}
+#tabs li{	float:left; margin-left:10px; height:45px;text-align: left;width: 88px;text-align: center}
+#tabs  a{text-decoration:none;color:#666666;text-align: center; font-family:Verdana;font-size:10.5pt;line-height:46px;}
+/*#tabs a:hover{color:white; background:transparent url('images/menu-hover-bg.png') no-repeat; height:46px; }*/
+		
+#topbar{height:35px;width:100%;background-image:url('images/topbarBg.png');height:37px}
+
+.productTitle { color:#ff4702 ;font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11pt}
+.ProductDesc {	width:220px;color:silver; font-family:Arial, Helvetica, sans-serif;font-size:10pt;}
+#logo{
+margin-left:160px; width:200px
+	
+}
+
+#other{ float:right;margin-right:230px
+}
+
+#other img{
+	margin-left:10px
+}
+
+#featureditem{
+	 background-image:url('images/featureditemBg.png');height:289px;width:100%
+}
+#featureditem img{ 	float:left;margin-left:200px
+}
+#featuredItemsBag img {
+	
+	float:left; margin-left:20px;
+}
+#items{
+
+		height:231px;background-image:url('images/featuredBg.png');
+}
+
+
+#items img{ margin-top:15px; float:left; width:186px;
+	
+}
+
+#item1{
+	background-image: url('images/itembg.png');height:186px;width:169px;margin-right:220px
+	}
+	
+	
+#sidebar{
+width:330px; height:390px;margin-right:1380px;clear:right;margin-top:80px;margin-left:200px
+
+	
+}	
+
+#productcat {
+
+
+	
+
+	
+}	
+
+#productcat {
+
+
+	
+
+}
+
+#productcat img{
+	margin-top:10px
+}
+
+#whatshot {
+	margin-top:90px
+}
+
+#whatshot img {
+	margin-top:10px
+}
+
+#promotion{
+margin-top:90px
+	
+}
+#promotion img{
+	margin-top:20px
+}
+
+
+#products{
+	
+	margin-left:390px;margin-top:-385px;clear:right;height:1987px
+}	
+
+	
+#footer{
+	background-image:url('images/footerBg.png');height:69px;clear:both;text-align:center;
+}	
+#footertabs{
+	margin-left:190px;height:54px
+}
+
+#footertabs a{
+text-decoration:none;color:#666666;margin-left:20px;margin-top:80px
+}
+
+#copyright{
+	
+	height:40px
+}
+
+#copyright img{
+	
+	margin-left:210px;margin-top:20px
+}
+
+#content{
+  width:1024px; margin:auto;min-height: 500px;
+}
+
+#table{
+	margin-top:64px;width:309px;	float:left;
+}
+#table img {
+
+	margin-top:10px;
+
+}
+
+#table2{
+	margin-top:74px;width:712px;float:left; margin-left:60px;
+}
+
+#td1 img {
+	margin-left:10px
+
+}
+

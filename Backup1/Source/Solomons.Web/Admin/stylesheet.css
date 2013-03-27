@@ -1,0 +1,84 @@
+﻿body{
+	height:100%;width:1600px;margin:0px;padding: 0px;
+}
+	
+#header{
+	background-image:url('images/slide.jpg');height:459px;width:1600px;
+}
+
+#menu{
+background-image:url('images/menuBg.jpg');height:54px;width:1600px
+	
+}
+
+#tabs{
+	margin-left:410px;height:54px;
+}
+
+#tabs a{
+text-decoration:none;color:#666666;margin-left:40px;margin-top:80px
+}
+		
+#topbar{
+height:40px;width:1600px;background-image:url('images/topbarBg.png');height:37px;width:1600px;
+	
+}
+
+#logo{
+margin-left:160px; width:200px
+	
+}
+
+#other{ float:right;margin-left:210px
+}
+
+#featureditem{
+	 background-image:url('images/featureditemBg.png');height:289px;width:1600px
+}
+#featureditem img{
+	margin-top:40px;float:left;margin-left:220px
+}
+
+#items{
+	height:231px;margin-top:-240px;background-image:url('images/featuredBg.png');width:1600px;
+}
+
+
+#items img{ margin-left:20px;margin-top:40px
+	
+}
+
+#item1{
+	background-image: url('images/itembg.png');height:186px;width:169px;margin-right:220px}
+	
+	
+	
+
+	
+#footer{
+	background-image:url('images/footerBg.png');width:1600px;height:69px;
+}	
+#footertabs{
+	margin-left:190px;height:54px
+}
+
+#footertabs a{
+text-decoration:none;color:#666666;margin-left:20px;margin-top:80px
+}
+
+#copyright{
+	
+	height:1600px;height:40px
+}
+
+#copyright img{
+	
+	margin-left:210px;margin-top:20px
+}
+
+#content{
+height:2000px
+}
+
+
+
